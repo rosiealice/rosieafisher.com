@@ -1,0 +1,7 @@
+baseURL = "https://rosieafisher.com/"
+languageCode = "en-us"
+title = "Rosie Fisher"
+theme = "PaperMod"
+
+[params]
+  defaultTheme = "light"
