@@ -1,1 +1,0 @@
-# rosieafisher.com
