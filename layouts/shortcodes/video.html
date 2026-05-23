@@ -1,0 +1,9 @@
+<figure class="embedded-video">
+  <video controls preload="metadata" playsinline style="width: 100%; max-width: {{ .Get "maxWidth" | default "720px" }}; height: auto; display: block; margin: 1rem auto;">
+    <source src="{{ .Get "src" }}" type="{{ .Get "type" | default "video/mp4" }}">
+    Your browser does not support embedded video.
+  </video>
+  {{ with .Get "caption" }}
+    <figcaption style="text-align: center; margin-top: 0.4rem; font-size: 0.95rem; color: #555;">{{ . }}</figcaption>
+  {{ end }}
+</figure>
