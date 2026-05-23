@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Writings on Rosie Fisher</title>
+    <link>https://rosieafisher.com/writing/</link>
+    <description>Recent content in Writings on Rosie Fisher</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 20 May 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://rosieafisher.com/writing/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Prediction Infrastructure for the Earth System</title>
+      <link>https://rosieafisher.com/writing/prediction-infrastructure/</link>
+      <pubDate>Wed, 20 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://rosieafisher.com/writing/prediction-infrastructure/</guid>
+      <description>&lt;p&gt;Climate models are often discussed as scientific tools. But increasingly, they function as infrastructure: embedded systems that societies implicitly rely on when making long-horizon decisions.&lt;/p&gt;&#xA;&lt;p&gt;This shifts the key question from “how accurate are the models?” to:&lt;/p&gt;&#xA;&lt;p&gt;what does it mean to maintain predictive infrastructure for a complex, partially observable Earth system?&lt;/p&gt;&#xA;&lt;h2 id=&#34;infrastructure-not-instruments&#34;&gt;Infrastructure, not instruments&lt;/h2&gt;&#xA;&lt;p&gt;Unlike traditional scientific models, Earth system models are:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;continuously evolving&lt;/li&gt;&#xA;&lt;li&gt;distributed across institutions&lt;/li&gt;&#xA;&lt;li&gt;dependent on shared code ecosystems (e.g. CLM, FATES, CESM)&lt;/li&gt;&#xA;&lt;li&gt;deeply coupled to observational pipelines&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;They behave less like experiments and more like infrastructure stacks.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Why Earth System Models Fail in Practice</title>
+      <link>https://rosieafisher.com/writing/earth-system-model-limitations/</link>
+      <pubDate>Wed, 20 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://rosieafisher.com/writing/earth-system-model-limitations/</guid>
+      <description>&lt;p&gt;Earth system models (ESMs) are often evaluated in terms of their ability to reproduce historical climate statistics or large-scale mean states. But in practice, their most important role is not hindcasting — it is providing probabilistic structure for future risk.&lt;/p&gt;&#xA;&lt;p&gt;This creates a fundamental tension: models can be “good” in a climatological sense while still being structurally weak in the variables that matter for prediction under change.&lt;/p&gt;&#xA;&lt;p&gt;Three recurring failure modes stand out:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Why Land Surface Processes Dominate Carbon–Climate Uncertainty</title>
+      <link>https://rosieafisher.com/writing/land-surface-carbon-uncertainty/</link>
+      <pubDate>Wed, 20 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://rosieafisher.com/writing/land-surface-carbon-uncertainty/</guid>
+      <description>&lt;p&gt;A large fraction of uncertainty in future carbon–climate feedbacks originates not in the atmosphere or ocean, but in terrestrial ecosystem dynamics.&lt;/p&gt;&#xA;&lt;p&gt;This is not primarily a question of missing carbon pools, but of structural uncertainty in how land processes are represented in Earth system models.&lt;/p&gt;&#xA;&lt;h2 id=&#34;1-nonlinear-vegetation-dynamics&#34;&gt;1. Nonlinear vegetation dynamics&lt;/h2&gt;&#xA;&lt;p&gt;Vegetation is not a passive tracer of climate. It exhibits:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;threshold behaviour&lt;/li&gt;&#xA;&lt;li&gt;disturbance-driven regime shifts&lt;/li&gt;&#xA;&lt;li&gt;competition across scales of space and time&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;These dynamics are only partially resolved in most ESMs.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

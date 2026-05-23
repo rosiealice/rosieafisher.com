@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc">
+  <title id="title">Land Surface Carbon Uncertainty Banner</title>
+  <desc id="desc">Layered hills and carbon plume dots representing land surface uncertainty.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0e3b2e"/>
+      <stop offset="100%" stop-color="#5b9a7a"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="320" fill="url(#sky)"/>
+  <path d="M0 193 C150 168, 300 213, 450 193 C600 173, 760 218, 900 198 C1030 180, 1130 200, 1200 193 L1200 320 L0 320 Z" fill="#2f6f56"/>
+  <path d="M0 228 C140 206, 290 246, 450 226 C610 206, 760 254, 920 231 C1035 216, 1125 234, 1200 228 L1200 320 L0 320 Z" fill="#1f5441"/>
+  <path d="M0 264 C180 239, 320 274, 500 256 C660 241, 830 284, 1010 264 C1080 256, 1140 264, 1200 261 L1200 320 L0 320 Z" fill="#153c2f"/>
+  <g fill="#d7efe2" fill-opacity="0.7">
+    <circle cx="220" cy="147" r="4"/>
+    <circle cx="280" cy="132" r="5"/>
+    <circle cx="340" cy="152" r="4"/>
+    <circle cx="760" cy="127" r="4"/>
+    <circle cx="820" cy="114" r="5"/>
+    <circle cx="880" cy="132" r="4"/>
+    <circle cx="560" cy="106" r="3"/>
+    <circle cx="610" cy="96" r="4"/>
+    <circle cx="650" cy="111" r="3"/>
+  </g>
+</svg>
