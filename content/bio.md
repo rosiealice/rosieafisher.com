@@ -1,7 +1,7 @@
 
 ### Travels through the theoretical and actual land surface
 
-I have had the tramendous good fortune of living in many interesting places and to be influenced by the ideas of many wonderful and thoughful scientists. This is a long story, (abbrviated ![here](/bio.md)) so bear with me...
+I have had the tramendous good fortune of living in many interesting places and to be influenced by the ideas of many wonderful and thoughful scientists. This is a summary of the story of my journey in science, via places, people and ideas (abbreviated ![here](/cv.md))...
 
 {{< bioera src="/images/northumberland.jpg" alt="Northumberland" >}}
 
@@ -46,9 +46,7 @@ Early models of vegetation dynamics have very simplified models of plant mortali
 
 ### Colorado (NCAR)
 Developing complex models of the Earth system is urgent, but how the biosphere of the Earth interacts with its climate is densely complex and interdisciplinary problem. Without collaboration across disciplines, dedicated code maintenance, and a strong expectation of open science principles, much effort is wasted and progress is squandered.  In 2010 I was offered a job I never dared to imagine I could have, as a staff scientist in the [Terrestrial Sciences Section](https://www.cgd.ucar.edu/sections/tss/people) of the [National Centre for Atmospheric Research]() in Boulder, Colorado. 
-Developing complex models of the Earth system is urgent, but how the biosphere of the Earth interacts with its climate is densely complex and interdisciplinary problem. Without collaboration across disciplines, dedicated code maintenance, and a strong expectation of open science principles, much effort is wasted and progress is squandered.  In 2010 I was offered a job I never dared to imagine I could have, as a staff scientist in the [Terrestrial Sciences Section](https://www.cgd.ucar.edu/sections/tss/people) of the [National Centre for Atmospheric Research]() in Boulder, Colorado. 
-Developing complex models of the Earth system is urgent, but how the biosphere of the Earth interacts with its climate is densely complex and interdisciplinary problem. Without collaboration across disciplines, dedicated code maintenance, and a strong expectation of open science principles, much effort is wasted and progress is squandered.  In 2010 I was offered a job I never dared to imagine I could have, as a staff scientist in the [Terrestrial Sciences Section](https://www.cgd.ucar.edu/sections/tss/people) of the [National Centre for Atmospheric Research]() in Boulder, Colorado. 
-
+ 
 
 ### Toulouse, France
 
