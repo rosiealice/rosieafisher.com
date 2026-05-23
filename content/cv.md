@@ -33,13 +33,13 @@ For full list see [View full list](/publications/)
 
 ###  Advisory Roles
 
-- Science Advisory Board. [NGEE-arctic](https://ngee-arctic.ornl.gov/). (2026-present.)
-- Science Advisory Board. [DURIN](https://betweenthefjords.w.uib.no/durin/). (2022-present)
-- External Co-chair, [CESM Land Model Working Group](https://www.cesm.ucar.edu/working-groups/land). (2019-present) 
-- Steering Committee Member, [International Land Model Forum] (https://hydro-jules.org/international-land-modeling-forum-ilmf) (2022-present)
-- Executive Committee Member and Modelling Co-lead, [NGEE-Tropics](https://ngee-tropics.lbl.gov/) (2014-2021)
-- Science Advisory Board Member, CAPACITY. ([Luxembourgh Inst. of Technology](https://researchportal.list.lu/projects/detail/capacity) (2021-2025) 
-- Science Advisory Board. [EMERALD, University of Oslo](https://www.mn.uio.no/geo/english/research/projects/emerald/) (2019-2024)
+- **Science Advisory Board**. [NGEE-arctic](https://ngee-arctic.ornl.gov/). (2026-present.)
+- **Science Advisory Board**. [DURIN](https://betweenthefjords.w.uib.no/durin/). (2022-present)
+- **External Co-chair, [CESM Land Model Working Group](https://www.cesm.ucar.edu/working-groups/land)**. (2019-present) 
+- **Steering Committee Member**, [International Land Model Forum] (https://hydro-jules.org/international-land-modeling-forum-ilmf) (2022-present)
+- **Executive Committee Member** and Modelling Co-lead, [NGEE-Tropics](https://ngee-tropics.lbl.gov/) (2014-2021)
+- **Science Advisory Board**, CAPACITY. ([Luxembourgh Inst. of Technology](https://researchportal.list.lu/projects/detail/capacity) (2021-2025) 
+- **Science Advisory Board. [EMERALD, University of Oslo](https://www.mn.uio.no/geo/english/research/projects/emerald/) (2019-2024)
 
 
 
