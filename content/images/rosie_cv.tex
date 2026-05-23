@@ -1,0 +1,710 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%% Simple LaTeX CV Template %%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% NOTE: If you find that it says                                     %%
+%%                                                                    %%
+%%                           1 of ??                                  %%
+%%                                                                %%
+%% at the bottom of your first page, this means that the AUX file     %%
+%% was not available when you ran LaTeX on this source. Simply RERUN  %%
+%% LaTeX to get the ``??'' replaced with the number of the last page  %%
+%% of the document. The AUX file will be generated on the first run   %%
+%% of LaTeX and used on the second run to fill in all of the          %%
+%% references.                                                        %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%% Document Setup %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+% Don't like 10pt? Try 11pt or 12pt
+\documentclass[10pt]{article}
+
+% This is a helpful package that puts math inside length specifications
+\usepackage{calc}
+
+
+\usepackage{etaremune}
+
+% Layout: Puts the section titles on left side of page
+\reversemarginpar
+
+%
+%         PAPER SIZE, PAGE NUMBER, AND DOCUMENT LAYOUT NOTES:
+%
+% The next \usepackage line changes the layout for CV style section
+% headings as marginal notes. It also sets up the paper size as either
+% letter or A4. By default, letter was used. If A4 paper is desired,
+% comment out the letterpaper lines and uncomment the a4paper lines.
+%
+% As you can see, the margin widths and section title widths can be
+% easily adjusted.
+%
+% ALSO: Notice that the includefoot option can be commented OUT in order
+% to put the PAGE NUMBER *IN* the bottom margin. This will make the
+% effective text area larger.
+%
+% IF YOU WISH TO REMOVE THE ``of LASTPAGE'' next to each page number,
+% see the note about the +LP and -LP lines below. Comment out the +LP
+% and uncomment the -LP.
+%
+% IF YOU WISH TO REMOVE PAGE NUMBERS, be sure that the includefoot line
+% is uncommented and ALSO uncomment the \pagestyle{empty} a few lines
+% below.
+%
+
+%% Use these lines for letter-sized paper
+\usepackage[paper=letterpaper,
+            %includefoot, % Uncomment to put page number above margin
+            marginparwidth=1.2in,     % Length of section titles
+            marginparsep=.05in,       % Space between titles and text
+            margin=1in,               % 1 inch margins
+            includemp]{geometry}
+
+%% Use these lines for A4-sized paper
+%\usepackage[paper=a4paper,
+%            %includefoot, % Uncomment to put page number above margin
+%            marginparwidth=30.5mm,    % Length of section titles
+%            marginparsep=1.5mm,       % Space between titles and text
+%            margin=25mm,              % 25mm margins
+%            includemp]{geometry}
+
+%% More layout: Get rid of indenting throughout entire document
+\setlength{\parindent}{0in}
+
+%% This gives us fun enumeration environments. compactenum will be nice.
+\usepackage{paralist}
+
+%% Reference the last page in the page number
+%
+% NOTE: comment the +LP line and uncomment the -LP line to have page
+%       numbers without the ``of ##'' last page reference)
+%
+% NOTE: uncomment the \pagestyle{empty} line to get rid of all page
+%       numbers (make sure includefoot is commented out above)
+%
+\usepackage{fancyhdr,lastpage}
+\pagestyle{fancy}
+%\pagestyle{empty}      % Uncomment this to get rid of page numbers
+\fancyhf{}\renewcommand{\headrulewidth}{0pt}
+\fancyfootoffset{\marginparsep+\marginparwidth}
+\newlength{\footpageshift}
+\setlength{\footpageshift}
+          {0.5\textwidth+0.5\marginparsep+0.5\marginparwidth-2in}
+\lfoot{\hspace{\footpageshift}%
+       \parbox{4in}{\, \hfill %
+                    \arabic{page}  %of \protect\pageref*{LastPage} % +LP
+%                    \arabic{page}                               % -LP
+                    \hfill \,}}
+
+% Finally, give us PDF bookmarks
+\usepackage{color,hyperref}
+\definecolor{darkblue}{rgb}{0.0,0.0,0.3}
+\hypersetup{colorlinks,breaklinks,
+            linkcolor=darkblue,urlcolor=darkblue,
+            anchorcolor=darkblue,citecolor=darkblue}
+
+%%%%%%%%%%%%%%%%%%%%%%%% End Document Setup %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%% Helper Commands %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% The title (name) with a horizontal rule under it
+%
+% Usage: \makeheading{name}
+%
+% Place at top of document. It should be the first thing.
+\newcommand{\makeheading}[1]%
+        {\hspace*{-\marginparsep minus \marginparwidth}%
+         \begin{minipage}[t]{\textwidth+\marginparwidth+\marginparsep}%
+                {\large \bfseries #1}\\[-0.15\baselineskip]%
+                 \rule{\columnwidth}{1pt}%
+         \end{minipage}}
+
+% The section headings
+%
+% Usage: \section{section name}
+%
+% Follow this section IMMEDIATELY with the first line of the section
+% text. Do not put whitespace in between. That is, do this:
+%
+%       \section{My Information}
+%       Here is my information.
+%
+% and NOT this:
+%
+%       \section{My Information}
+%
+%       Here is my information.
+%
+% Otherwise the top of the section header will not line up with the top
+% of the section. Of course, using a single comment character (%) on
+% empty lines allows for the function of the first example with the
+% readability of the second example.
+\renewcommand{\section}[2]%
+        {\pagebreak[2]\vspace{1.3\baselineskip}%
+         \phantomsection\addcontentsline{toc}{section}{#1}%
+         \hspace{0in}%
+         \marginpar{
+         \raggedright \scshape #1}#2}
+
+% An itemize-style list with lots of space between items
+\newenvironment{outerlist}[1][\enskip\textbullet]%
+        {\begin{enumerate}[#1]}{\end{enumerate}%
+         \vspace{-.6\baselineskip}}
+
+% An environment IDENTICAL to outerlist that has better pre-list spacing
+% when used as the first thing in a \section
+\newenvironment{lonelist}[1][\enskip\textbullet]%
+        {\vspace{-\baselineskip}\begin{list}{#1}{%
+        \setlength{\itemindent}{-3pt} 
+        \setlength{\partopsep}{0pt}%
+        \setlength{\leftmargin}{10pt}
+        \setlength{\topsep}{15pt}}}
+        {\end{list}\vspace{-.3\baselineskip}}
+
+
+% An itemize-style list with little space between items
+\newenvironment{innerlist}[1][\enskip\textbullet]%
+        {\begin{compactenum}[#1]}{\end{compactenum}}
+
+% To add some paragraph space between lines.
+% This also tells LaTeX to preferably break a page on one of these gaps
+% if there is a needed pagebreak nearby.
+\newcommand{\blankline}{\quad\pagebreak[2]}
+
+%%%%%%%%%%%%%%%%%%%%%%%% End Helper Commands %%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%% Begin CV Document %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+\makeheading{Rosemary(Rosie) Alice Fisher}
+
+\section{Contact Information}
+%
+% NOTE: Mind where the & separators and \\ breaks are in the following
+%       table.
+%
+% ALSO: \rcollength is the width of the right column of the table
+%       (adjust it to your liking; default is 1.85in).
+%
+\newlength{\rcollength}\setlength{\rcollength}{2.6in}%
+%
+\begin{tabular}
+[t]{@{}p{\textwidth-\rcollength}p{\rcollength}}
+CICERO    & \textit{Tel:} +47 48506653\\
+Center for International Climate Research  &  \textit{E-mail:} rosie.fisher@cicero.oslo.no         \\  
+Oslo, Norway & 
+\end{tabular}
+
+
+\section{Education}
+     \textbf {PhD}, `The response of rain forest to drought stress'\\
+      2005. University of Edinburgh (School of Geosciences)\\
+      
+     \textbf {MRes} Masters of Research,  in the Natural Environment (\emph{Distn})   \\   
+     2001. University of Edinburgh (School of Geosciences)\\
+     
+     \textbf{BA}, Biological Sciences\\  
+     2000. University of Oxford (Balliol College) \emph{1st Class.}\\
+     
+\section{Professional Experience}\\
+
+May 2022 - present\\
+Senior Researcher (Forsker I) CICERO Center for International Climate Research, Oslo, Norway.\\
+
+Nov 2021 - May 2022\\
+Senior Researcher (Forsker II) CICERO Center for International Climate Research, Oslo, Norway.\\
+
+Nov 2020 - Oct 2021\\
+Research Scientist. Laboratoire \'Evolution et Diversit\'e Biologique. Universit\'e Paul Sabatier III. Toulouse. France. \\
+
+March 2020 - April 2023\\
+Affiliate Scientist. Climate \& Global Dynamics Division, National Center for Atmospheric Research. Boulder, CO, USA \\
+
+May 2019 - Oct 2020\\
+Research Scientist. Centre Européen de Recherche et de Formation Avancée en Calcul Scientifique. Toulouse. 
+
+February 2016 - September 2019\\
+Scientist II, Terrestrial Sciences Section, Climate \& Global Dynamics Division, National Center for Atmospheric Research. Boulder, CO, USA\\
+
+December 2013 - February 2016\\
+Scientist I, Terrestrial Sciences Section, Climate \& Global Dynamics Division, National Center for Atmospheric Research, Boulder, CO, USA\\
+
+Sept 2010 - December 2013\\
+Project Scientist I, Terrestrial Sciences Section, Climate \& Global Dynamics Division, National Center for Atmospheric Research, Boulder, CO, USA\\
+
+March 2009 - Sept 2010\\
+Post-Doctoral Research Associate, Earth and Environmental Sciences Division, Los Alamos National Laboratory, NM, USA.\\
+
+November 2005 - March 2009\\
+Post-Doctoral Research Associate, Dept. of Animal and Plant Sciences, University of Sheffield, UK.\\
+
+ May 2005 - October 2005\\
+Post-Doctoral Research Associate, School of Geoscience, University of Edinburgh, UK.
+
+\section{Career Breaks}\\
+2021-2023 : Partial career break due to loss of sight. 
+
+2017: Three months maternity leave
+
+\section{Publications (n=84. H-index=53)}
+In 2019, '20, '21, '22, '23 and '24 I was a Clarivate \textbf{Highly Cited Researcher}. This list recognizes the world's most influential researchers of the past decade, in terms of authorship of papers that rank in the top 1\% by citations in Web of Science. \\
+
+\begin{lonelist}
+
+\item [100] Raoult, Nina, Douglas, Natalie, MacBean, Natasha, Kolassa, Jana, Quaife, Tristan, Roberts, Andrew G., \textbf{Fisher, Rosie A.,} Fer, Istem, Bacour, Cédric, Dagon, Katherine. (2024). Parameter estimation in land surface models: Challenges and opportunities with data assimilation and machine learning. In press, \textit{JAMES}.
+
+\item[99] Alpay, Gabriel, Fisher, Joshua, Braghiere, Renato K., Brzostek, Edward, Dauber, Gabriella, Allen, Kara, \textbf{Fisher, Rosie}. (2025). Optimizing plant nutrient uptake: cost function sensitivity analysis of the FUN model. \textit{Environmental Research: Ecology} 4 035009
+
+\item[98] Needham, Jessica F., Dey, Sharmila, Koven, Charles D., \textbf{Fisher, Rosie A}., Knox, Ryan G., Lamour, Julien, Lemieux, Gregory, Longo, Marcos, Rogers, Alistair, Holm, Jennifer. (2025). Vertical canopy gradients of respiration drive plant carbon budgets and leaf area index. \textit{New Phytologist}, 246(1), 144–157.
+
+\item[97] Gomez, James L., Allen, Robert J., Horowitz, Larry W., Turnock, Steven T., \textbf{Fisher, Rosie A.}, Clifton, Olivia E., Mignone, Bryan K., Shevliakova, Elena, Malyshev, Sergey. (2025). Climate effects of a future net forestation scenario in CMIP6 models. \textit{npj Climate and Atmospheric Science}, 8(1), 297.
+
+\item[96] Keetz, L. T., Aalstad, K., \textbf{Fisher, R. A}., Poppe Terán, C., Naz, B., Pirk, N., Yilmaz, Y. A., Skarpaas, O. (2025). Inferring parameters in a complex land surface model by combining data assimilation and machine learning. \textit{Journal of Advances in Modeling Earth Systems}, 17(6), e2024MS004542. Wiley Online Library.
+
+\item[95] Kennedy, D., Dagon, K., Lawrence, D. M., \textbf{Fisher, R. A}., Sanderson, B. M., Collier, N., Hoffman, F. M., Koven, C. D., Kluzek, E., Levis, S. (2025). One‐at‐a‐time parameter perturbation ensemble of the Community Land Model, version 5.1. \textit{Journal of Advances in Modeling Earth Systems}, 17(8), e2024MS004715.
+
+\item[95] Sanderson, Benjamin M., Booth, Ben B. B., Dunne, John, Eyring, Veronika, \textbf{Fisher, Rosie A., }Friedlingstein, Pierre, Gidden, Matthew J., Hajima, Tomohiro, Jones, Chris D., Jones, Colin G. (2024). The need for carbon-emissions-driven climate projections in CMIP7. \textit{Geoscientific Model Development}, 17(22), 8141–8172.
+
+\item[95] Hes, Gabriel, Vanderkelen, Inne, Fisher, Rosie, Chave, Jérôme, Ogée, Jérôme, Davin, Edouard L. (2024). Projecting future forest microclimate using a land surface model. \textit{Environmental Research Letters}, 19(2), 024030. 
+
+\item[95] Knox, Ryan G., Koven, Charles D., Riley, William J., Walker, Anthony P., Wright, S. Joseph, Holm, Jennifer A., Wei, Xinyuan, \textbf{Fisher, Rosie A.}, Zhu, Qing, Tang, Jinyun. (2024). Nutrient dynamics in a coupled terrestrial biosphere and land model (ELM‐FATES‐CNP). \textit{Journal of Advances in Modeling Earth Systems}, 16(3), e2023MS003689.
+
+\item[95] Allen, Robert J., Samset, Bjørn H., Wilcox, Laura J., \textbf{Fisher, Rosie A.} (2024). Are Northern Hemisphere boreal forest fires more sensitive to future aerosol mitigation than to greenhouse gas–driven warming? \textit{Science Advances}, 10(13), eadl4007. 
+
+\item[89] Poppe Terán, Christian, Naz, Bibi S., Vereecken, Harry, Baatz, Roland, \textbf{Fisher, Rosie,} Hendricks Franssen, Harrie-Jan. (2024). Systematic underestimation of type-specific ecosystem process variability in the Community Land Model v5 over Europe. \textit{EGUsphere}, 2024, 1–58. 
+
+\item[88] Liu, Laibao, \textbf{Fisher, Rosie A.}, Douville, Hervé, Padrón, Ryan S., Berg, Alexis, Mao, Jiafu, Alessandri, Andrea, Kim, Hyungjun, Seneviratne, Sonia I. (2024). No constraint on long-term tropical land carbon–climate feedback uncertainties from interannual variability. \textit{Communications Earth \& Environment}, 5(1), 348. Nature Publishing Group.
+
+\item[87] Robbins, Zachary, Chambers, Jeffrey, Chitra‐Tarak, Rutuja, Christoffersen, Bradley, Dickman, L. Turin, \textbf{Fisher, Rosie}, Jonko, Alex, Knox, Ryan, Koven, Charles, Kueppers, Lara. (2024). Future climate doubles the risk of hydraulic failure in a wet tropical forest. \textit{New Phytologist}, 244(6), 2239–2250.
+
+\item[86] Douville, Hervé, Allan, Richard P., Arias, Paola A., \textbf{Fisher, Rosie A}. (2024). Call for caution regarding the efficacy of large-scale afforestation and its hydrological effects. \textit{Science of the Total Environment}, 950, 175299. .
+
+\item[85] Cheng, Yanyan, Wang, Wenyu, Detto, Matteo, \textbf{Fisher, Rosie,} Shoemaker, Christine. (2024). Calibrating tropical forest coexistence in ecosystem demography models using multi‐objective optimization through population‐based parallel surrogate search. \textit{Journal of Advances in Modeling Earth Systems}, 16(8), e2023MS004195. 
+
+\item[84] Keetz, Lasse T., Lieungh, Eva, Karimi‐Asli, Kaveh, Geange, Sonya R., Gelati, Emiliano, Tang, Hui, Yilmaz, Yeliz A., Aas, Kjetil S., Althuizen, Inge H. J., Bryn, Anders, Falk, Stephanie, \textbf{Fisher, Rosie A. }et al.\textbf{,}, . (2023). Climate–ecosystem modelling made easy: The Land Sites Platform. \textit{Global Change Biology}, 29(15), 4440–4452.
+
+\item[82] Shuman, Jacquelyn K., \textbf{Fisher, Rosie A}., Koven, Charles D., Knox, Ryan G., Kueppers, Lara M., Xu, Chonggang. (2023). Dynamic ecosystem assembly and escaping the “fire-trap” in the tropics: Insights from FATES\_15. \textit{Geoscientific Model Development Discussions}, 2023, 1–45. Göttingen, Germany.
+
+
+\item[81] Xu, C., Christoffersen, B., Robbins, Z., Knox, R., \textbf{Fisher, R. A.}, Chitra-Tarak, R., Slot, M., Solander, K., Kueppers, L., Koven, C., and McDowell, N.: Quantification of hydraulic trait control on plant hydrodynamics and risk of hydraulic failure within a demographic structured vegetation model in a tropical forest (FATES–HYDRO V1.0), \emph{Geosci. Model Dev.}, 16, 6267–6283, 
+
+\item[82]Wilcox KR, Chen A, Avolio ML, Butler EE, Collins S, \textbf{Fisher, R. A.}, Keenan T, Kiang NY, Knapp AK, Koerner SE, Kueppers L. Accounting for herbaceous communities in process‐based models will advance our understanding of “grassy” ecosystems.\emph{ Global Change Biology}. 2023 Oct 10.
+
+\item[79] Li, L., Fang, Y., Zheng, Z., Shi, M., Longo, M., Koven, C. D., Holm, J. A., \textbf{Fisher, R. A.}, McDowell, N. G., Chambers, J., and Leung, L. R.: A machine learning approach targeting parameter estimation for plant functional type coexistence modeling using ELM-FATES (v2.0), \emph{Geosci. Model Dev.}, 16, 4017–4040, 
+
+\item[78]  Lambert, M. S. A., Tang, H., Aas, K. S., Stordal, F., \textbf{Fisher, R. A.} , Bjerke, J. W., et al. (2023). Integration of a frost mortality scheme into the demographic vegetation model FATES. \emph{Journal of Advances in Modeling Earth Systems}, 15, e2022MS003333. https://doi.org/10.1029/2022MS003333
+
+ \item[77]  Keetz, L.T., Lieungh, E., Karimi‐Asli, K., Geange, S.R., Gelati, E., Tang, H., Yilmaz, Y.A., Aas, K.S., Althuizen, I.H., Bryn, A., Falk, S., \textbf{Fisher, R. A.} et al. 2023. Climate–ecosystem modelling made easy: The Land Sites Platform. \emph{Global Change Biology.} 29(15), 4440-4454.
+
+\item[76]  Ding, Junyan, Polly Buotte, Roger Bales, Bradley Christoffersen,  \textbf{Fisher, R. A.}, Michael Goulden, Ryan Knox et al.( 2023) "Coordination of rooting, xylem, and stomatal strategies explains the response of conifer forest stands to multi-year drought in the southern Sierra Nevada of California."  \emph{Biogeosciences} 20(23): 4491-4510
+
+\item[75] Needham, J. F., Arellano, G., Davies, S. J., \textbf{Fisher, R. A.},  Hammer, V., Knox, R. G., Mitre, Muller-Landau, H. C., Zuleta, D., \& Koven, C. D. (2022). Tree crown damage and its effects on forest carbon cycling in a tropical forest. \emph{Global Change Biology}, 28, 5560– 5574. 
+
+\item[74] Koven, C. D., Arora, V. K., Cadule, P., \textbf{Fisher, R. A.}, Jones, C. D., Lawrence, D. M., Lewis, J., Lindsay, K., Mathesius, S., Meinshausen, M., Mills, M., Nicholls, Z., Sanderson, B. M., Séférian, R., Swart, N. C., Wieder, W. R., and Zickfeld, K. (2022) Multi-century dynamics of the climate and carbon cycle under both high and net negative emissions scenarios, \emph{Earth System Dynamics}, 13, 885–909
+
+\item[73] Lambert, M. S. A., Tang, H., Aas, K. S., Stordal, F., \textbf{Fisher, R. A.}, Fang, Y., Ding, J., and Parmentier, F.-J. W. (2022) Inclusion of a cold hardening scheme to represent frost tolerance is essential to model realistic plant hydraulics in the Arctic–boreal zone in CLM5.0-FATES-Hydro, \emph{Geoscientific Model Development}, 15, 8809–8829,
+
+\item[72] Yao, Y., Joetzjer, E., Ciais, P., Viovy, N., Cresto Aleina, F., Chave, J., Sack, L., Bartlett, M., Meir, P., \textbf{Fisher R.A.} and Luyssaert, S. (2022) Forest fluxes and mortality response to drought: model description (ORCHIDEE-CAN-NHA r7236) and evaluation at the Caxiuanã drought experiment, \emph{Geoscientific Model Development} 15, 7809–7833, 
+
+\item[71] Hardouin, L., Delire, C., Decharme, B., Lawrence, D.M., Nabel, J.E., Brovkin, V., Collier, N., \textbf{Fisher R.A.}, Hoffman, F.M., Koven, C.D. and Séférian, R. (2022). Uncertainty in land carbon budget simulated by terrestrial biosphere models: the role of atmospheric forcing. Environmental Research Letters, 17(9), p.094033.
+
+\item[70] Needham, J. F., Johnson, D. J., Anderson-Teixeira, K. J., Bourg, N., Bunyavejchewin, S., Butt, N., Cao, M., Cárdenas, D., Chang-Yang, C.-H., Chen, Y.-Y., Chuyong, G., Dattaraja, H. S., Davies, S. J., Duque, A., Ewango, C. E. N., Fernando, E. S., \textbf{Fisher R.A.},  Fletcher, C. D., Foster, R., … McMahon, S. M. (2022). Demographic composition, not demographic diversity, predicts biomass and turnover across temperate and tropical forests. \emph{Global Change Biology}, 28, 2895– 2909
+
+\item[69]  Giebink C. Domke, G.A., \textbf{Fisher R.A.}, Hellman K.A., Moore D.J.P., DeRose R.J. Evans M.E.K.  The policy and ecology of forest-based climate mitigation: challenges, needs, and opportunities.  (2022) \emph{Plant and Soil} 479, 25–52
+
+\item[68] Ali AA, Fan Y, Corre MD, Kotowska MM, Preuss-Hassler E, Cahyo AN, Moyano FE, Stiegler C, Röll A, Meijide A, Olchev A, Ringeler A, Leuschner C, Ariani R, June T, Tarigan S, Kreft H, Hölscher D, Xu C, Koven CD, Dagon K, \textbf{Fisher RA}, Veldkamp E, Knohl A. Implementing a New Rubber Plant Functional Type in the Community Land Model (CLM5) Improves Accuracy of Carbon and Water Flux Estimation. \emph{Land} 11(2):183.
+
+\item [67]  Braghiere, R.K., Fisher, J.B., \textbf{Fisher R.A.}, Shi, M., Steidinger, B.S., Sulman, B.N., Soudzilovskaia, N.A., Yang, X., Liang, J., Peay, K.G. and Crowther, T.W., (2021). Mycorrhizal distributions impact global patterns of carbon and nutrient cycling. \emph{Geophysical Research Letters} 48, no. 19 (2021): e2021GL094514.
+
+\item [66] Sanderson, B. M., Pendergrass, A., Koven, C. D., Brient, F., Booth, B. B. B., \textbf{Fisher, R. A.}, and Knutti, R.(2021). The potential for structural errors in emergent constraints.  \emph{Earth System Dynamics}, 12(3), pp899-918. https://doi.org/10.5194/esd-2020-85.
+
+\item [65]  Cheng, Yanyan, L. Ruby Leung, Maoyi Huang, Charles Koven, Matteo Detto, Ryan Knox, Gautam Bisht, Mario Bretfeld, \textbf{Fisher, Rosie .A.} . (2022) Modeling the joint effects of vegetation characteristics and soil properties on ecosystem dynamics in a Panama tropical forest. \emph{Journal of Advances in Modeling Earth Systems} 14(1) e2021MS002603.
+
+\item [64] Ma W., Xu C., Koven C.D., \textbf{Fisher, R.A.}. Knox, R.K. et al.  Assessing Climate Change Impacts on Live Fuel Moisture and Wildfire Risk Using a Hydrodynamic Vegetation Model. \emph{Biogeosciences} 18(13), 4005-4020. https://doi.org/10.5194/bg-2020-430
+
+\item [62] Chitra-Tarak , R., Xu, C., Aguilar, S.; Anderson-Teixeira, K., Chambers, J., Detto, M., Faybishenko, B., \textbf{Fisher, R.A.}, Knox, R.K., Koven, C.D., Kueppers, L.M., Kunert, N., Kupers, S., McDowell, N.M., Newman, B., Paton, S., Perez, R., Ruiz, L., Sack, L, Warren, J., Wolfe, B., Wright, C., Wright, S.J, Zailaa, J., McMahon, S. (2021) Hydraulically-vulnerable trees survive on deep-water access during droughts in a tropical forest.  \emph{New Phytologist} 231(5):1798. 
+
+\item [61] Kovenock M, Swann A., \textbf{Fisher R.A.}, Koven C.D. \& Knox R.G. (2021) Leaf trait plasticity alters competitive ability and functioning of simulated tropical trees in response to elevated carbon dioxide. \emph{Global Biogeochemical Cycles}. https://doi.org/10.1029/2020GB006807
+
+\item[60]   Dagon K.,  Sanderson B.M., \textbf{Fisher R.A.}, Lawrence D.M. (2021) A Machine Learning Approach to Quantify Biophysical Parameter Uncertainty in the Community Land Model, version 5.   \emph{Advances in Statistical Climatology, Meteorology and Oceanography.} 6, no. 2 223-244.
+
+\item [59]  R. Negron-Juarez
+ Holm J.A.,  Faybishenko B.,  Marra D., \textbf{Fisher R.A.},  Shuman J.K.,  Araujo A.,  Riley A.,  Chambers J.Q., Landsat NIR and ELM-FATES sensitivity to forest disturbances and regrowth in the Central Amazon.  \emph{Biogeosciences}  17, 6185–6205,  https://doi.org/10.5194/bg-17-6185-2020
+ 
+ \item [58]  Walker A.P, Johnson A.L, Rogers A., Anderson J., Bridges, R.A., \textbf{Fisher R.A.}, Lu D, Ricciuto D.M., Serbin S., Ye M.  (2021)  Multi-hypothesis analysis of Farquhar and Collatz photosynthesis models reveals unexpected influence of empirical assumptions.  \emph{Global Change Biology.} 27 804– 822. https://doi.org/10.1111/gcb.15366 
+ 
+ \item [57] C.D. Koven, Knox R., \textbf{Fisher R.A.}, Chambers J.Q., Christoffersen B.O. , Davies S., Detto M., Dietze M., Faybishenko B., Holm J.A. et al., (2020). Benchmarking and Parameter Sensitivity of Physiological and Vegetation Dynamics using the Functionally Assembled Terrestrial Ecosystem Simulator (FATES) at Barro Colorado Island, Panama. Biogeosciences. 17, 3017–3044, https://www.biogeosciences-discuss.net/bg-2019-409/
+
+\item [56]  Needham J.S., Chambers J.Q., \textbf{Fisher R.A.}, Knox, R., Koven C.D.  (2020). Forest responses to simulated elevated CO$_2$ under alternate hypotheses of size- and age-dependent mortality.  \emph{Global Change Biology } 2020; 26: 5734– 5753. 
+
+\item[55] { T. Davies-Barnard, Meyerholt J., Zaehle S., Friedlingstein P., Brovkin V., Fan Y., \textbf{Fisher R.A.},  Jones C.D., Lee H., Peano D., Smith B., Wårlind D, and Wiltshire A. (020) Nitrogen Cycling in CMIP6 Land Surface Models: Progress and Limitations.  \emph{Biogeosciences.} 17, 5129–5148 https://doi.org/10.5194/bg-2019-513}
+
+\item[54]  M. Huang, Xu, Y., Longo, M., Keller, M., Knox, R., Koven, C., \textbf{Fisher, R.A.} (2020) Assessing impacts of selective logging on water, energy, and carbon budgets and ecosystem dynamics in Amazon forests using the Functionally Assembled Terrestrial Ecosystem Simulator. \emph{Biogeosciences}, 17, 4999-5023  https://doi.org/10.5194/bg-2019-129.
+
+\item[53] {\textbf{Fisher R.A.} and Koven C.D., (2020).  Perspectives on the future of Land Surface Models and the challenges of representing complex terrestrial systems.  \emph{Journal of Advances in Modeling Earth Systems} 12(4). 10.1029/2018MS001453. (Invited submission).}
+
+\item[52]   Sanderson, B.M., \textbf{Fisher, R.A},  (2020). A fiery wake-up call for climate science. \emph{Nature Climate Change}. 10(3), pp.175-177
+
+\item[51] {V.K. Arora, Katavouta A,  Williams R.G, Jones C.D., Brovkin V., Friedlingstein P, Schwinger J., Bopp L., Boucher O., Cadule, P. Chamberlain M.A., Christian J.R., Delire C., \textbf{Fisher R.A.}, et al. (2020). Carbon-concentration and carbon-climate feedbacks in CMIP6 models, and their comparison to CMIP5 models. \emph{Biogeosciences.}, 17, 4173–4222}
+
+\item[50]  C.D. Koven, Knox R., Fisher R.A., Chambers J.Q., Christoffersen B.O. , Davies S., Detto M., Dietze M., Faybishenko B., Holm J.A. et al. (2020). Benchmarking and Parameter Sensitivity of Physiological and Vegetation Dynamics using the Functionally Assembled Terrestrial Ecosystem Simulator (FATES) at Barro Colorado Island, Panama. \emph{Biogeosciences}. 17(11) pp.3017-3044
+
+\item[49]  J A. Holm, Knox R.G., Zhu Q., \textbf{Fisher R. A.}, Koven C.D., Nogueira Lima A.J., Riley W.J., Longo M., Negron Juarez R.I., de Araujo A.C., Kueppers L.M., Moorcroft P. R., Higuchi N., Chambers J.Q.. (2020). The Central Amazon biomass sink under current and future atmospheric CO2: Predictions from big-leaf and demographic vegetation models, \emph{JGR-Biogeosciences}  125(3), e2019JG005500
+
+\item[48]  D.M. Lawrence, \textbf{Fisher R.A.}, Oleson K., Swenson S.C., Swenson, S.C., Bonan, G., Collier, N., Ghimire, B., van Kampenhout, L., Kennedy, D.  et al. (2019). The Community Land Model version 5: Description of new features, benchmarking, and impact of forcing uncertainty.   \emph{ Journal of Advances in Modeling the Earth System}, 11, pp.4245–4287. 
+
+\item [47] C. Xu, McDowell N.G., \textbf{Fisher R.A.}, Wei L., Sevanto S., Christofferson B.O., Weng, E., Middleton R. (2019) Increasing impacts of extreme drought on vegetation production under future climate change.  \emph{Nature Climate Change}  9, pp.948–953.
+
+\item[46]  \textbf{Fisher, R.A.}, Wieder, W., Sanderson, B., Koven, C. D., Oleson, K. W., Xu, C., Fisher J.B., Shi M., Walker A.P., Lawrence D.M. . (2019). Parametric controls on vegetation responses to biogeochemical forcing in the CLM5. \emph{Journal of Advances in Modeling Earth Systems}, 11, pp.2879–2895.
+
+\item[45]  Massoud, E.C., Xu, C., \textbf{Fisher, R.A.}, Knox, R., Walker, A.P., Serbin, S., Christoffersen, B., Holm, J.A., Kueppers, L.M., Ricciuto, D.M. and Wei, L. (2019) Identification of key parameters controlling demographically structured vegetation dynamics in a Land Surface Model [CLM4. 5 (FATES)].
+\emph{Geoscientific Model Development}, 12, pp.4133–4164. 
+
+\item [44] Kennedy D., Swenson S., Oleson K.W., Lawrence D.M., \textbf{Fisher R.A.}, Lola da Costa A.C., Gentine P. (2019). Implementing plant hydraulics in the community land model, version 5.  \emph{Journal of Advances in Modeling Earth Systems}, 11, pp.485–513.
+
+\item [43] W.R. Wieder ,  Lawrence D.M., \textbf{ Fisher R.A.},  Bonan G.B.,  Cheng S.J.,  Goodale C.L., .Grandy A. D et al. (2019) Beyond static benchmarking: Using experimental manipulations to evaluate land model assumptions. \emph{Global Biogeochemical Cycles}  33, pp.1289–1309.
+
+\item[42] {\textbf{Fisher R.A.}, Koven C.D., Anderegg W.R.L., Christoffersen B.O., Dietze M.C., Farrior
+C.E., Holm J.A., Hurtt G.C., Knox R.G., Lawrence P.J., Lichstein J.W., Longo M., Matheny A., Muller-Landau H.C., Powell T.L., Serbin S.P., Sato H., Shuman J.K., Smith B., Trugman A.T., Viskari H.,Verbeeck H., Weng E., Xu C., Xu X., Tao Z., Moorcroft P. (2018) Vegetation Demographics in Earth System Models:  a review of progress and priorities.  \emph{Global Change Biology}   24 (1), pp.35-54. (\textbf{Most cited, and most downloaded paper published in 2018 in GCB.}) 
+
+\item [41]  Powell, T.L., Koven, C.D., Johnson, D.J., Faybishenko, B., \textbf{Fisher, R.A.}, Knox, R.G., McDowell, N.G., Condit, R., Hubbell, S.P., Wright, S.J. and Chambers, J.Q., (2018). Variation in hydroclimate sustains tropical forest biomass and promotes functional diversity. \emph{New Phytologist}, 219(3), pp.932-946.
+
+\item [40]  Malhi Y., Rowland L., Araga\~o L.E.O.C, \textbf{Fisher R.A.} (2018). New insights into the variability of the tropical land carbon cycle from the El Nin\~o of 2015/2016.  \emph{Phil. Trans. R. Soc.} B, 373: 20170298. 
+
+\item[39]  Lombardozzi D.L., Smith N.G., Cheng S.J., Dukes J.S., Sharkey T.D., Rogers A., \textbf{Fisher R.A.}, Bonan G.B. (2018) Triose phosphate limitation in photosynthesis models reduces leaf photosynthesis and global terrestrial carbon storage. \emph{Environmental Research Letters}, 10;13(7):074025.
+
+\item[38] {McDowell, N., Allen, C.D., Anderson‐Teixeira, K., Brando, P., Brienen, R., Chambers, J., Christoffersen, B., Davies, S., Doughty, C., Duque, A. and Espirito‐Santo, F., \textbf{Fisher R.A.} et al., (2018). Drivers and mechanisms of tree mortality in moist tropical forests. \emph{New Phytologist}, 219(3), pp.851-869.}
+
+\item [37] D.A. Clark ,  Asao S., \textbf{Fisher R.A.}, Reed S.,  Reich P.B., Ryan M.G., Wood T.E., Yang X. (2017). Field data to benchmark the carbon-cycle models for tropical forests. \emph{Biogeosciences}, 14, pp.4663–4690.
+
+\item [36]  Lombardozzi D.L.,  Zeppel M.J.B, \textbf{Fisher R.A.}, Tawfik A. (2017). Representing nighttime and minimum conductance in CLM4. 5: global hydrology and carbon sensitivity analysis using observational constraints. \emph{Geoscientific Model Development} 10, pp.321–331.
+
+\item [35] Christoffersen, B.O., Gloor, M., Fauset, S., Fyllas, N.M., Galbraith, D.R., Baker, T. R., Rowland, L., \textbf{Fisher, R.A.}, Binks, O.J., Sevanto, S. A., Xu, C., Jansen, S., Choat, B., Mencuccini, M., McDowell, N. G., and Meir, P. (2016). Linking hydraulic traits to tropical forest function in a size-structured and trait-driven model (TFS v.1-Hydro), \emph{Geoscientific Model Development}, 9, pp.1–29
+
+\item[34]  McDowell, N.G.,  Williams A.P.,  Xu C.,  Pockman W.T., Dickman L.T., Sevanto S., Pangle R., Limousin J., Plaut J., Scott Mackay D., Ogee J., Domec J.C., Allen C.D., \textbf{Fisher R.A.}, Jiang X., Muss J.,  Breshears D.D., Rauscher S.A., Koven C..  (2016). Multi-scale predictions of massive conifer mortality due to chronic temperature rise \emph{Nature Climate Change} 6(3), pp.295
+
+\item[33] {A.A. Ali, Xu C., Rogers A., Wullschleger S.D., Mcdowell N.G., \textbf{Fisher R.A.}, Massoud E.C., Vrugt J.A.,  Muss J.,  Fisher J.B.,  Mcguire D.B, Reich P.B.,  Wilson C.J. (2016). A global scale mechanistic model of photosynthetic capacity. \emph{Geoscientific Model Development.} 9, pp.587-606}
+
+\item[32] {Lombardozzi D.L., Bonan G.B., Smith N.G., Dukes JS, \textbf{Fisher R.A.}. (2015). Temperature acclimation of photosynthesis and respiration: A key uncertainty in the carbon cycle‐climate feedback. \emph{Geophysical Research Letters}. Oct 28;42(20), pp.8624-31}
+
+\item[31] {Ali, A. A., Xu, C., Rogers, A., McDowell, N.G., Medlyn, B.E., \textbf{Fisher, R.A.}, Wullschleger, S.D., Reich, P.B., Vrugt, J.A., Bauerle, W.L., Santiago, L.S. and Wilson, C.J. (2015). Global-scale environmental control of plant photosynthetic capacity. \emph{Ecological Applications}, 25, pp.2349–2365}
+
+\item[30] { \textbf{R.A. Fisher}, 
+, Muszala, S., Verteinstein, M., Lawrence, P., Xu, C., McDowell, N.G., Knox, R.G., Koven, C., Holm, J., Rogers, B.M. and Spessa, A., (2015). Taking off the training wheels: the properties of a dynamic vegetation model without climate envelopes, CLM4. 5 (ED). \emph{Geoscientific Model Development}, 8(11), pp.3593-3619.} 
+
+\item[29] {Dahlin, K. M., \textbf{R.A. Fisher}, and P. J. Lawrence. (2015). Environmental drivers of drought deciduous phenology in the Community Land Model. \emph{Biogeosciences}, 12, pp.5803–5839}
+
+\item[28] {E. Joetzjer, C. Delire, H. Douville, P. Ciais,  B. Decharme, JC Calvet, \textbf{ Fisher R.A.}, P. Meir. (2014). Modelling the Amazon rainforest response to persistent drought conditions under current and disturbed climate. \emph{Geoscientific Model Development} 7, no. 6 (2014): pp.2933-2950}
+\item [27] {Anderegg, W. R. L., Hicke, J. A., \textbf{Fisher, R.A.}, Allen, C. D., Aukema, J., Bentz, B., Hood, S., Lichstein, J. W., Macalady, A. K., McDowell, N., Pan, Y., Raffa, K., Sala, A., Shaw, J. D., Stephenson, N. L., Tague, C. and Zeppel, M. (2015). Tree mortality from drought, insects, and their interactions in a changing climate. \emph{New Phytologist}, 208, pp.674–683.}
+\item[26] {  Bonan, G.B., Williams, M., \textbf{Fisher, R.A.} and Oleson, K.W. (2014). Modeling stomatal conductance in the Earth system: linking leaf water-use efficiency and water transport along the soil-plant-atmosphere continuum. \emph{Geoscientific Model Development} 7, 5,  pp.2193-2222}
+\item[25] { Fu, R., Yin, L., Li, W., Arias, P.A., Dickinson, R.E., Huang, L., Chakraborty, S., Fernandes, K., Liebmann, B., \textbf{Fisher, R.A.} and Myneni, R.B., (2013). Increased dry-season length over southern Amazonia in recent decades and its implication for future climate projection. \emph{Proceedings of the National Academy of Sciences}, 110(45), pp.18110-18115.}
+\item[24] {McDowell NG, \textbf{Fisher R.A.}, Xu C, Domec JC, Holtta T, Mackay DS, Sperry JS, Boutz A, Dickman LT, Gehres N et al. (2013). Evaluating theories of drought-induced vegetation mortality using a multimodel–experiment framework. \emph{New Phytologist} 200, pp.304–321.}
+
+\item [23] {Xu, C., McDowell, N. G., Sevanto, S. and \textbf[23] {Fisher, R.A.} (2013). Our limited ability to predict vegetation dynamics under water stress. \emph{New Phytologist}, 200 pp.298-300}
+
+\item[22] {D. Galbraith, Malhi, Y., Affum-Baffoe, K., Castanho, A.D., Doughty, C.E., \textbf{Fisher, R.A.}, Lewis, S.L., Peh, K.S.H., Phillips, O.L., Quesada, C.A. and Sonk\'{e}, B. (2013). Residence times of woody biomass in tropical forests. \emph{Plant Ecology \& Diversity}, 6(1), pp.139-157.
+}
+\item[21] {Huntingford, C., Zelazowski, P., Galbraith, D., Mercado, L.M., Sitch, S., \textbf{Fisher, R.A.}, Lomas, M., Walker, A.P., Jones, C.D., Booth, B.B. and Malhi, Y. (2013). Simulated resilience of tropical rainforests to CO 2-induced climate change. \emph{Nature Geoscience}, 6(4), pp.268.
+\item[20] {Bonan, G.B., Oleson, K.W., \textbf{Fisher, R.A.}, Lasslop, G. and Reichstein, M. (2012). Reconciling leaf physiological traits and canopy flux data: Use of the TRY and FLUXNET databases in the Community Land Model version 4. \emph{Journal of Geophysical Research: Biogeosciences}, 117(G2).}
+\item[19] { Y. Q. Luo, J. Randerson, G. Abramowitz, C. Bacour, E. Blyth, N. Carvalhais, P. Ciais, D. Dalmonech, J. \textbf{Fisher, R.A.}, et al. (2012). A framework for benchmarking land models. Biogeosciences 9, pp.3857–3874.}
+\item[18] {Xu, C., \textbf{Fisher, R.A.}, Wullschleger, S.D., Wilson, C.J., Cai, M. and McDowell, N.G., (2012). Toward a mechanistic modeling of nitrogen limitation on vegetation dynamics. \emph{PlosONE}, 7(5), p.e37914.}
+\item[17] {Marthews, T.R., Malhi, Y., Girardin, C.A., Silva Espejo, J.E., Aragão, L.E., Metcalfe, D.B., Rapp, J.M., Mercado, L.M., \textbf{Fisher R.A.}, Galbraith, D.R. and Fisher, J.B. (2012). Simulating forest productivity along a neotropical elevational transect: temperature variation and carbon use efficiency. \emph{Global Change Biology}, 18(9), pp.2882-2898.} 
+\item[16]  McDowell N.G., Beerling D.J., Breshears D.D., \textbf{Fisher R.A.}, Raffa K.F., Stitt M. (2011). The interdependent mechanisms underlying climate-driven vegetation mortality. \emph{Trends in Ecology and Evolution.} 26(10) pp.523-532
+\item[15]  Metcalfe D.B, \textbf{Fisher R.A} and Wardle D. (2011). Plant communities as drivers of soil respiration: pathways, mechanisms, and significance for global change. \emph{Biogeosciences}, 8(8), pp.2047-2061.
+\item[14] {da Costa, A.C.L., Galbraith, D., Almeida, S., Portela, B.T.T., da Costa, M., Junior, J.D.A.S., Braga, A.P., de Gonçalves, P.H., de Oliveira, A.A., \textbf{Fisher, R.A} and Phillips, O.L., (2010). Effect of 7 yr of experimental drought on vegetation dynamics and biomass storage of an eastern Amazonian rainforest. \emph{New Phytologist}, 187(3), pp.579-591.}
+\item [13] \textbf{Fisher R.A}, McDowell N., Purves D.W., Moorcroft P.R., Sitch S., Meir P., Cox P., Huntingford C., Woodward F.I. (2010). Ecological scale limitations in second generation dynamic vegetation models. \emph{New Phytologist} 187(3) pp.666-681
+\item[12] {Metcalfe, D.B., Meir, P., Aragão, L.E., Lobo‐do‐Vale, R., Galbraith, D., \textbf{Fisher, R.A.}, Chaves, M.M., Maroco, J.P., da Costa, A.C.L., de Almeida, S.S. and Braga, A.P., (2010). Shifts in plant respiration and carbon use efficiency at a large‐scale drought experiment in the eastern Amazon. \emph{New Phytologist}, 187(3), pp.608-621.}
+\item[11] {Huntingford, C., Booth, B.B.B., Sitch, S., Gedney, N., Lowe, J.A., Liddicoat, S.K., Mercado, L.M., Best, M.J., Weedon, G.P., Fisher, R.A. and Lomas, M.R. (2010). IMOGEN: An intermediate complexity climate model for impacts scenario generation.  \emph{Geoscientific Model Development}, 3, pp.679-687
+\item [10] J.B. Fisher, S. Sitch, Y. Malhi,  \textbf{R.A. Fisher}, C. Huntingford, S.-Y. Tan. (2010). The carbon cost of plant nitrogen acquisition: A mechanistic, globally-applicable model of plant nitrogen uptake, retranslocation and fixation. \emph{Global Biogeochemical Cycles. }  doi:10.1029/20009GBC003530. 
+\item [9] Alton P., \textbf{Fisher R.A}. Williams M. \& Los S. (2009). Simulations of global evapotranspiration using semi-empirical and mechanistic schemes of plant hydrology.   \emph{Journal of Geophysical Research.}  doi:10.1029/2009GB003540 
+\item[8] {Ostle, N.J., Smith, P., \textbf{Fisher, R.A.}, Ian Woodward, F., Fisher, J.B., Smith, J.U., Galbraith, D., Levy, P., Meir, P., McNamara, N.P. and Bardgett, R.D. (2009). Integrating plant–soil interactions into global carbon cycle models. \emph{Journal of Ecology}, 97(5), pp.851-863} 
+\item [7]  Malhi Y., Aragao L.,  \textbf{Fisher R.A.}, Galbraith D., Huntingford C., McSweeney C., New M., Sitch S., Zelazowski P. (2009). A tipping point in the Amazon? Exploring the likelihood and mechanism of a climate-change induced dieback of the Amazon rainforest.  \emph{Proceedings of the National Academy of Sciences}, 106(49), pp.20610-20615.
+\item[6] {\textbf{Fisher R.A.}, Williams M., Ruivo M.L., Sombroek W.G \& Lola da Costa, A. (2008). Evaluating climatic and edaphic controls of drought stress at two Amazonian rain forest sites.  \emph{Agricultural and Forest Meteorology}.  148 (6-7), pp.850-861}
+\item[5] {Atkin O.K., Atkinson L.J., \textbf{Fisher R.A.}, Campbell C.D., Zaragoza-Castell J., Pitchford J.W., Woodward F.I., Hurry V. (2008). Globally heterogeneous impacts of thermal acclimation by plant respiration.  \emph{Global Change Biology}.  14 (11), pp.2709-2726}
+\item[4] {C .Huntingford, \textbf{Fisher, R.A.}, Mercado, L., Booth, B.B., Sitch, S., Harris, P.P., Cox, P.M., Jones, C.D., Betts, R.A., Malhi, Y. and Harris, G.R., (2008). Towards quantifying uncertainty in predictions of Amazon ‘dieback’. \emph{Philosophical Transactions of the Royal Society B: Biological Sciences}, 363(1498), pp.1857-1864.} 
+\item [3] Meir P., Metcalfe D.B., Costa A.C.L.,  \textbf{Fisher R.A.}  (2008). The fate of assimilated carbon during drought: impacts on respiration in Amazon rain forests.  \emph{Philosophical Transactions of the Royal Society of London (B).}, 363, pp.1849-1855
+\item [2] \textbf{Fisher R.A.}, Williams M., Lola da Costa A., Malhi Y., da Costa R.F., Almeida S. \& Meir P. (2007) The response of an Eastern Amazonian rain forest to drought stress: Results and modeling analyses from a through-fall exclusion experiment. \emph{Global Change Biology }13, pp.2361-2378
+\item [1] \textbf{Fisher R.A.}, Williams M. Lobo do Vale R., Lola da Costa, A. \& Meir P. (2006) Evidence from Amazonian forests is consistent with isohydric control of leaf water potential. \emph{Plant, Cell and Environment}, 29, pp.151-165.
+\end{lonelist}
+
+\pagebreak[0]
+
+ 
+\end{lonelist}
+
+\section{Non refereed Publications}
+\begin{lonelist}
+\item [5] Hoffman, F.M., Riley, W.J., Randerson, J.T., Keppel-Aleks G.,  Ahlström A., Abramowitz G., Baldocchi D.D.,  Best M., Bond-Lamberty B., De Kauwe M.,  Denning A.S., Desai A.,  Eyring V., 
+\textbf{Fisher R.A.} ... and Lawrence, D.M., (2016). International Land Model Benchmarking (ILAMB). International Land Model Benchmarking (ILAMB) Workshop Report, DOE/SC-0186, U.S. Department of Energy, Office of Science, Germantown, Maryland, USA, doi:10.2172/1330803.
+
+\item[4]{Lawrence D.M. and \textbf{Fisher R.A.} (2013) Bridging the gap between iLEAPs and GEWEX communities: The CLM joint perspective. ILeaps Newsletter.}
+
+\item[3] \textbf{Fisher R.A.}  (2012). Modelling Plant Ecology. Chapter in `Environmental Modellng: Finding Simplicity in Complexity.' eds. Wainwright J. \& Mulligan M. \emph{Wiley-Blackwell}.
+
+\item[2]{Chambers J, \textbf{Fisher R.A.}, Hall J, Norby J, Wofsy S. (2012) Research Priorities for tropical Ecosystems under Climate Change.  DoE Workshop Report. DOE/SC-0153} 
+
+\item[1]{Meir, P., Brando, P.M., Nepstad, D., Vasconcelos, S., Costa, A.C.L., Davidson, E., Almeida, S., \textbf{Fisher, R.A.}, Sotta, E.D., Zarin, D., Cardinot, G., (2009). The effects of drought on Amazonian rain forests. In: Keller, M.B., Gash, M., Dias, P.S.J. (Eds.), Amazonian and Global Change. \emph{Geophysical Monograph Series}. American Geophysical Union, USA, pp.429–449.}
+\end{lonelist}
+
+\section{Scientific Funding}
+
+n.b. Since they are funded directly by NSF programmatic funds, NCAR scientists are specifically prohibited from acting as Principal Investigator on most types of US NSF and DoE proposals. Hence they often act as co-I or unfunded collaborators in support of community science goals.  
+
+\begin{lonelist}
+
+\item 2025-2029 BorealBlaze. Climate effects and feedbacks of changing high-
+latitude wildfire.  NRC, 12M NOK (Co-I, WP lead) 
+
+\item 2025-2030 INESII: Infrastructure for Norwegian Earth System modelling phase 2.  Co-I, WP lead. NRC, 25M NOK (Co-I, WP lead) 
+
+\item 2025-2029, NAVIGATE: Navigating the uncharted territory of the Anthropocene climate. NRC, 12M NOK (Co-I) 
+
+\item 2025-2029, NCS-REVISE: Revising the climate change mitigation potential of natural climate solutions. NRC, 12M NOK (Co-I, WP lead) 
+
+\item 2025-2029, SNOWLESS:  Snow Cover Loss as a Driving Force of Increased Vegetation Damage in the Arctic-Boreal Region NRC, 12M NOK (Co-I) 
+
+\item 2025-2030, NorSink: Norway’s carbon sink under climate change.  25M NOK (Co-I, WP lead) 
+
+\item 2025-2030, NorESM4CMIP7: Norwegian Earth System Modeling for CMIP7. 25M NOK (Co-I) 
+
+\item NextGenCarbon: Next Generation Modelling of Terrestrial Carbon Cycle by
+assimilation of in situ campaigns and Earth Observations. EUH2020. 12M Euros.(Co-I, WP lead)  
+
+\item 2022-2026 MaCCMic: Impact	of	forest	Management	and	Climate	Change	on	understory	Microclimate. ANR (France) 2 Co-I, 
+
+\item 2022-2026 ALT: Amazonian landscapes in transition.  ANR (France) 
+
+ \item 2020-2025 NGEE-TROPICS: Next Generation Ecosystem Experiment in the Tropics. Phase II US Dept of Energy Biological and Environmental Research. \$35.2M. Co-I, (The 10 -year NGEE-tropics is project is focused on developing the FATES model for tropical forests, based on the work I undertook to initiate this project and my vision for its application.) 
+
+  \item 2015-2020. NGEE-TROPICS: Next Generation Ecosystem Experiment in the Tropics. Phase I US Dept of Energy Biological and Environmental Research. \$42.0M. Co-I,  
+ 
+ \item 2014-2018: Collaborator, Swann A, Breshears D et al. Ecoclimate teleconnections between Amazonia and temperate North America:  cross-region feedbacks among tree mortality, land use change, and the atmosphere..US NSF Macrosystems Ecology. \textbf{\$3.0M}
+ 
+ \item 2013-2021: Co-PI, Hoffman W, Fisher R.A. Durigan G. Deciphering Environmental Controls over the Hysteresis of Biome Switches at Savanna-Forest Boundaries.US NSF Ecology Program. \textbf{\$2.7M}
+ 
+ \item 2012: Co-PI, Xu C. Fisher R.A., McDowell, N. \& Vrught J. Understanding the role of Nitrogen allocation in Earth System models.  University of California Lab Fees Research Program Award. USA.  \textbf{\$1.6M}
+ 
+  \item 2012: Co-I, Meir P, Fisher R, Rowland L.  Elucidated variation in mortality rates under drought in Borneo and Amazonia. Natural Environment Research Council, UK \textbf{\$352k }
+  
+  \item2012: Co-PI, Anderegg W, Fisher R, Hicke J. NCEAS tree mortality workshop funding. National Center for Ecological Analysis and Synthesis. \$91k
+  
+   \item 2010: Co-I P.E. Thornton (PI), R.A. Fisher, W.J. Riley, N.G. McDowell, F. Hoffman, J. Randerson. `Quantification and reduction of critical uncertainties associated with carbon cycle-climate system feedbacks'   DoE Office of Science. FY10-13. \textbf{\$3.1M}
+   
+   \item 2010: Co-PI, N.G. McDowell, M. Cai, T. Ringler, R.A. Fisher, S. Rauscher, C. Xu, S. Brumby. `Terrestrial Vegetation, CO2 Emissions, and Climate Dynamics'.  Los Alamos National Laboratory, \textbf{\$4.7M} 
+   
+   \item 2009: Office of Biological and Environmental Research.  Linking the Ecosystem Demography Model (ED) with the Community Land Model (CLM). \$110k PI
+   
+   \item 2008: NERC FIREMAFS: Linking state of the art fire model (SPITFIRE) with a second generation vegetation model (ED-JULES).\pounds43k Co-I. 
+   
+   \item 2003: “El Nino events and their impact on rainforest carbon uptake"  Meir, P, Fisher, R.A., Williams M., Malhi Y.. Natural Environment Research Council (UK)  \pounds \textbf{\pounds247k} Co-I 
+   
+   \item 2002: Quantifying the contemporary carbon cycle in Amazonian rainforests. UK Natural Environment Research Council responsive funding grants:  \textbf{\pounds35K} Co-I. 
+   
+   \item 2001: Natural Resources Institute: The response of Amazon rainforests to drought. PI. 
+  \textbf{\pounds20k}
+
+\section{Teaching: Tutorial Organization}
+\begin{lonelist}
+\item \textbf{Co-Organizer}, The GALAXY-FATES platform workshop. Bioinformatics Collaboration Fest meeting.  July 2020. 40 online  participants.
+\item \textbf{Organizer}, 2st FATES Tutorial. NCAR, February 2019. 30 in-person and 100 online participants. 
+\item \textbf{Organizer}, 1st FATES Tutorial. NCAR, February 2017. 40 in-person participants
+\item \textbf{Co-organizer}: 2nd Community Land Model Tutorial. NCAR, August 2016.
+\item \textbf{Co-organizer}: 1st Community Land Model Tutorial. NCAR, February 2014.
+\item \textbf{Co-organizer}. TERRABITES 1st Training school on Terrestrial Biosphere Modeling,  instructor . Frascati, Italy, Feb 2014. 
+\item \textbf{Co-organizer}: TERRABITES 2nd Training school on Terrestrial Biosphere Modeling. Avignon, France, January 2012. 
+\end{lonelist}
+
+\section{Teaching: Lecturing Activities}
+\begin{lonelist}
+
+\item \textbf{Guest Lecturer}:  Ecoclimatology MSc course, University of Oslo, 2022-oresent. 
+
+\item \textbf{Lecturer}:  9th Annual summer course on flux measurements and advanced data assimilation. Nederland, CO, July 2016. 
+\item \textbf{Lecturer}:  Fire in Earth System Models. University of Colorado, Undergraduate Geography Class.  2015.
+\item \textbf{Lecturer}:  Dynamic Vegetation Modelling Course (Graduate Level). University of Montana. August 2014. 
+\item \textbf{Lecturer}:  6th Annual summer course on flux measurements and advanced data assimilation. Nederland, CO, July 2013. 
+\item \textbf{Lecturer}: Summer school on Biogeochemical Cycles. NCAR, August 2013.
+\item \textbf{Lecturer}:  5th Annual summer course on flux measurements and advanced data assimilation. Nederland, CO, July 2012.  
+\item \textbf{Lecturer and organizer}: The ED-JULES model: Theory, coding and application workshop. Dept of Geography, University of Leeds, UK. January 2010. 
+\item \textbf{Lecturer}:  CNRS Glaciology in the Earth System winter school. Aussois, France, Feb 2008
+\item \textbf{Instructor}. Undergraduate Statistics. 2003-2005. University of Edinburgh.
+\item \textbf{Instructor and co-organizer}. Undergraduate Ecology. 2001-2005. University of Edinburgh.
+
+\end{lonelist}
+
+\section{Science Workshop Organization}
+\begin{lonelist}
+
+\item \textbf{Co-convener}: ``Land Surface Modelling Summit''. Conference. Oxford. Sept 2022.
+\item \textbf{Co-convener}: Forest Dynamics in the Anthropocene: Reconciling Satellite and Model-Based Estimates of Forest Carbon Mitigation Potentials.  Aspen Global Change Institute. April 2021. 
+\item  \textbf{Co-convener}: ``The impact of the 2015/2016 El Nino on the terrestrial tropical carbon cycle: patterns, mechanisms and implications''. Conference.  Royal Society of London. November 2017. 
+\item \textbf{Lead Organizer}: ``Land use change in demographic  Earth System Models'', workshop. NCAR, March 2017.
+\item \textbf{Lead Organizer}: ``Vegetation Demographics in Earth System Models'' workshop. NCAR, January 2016.
+\item \textbf{Co-convener}: National Center for Ecological Analysis and Synthesis workshop ``Synthesizing frontiers in modeling drought- and insect-induced tree mortality with climate change''.  Santa Barbara CA. February 2013 \& October 2013. 
+\item \textbf{Co-convener}: US Dept of Energy ``Research Priorities for Tropical Forests under Climate Change'' workshop. Washington, DC. August 2012 
+\end{lonelist}
+
+\section{Research Management Activities}
+\begin{lonelist}
+\item \textbf{Sscience Advisory Board}: Next Generation Ecosystem Experiment in the Arctic. US Dept of Energy. 
+\item \textbf{Steering Committee}: International Land Model Forum (ILMF)
+\item \textbf{External co-chair}: Land Model Working Group, Community Earth System Model.
+\item \textbf{Co-leader} of the Functionally Assembled Terrestrial Ecosystem Simulator (FATES) model initiative (https://github.com/NGEET/fates). Currently 41 active scientists, from 6 countries and 26 institutions.
+\item \textbf{Steering Committee} International Land Model Forum.
+\item \textbf{Executive Committee} member, modelling co-lead, theme leader and founding member of the  ``Next Generation Ecosystem Experiment in the Tropics'', a 10 year, \$76M U.S. Dept of Energy research program focused on improving tropical forests representation in Earth System Models through tightly coupled model development and observational programs. 
+\item \textbf{Science Advisory Board} for CAPACITY (ClimAte and Plant hydrAulics Controls on drought predIction uncertainty in a new-generation Terrestrial sYstem model) project, Luxembourg. (2019-2023)
+\item \textbf{Science Advisory Board} for EMERALD project using CLM(FATES) in high latitude systems (30M NOK, University of Oslo)  (2019-2024)
+\item \textbf{Vegetation Lead}: The Community Terrestrial Systems Project (NCAR)
+
+\end{lonelist}
+
+\section{Editing, referring and examining}
+\begin{lonelist}
+\item{\textbf{Editor}, Environment Section, New Phytologist. 2015-2017}
+\item{\textbf{Editor}, Global Biogeochemical Cycles. 2019-2021}
+\item \textbf{Journal reviewing} for Nature, Science, Nature Climate Change, Nature GeoSciences, Global Change Biology, Biogeosciences,  Journal of Geophysical Research, Oecologia, Agricultural and Forest Meteorology, Journal of Hydrology, Global Biogeochemical Cycles, New
+Phytologist, Remote Sensing of the Environment, Journal of Climate, Geophysical Model Development
+\item \textbf{Proposal review} panels for US. National Science Foundation, U.S. Dept. of Energy, NASA, European Union, Swiss Forest Service, Belgian National Fund for Scientific Research, UK Natural Environment Research Council. 
+\item \textbf{PhD thesis examiner}. Fabian J. Fischer.  Laboratoire Evolution et Diversité Biologique, Université Toulouse III Paul Sabatier. December 2019.  
+\item \textbf{PhD thesis examiner} Matthias Rocher, Centre National de Reserches Meteorologiques, Toulouse \& Université Toulouse III Paul Sabatier. November 2020  
+\item \textbf{PhD thesis examiner} 
+Deborah Zani, Lund University, Nov 2023 Sweden. 
+\end{lonelist}
+
+\section{Supervision}
+\begin{lonelist}
+    \item Anna Walsh-Vilander . University of Oslo (Current PhD co-supervisor)
+    \item Adele Zaini. University of Oslo (Current PhD supervisor)
+    \item Elisabeth Worner. University of Oslo (Current PhD cosupervisor)
+    \item Dr. Marius Lambert. University of Oslo ( PhD cosupervisor)
+	\item Dr. Jacquelyn K. Shuman.  Project Scientist I. NCAR. Sept 2016-present
+	\item Dr. Benjamin M. Andre. Software Engineer II. NCAR. 2016-2018
+	\item Dr. Stefan Muszala. Software Engineer II. NCAR. 2014-2016
+	\item Dr. Kyla M. Dahlin.  Post-Doctoral Scientist. NCAR (now Professor at Michigan State University)  Jan 2013-Feb 2015
+	\item Dr. Chonggang Xu. Post Doctoral (now Staff) Scientist.  Los Alamos National Lab. Feb 2010-Aug 2010 
+\end{lonelist}
+
+\section{Students and postdocs whose work I have mentored in context of the CLM project}
+The National Center for Atmospheric Research has no university affiliation, and thus it is uncommon for NCAR scientists to directly mentor PhD students. Instead they are expected to host, assist and advise the many visiting students \& scientists from external institutions. Researchers whose developments of the CLM I have mentored include
+\begin{lonelist}
+    \item Lasse Keetz (University of Oslo) 
+	\item Dr Daniel Kennedy. PhD Colombia University. 
+	\item Dr Danica Lombardozzi PhD Cornell University. s
+	\item Dr Marlies Kovenock.  PhD University of Washington
+	\item Joshua Rady. PhD Virginia Technical University
+	\item Dr Katherine Dagon. PostDoc, NCAR. 
+	\item Prof Quinn Thomas. PhD Cornell University. 
+	\item Dr Ashehad Ali. PostDoc. Los Alamos National Laboratory. 
+\end{lonelist}
+
+
+\section{Presentations - (Invited Only)}
+\begin{lonelist}
+
+\item 'The statue of FATES in NorESM3' Arctic Climates in Transition workshop, Dovrefjell, Norway, 2025.
+
+\item 'Everything, everywhere, all at once: land surface models and the challenge of predicting a heterogenous, biological world' University of Oslo. Joint Oslo seminar in atmospheric, ocean and climate science, 2025. 
+
+\item ``  The FATES model: A ‘configurable complexity’ community model of terrestrial ecosystems.'' Land Surface Modeling workshop. Cologne, Germany, February 2023.
+
+\item `` Vegetation demographics in Earth System Models: 
+More progress, new priorities?'' Tsinghua University seminar series, China. (online) 
+
+\item ``Plant Hydrodynamics in Earth System Models.'' SAPFLUXNET workshop. Barcelona (remotely). November 2021. 
+
+\item ``High latitude biosphere-climate feedbacks'' Modeling Hydrology, Climate and Land Surface Processes. \textbf{ Keynote Talk}. Lillehammer, Norway, Sept 2021. 
+
+\item ``The future of land surface modeling'' Yale Climate-Carbon Seminar Series. Yale University, USA. March 2021
+
+\item ``Seeing the wood for the trees? Strategies for managing the complexity of ecological process representation in Earth system models'' Institute for Atmospheric and Climate Science, \textbf{seminar Series} ETH Zürich. (online) December 2020
+
+\item ``Integrating forest monitoring networks with demographically-enabled Earth system models'' Oxford Centre for Tropical Forests \textbf{seminar Series}.  University of Oxford UK. (April 2020, postponed due to pandemic). 
+
+\item{``An inconvenient Problem: Contours of the new frontier between Ecology and Earth System Models." Laboratoire Evolution et Diversité Biologique, \textbf{Seminar Series}. Universit\'e Toulouse III Paul Sabatier, Toulouse, France. December 2019.}
+
+\item{``An inconvenient Problem: Contours of the new frontier between Ecology and Earth System Models." Station Ecology Th\'eortique et Exp\'erimentale (SETE-CNRS) \textbf{Seminar Series}. Moulis, France. 
+October 2019.}
+
+\item{``The Functionally Assembled Terrestrial Ecosystem Simulator (FATES)." CREAF \textbf{Seminar Series} Universitat Autonomia de Barcelona. March 2019.}
+
+\item{``The Functionally Assembled Terrestrial Ecosystem Simulator (FATES). EMERALD kickoff meeting, Oslo, February 2019.}
+
+\item{``Earth System Models and their Ecological Ambitions." International Conferences on Mathematical Modelling and Analysis of Populations in Biological Systems (ICMA-VI), Tucson, Arizona, USA. \textbf{Keynote}. October 2017}
+
+\item{``Simulating the impact of the El Niño in tropical forests – results from the NGEE Tropics Programme.   The impact of the 2015/2016 El Niño on the terrestrial tropical carbon cycle: patterns, mechanisms and implications. Invited talk. The Royal Society, London. Nov 2017}
+
+\item{``Harder, Better, Faster, Stronger? Plant trait representation in the CLM5". New Phytologist \textbf{Seminar Series} on plant trait coordination.Invited Talk. Exeter, UK. June 2017}
+
+\item{``Water-Carbon-Nitrogen interactions in a CLM5 ensemble", AGU Chapman Conference on Emerging Issues in Ecohydrology, Cuenca, Ecuador, May 2016 \textbf{Keynote}}
+
+ \item{``The (ongoing) CLM5 Development Process", Invited Talk. IPSL, Paris, France, April 2016}
+ 
+\item{``Taking off the Training Wheels; the properties of vegetation models without climate envelopes". Invited Talk. Ecological Society of America, Baltimore, MD, August 2015} 
+
+\item{``Taking off the Training Wheels; the properties of vegetation models without climate envelopes". Invited Speaker.. Association of Tropical Biology Annual Meeting. Honolulu, HI, USA, July 2015}
+
+\item ``Taking off the Training Wheels; the properties of vegetation models without climate envelopes." Dynamic Vegetation Models: Towards a Third Generation. . Invited Talk. Landskrona, Sweden, May 2015. 
+
+\item ``Earth System Models and their Ecological Ambitions". Smithsonian Tropical Research Institute. \textbf{Seminar Series}, Panama City, Panama. April 2015
+
+\item ``Taking off the Training Wheels; the properties of vegetation models without climate envelopes".Invited Talk. American Geophysical Union. San Francisco, CA, December 2014. 
+
+\item  ``Earth Observations and plant physiology: Testing ecological understanding at a global scale." CGD/EOL \textbf{Seminar series}. NCAR, June 2014. 
+
+\item ``Impacts of rising temperature in the Community Land Model." Invited Talk. Powell Center \textbf{workshop} on high temperature responses of tropical forests. Ft Collins, CO,  April 2014. 
+
+
+\item ``Climate Extremes and Biogeochemical Cycles" Open Science Conference.  Seefeld, Austria, April 2013. \textbf{(Keynote)}.
+
+\item  ``Simulation of drought-induced tree mortality"  National Center for Ecological Analysis and Synthesis (NCEAS) \textbf{workshop}.  February 2013
+
+\item  ``Trade-off surfaces and their impacts on vegetation futures" Invited Speaker. American Geophysical Union (AGU). San Francisco, CA. December 2012
+
+\item ``Optimality Models in biosphere prediction". Lawrence Berkeley National Laboratory, Earth + Environmental Science \textbf{Seminar Series}.  Berkeley, CA.  October 2012
+
+\item ``Ecological issues in climate prediction: competition, co-existence and collapse."  Cornell University. School of Ecology and Evolutionary Biology \textbf{Seminar Series}. April 2012 
+
+\item ``The representation of space and stochasticity in one-dimensional and deterministic global vegetation models.". CLIMMANI/INTERFACE meeting on Nutrient Constraints on the Net Carbon Balance. Iceland, June 2011.  \textbf{(Keynote)}
+
+\item ``Modelling drought at ecosystem and global scales." Forests and the Environment meeting. John grace Festscrift. Bologna, Italy. April 2011. \textbf{(Keynote)}.
+
+\item ``Plant Trait-based developments in  DGVM modeling". IGBP Biome Boundary Shift \textbf{workshop}. Paris, France. March 2011. 
+
+\item ``Ecological issues in climate prediction: competition, co-existence and collapse." B.W. Wells Annual Seminar. North Carolina State University, Dept of Plant Biology \textbf{(Invitation voted for by the graduate student association). March 2011.}
+
+\item ``Constraining models of plant mortality using new observations from a through-fall exclusion experiment." (Invited Speaker) AGU. San Francisco, Dec 2010. 
+
+\item ``Introducing ecology into dynamic vegetation models."  International Photosynthesis Congress. Beijing, CN. August 2010. \textbf{(Keynote)} 
+
+\item ``Results of the longest tropical rainfall manipulation on Earth" Invited Speaker. Ecological Society of America. Austin, TX.  August 2010.
+
+\item ``Ecological Issues in Climate Prediction: Competition, Co-existence and Collapse." Santa Fe Institute for Complex System Science, \textbf{Seminar Series}. June 2010. 
+
+\item ``Scale limitations in Dynamic Vegetation Models: Consequences for carbon cycle prediction". Terrestrial Biosphere in the Earth System Symposium. Max Planck Institute for Meteorology, Hamburg, February 2010. \textbf{(Keynote)}.
+
+\item "The role of future vegetation model developments in the next generation of ecosystem manipulation experiments``  US Department of Energy, Biological and Environment Research PI's meeting. Washington DC. November 2009.\textbf{(Keynote)}.
+
+\item "How plant functional diversity affects climate predictions:  scale limitations on vegetation modelling.``  Invited speaker.  IGBP-TRY 'Predicting Biome Boundary Shifts' \textbf{workshop}. Kirstenbosch Botanical Gardens, Cape Town, South Africa. October 2009.
+
+\item ``Predicting the response of the terrestrial biosphere to changing climate and CO$_{2}$." \textbf{Invited lecture}.  NICE Earth System Modelling winter school. Aussois en Vanoise, France, January 2009. 
+
+\item ``Second generation vegetation dynamics modelling." Microsoft Research, \textbf{Seminar Series}.  Cambridge, UK. November 2008.
+
+\item "Ecosystem Dynamics and the carbon balance of Amazonia."  AMAZONICA kickoff meeting. University of S\~{a}o Paulo, Brazil. August 2008.
+
+\item ``Climate Change and the fate of the Amazon' meeting, University of Oxford, March 2007
+
+\item ``Implementing plasticity in plant functional traits". Invited talk.  ARC-NZ research network for vegetation function \textbf{workshop}. Macquarie 	University, Sydney, September 2006
+
+\end{lonelist}
+
+
+
+
+ 
+
+\end{lonelist}
+\end{document}

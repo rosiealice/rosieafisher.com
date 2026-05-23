@@ -1,0 +1,24 @@
+        <footer>
+            {{ with .Site.Params.contactLinks }}
+                <section class="homepage-contact footer-contact" aria-label="contact links">
+                    <h3>contact</h3>
+                    <ul>
+                        {{ range . }}
+                            <li>
+                                <a href="{{ .url }}" target="_blank" rel="noopener noreferrer" class="contact-link" aria-label="{{ .name }}">
+                                    <img src="{{ .icon | default (print "/images/icons/" .name ".svg") }}" alt="{{ .name }} logo" class="contact-link-icon">
+                                </a>
+                            </li>
+                        {{ end }}
+                    </ul>
+                </section>
+            {{ end }}
+
+            <p class="copyright text-muted">{{ .Site.Params.copyright | default "&copy; All rights reserved. Powered by [Hugo](https://gohugo.io) and [Minimal](https://github.com/calintat/minimal)." | markdownify }}</p>
+        </footer>
+
+        {{ partial "body-close" . }}
+
+    </body>
+
+</html>

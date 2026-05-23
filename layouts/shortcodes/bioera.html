@@ -1,0 +1,6 @@
+<div class="bio-era">
+  <img src="{{ .Get "src" }}" class="bio-thumb" alt="{{ .Get "alt" | default "Bio thumbnail" }}" />
+  <div class="bio-content">
+    {{ .Inner | markdownify }}
+  </div>
+</div>

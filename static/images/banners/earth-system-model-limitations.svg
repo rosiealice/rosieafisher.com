@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc">
+  <title id="title">Earth System Model Limitations Banner</title>
+  <desc id="desc">Abstract contour fields with fault-like breaks representing model limitations.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1e1f26"/>
+      <stop offset="50%" stop-color="#3f3f56"/>
+      <stop offset="100%" stop-color="#7b8fa1"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="320" fill="url(#bg)"/>
+  <g fill="none" stroke="#e8edf2" stroke-opacity="0.35" stroke-width="2">
+    <path d="M0 50 Q200 25 400 50 T800 50 T1200 50"/>
+    <path d="M0 86 Q200 61 400 86 T800 86 T1200 86"/>
+    <path d="M0 122 Q200 97 400 122 T800 122 T1200 122"/>
+    <path d="M0 157 Q200 132 400 157 T800 157 T1200 157"/>
+    <path d="M0 193 Q200 168 400 193 T800 193 T1200 193"/>
+    <path d="M0 228 Q200 203 400 228 T800 228 T1200 228"/>
+  </g>
+  <g stroke="#f3f7fa" stroke-width="5" stroke-linecap="round" opacity="0.75">
+    <path d="M300 41 L350 97 L320 157 L380 218 L360 284"/>
+    <path d="M700 30 L650 91 L690 152 L620 213 L640 284"/>
+    <path d="M980 61 L920 122 L950 183 L900 264"/>
+  </g>
+</svg>

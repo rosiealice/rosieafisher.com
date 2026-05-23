@@ -1,7 +1,77 @@
 baseURL = "https://rosieafisher.com/"
 languageCode = "en-us"
 title = "Rosie Fisher"
-theme = "PaperMod"
+theme = "minimal"
 
 [params]
   defaultTheme = "light"
+  css = ["/css/custom.css"]
+  profilePic = "/images/Gemini_Generated_Image_aet7bzaet7bzaet7.png"
+  tagline = "rosie fisher: terrestial systems modeling"
+
+  [[params.contactLinks]]
+    name = "bluesky"
+    url = "https://bsky.app/profile/rosieafisher.bsky.social"
+    icon = "/images/icons/bluesky.svg"
+
+  [[params.contactLinks]]
+    name = "linkedin"
+    url = "https://www.linkedin.com/in/rosie-fisher-4416b719/"
+    icon = "/images/icons/linkedin.svg"
+
+  [[params.contactLinks]]
+    name = "cicero"
+    url = "https://cicero.oslo.no/en/employees/rosie-fisher"
+    icon = "/images/icons/cicero.png"
+
+  [[params.contactLinks]]
+    name = "google scholar"
+    url = "https://scholar.google.com/citations?user=YOJpkTcAAAAJ&hl=en"
+    icon = "/images/icons/google-scholar.svg"
+
+  [[params.contactLinks]]
+    name = "orcid"
+    url = "https://orcid.org/0000-0003-3260-9227"
+    icon = "/images/icons/orcid.svg"
+
+  [menu]
+
+  [[menu.main]]
+    name = "home"
+    url = "/"
+    weight = 0
+
+  [[menu.main]]
+    name = "bio"
+    url = "/bio/"
+    weight = 1
+
+  [[menu.main]]
+    name = "personal"
+    url = "/personal/"
+    weight = 2
+
+  [[menu.main]]
+    name = "clm and fates"
+    url = "/clm-fates/"
+    weight = 3
+
+  [[menu.main]]
+    name = "cv"
+    url = "/cv/"
+    weight = 4
+
+  [[menu.main]]
+    name = "diversity"
+    url = "/diversity/"
+    weight = 5
+
+  [[menu.main]]
+    name = "publications"
+    url = "/publications/"
+    weight = 6
+
+  [[menu.main]]
+    name = "projects"
+    url = "/projects/"
+    weight = 7

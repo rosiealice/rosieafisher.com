@@ -1,19 +1,9 @@
----
-title: "Rosie Fisher"
----
 
-I am a climate scientist working on Earth system modelling and climate prediction infrastructure.
+I am a Research Professor in terrestrial systems modeling at the 
+[CICERO Centre for International Climate Research.](https://cicero.oslo.no/)   Oslo, Norway. 
 
-My work focuses on improving the predictive capability of coupled Earth system models, with particular emphasis on land–biosphere processes and their role in carbon-cycle and climate feedbacks.
+My work focuses on improving the predictive capability of open source coupled Earth system models, with particular emphasis on land–biosphere processes and their role in carbon-cycle and climate feedbacks.
 
-## Research areas
+I am the external co-chair of the [Community Land Model (CLM)](https://www.cesm.ucar.edu/models/clm) and the [FATES](https://github.com/ngeet/fates) vegetation model and I work with the Norwegian Earth System Model [NorESM](https://www.noresm.org/). 
 
-- Terrestrial ecosystem modelling (CLM / FATES)
-- Carbon cycle and biosphere–climate feedbacks
-- Wildfire, disturbance, and ecosystem dynamics
-- Earth system prediction infrastructure
-
-## Writing
-
-Selected essays and notes on climate prediction systems, uncertainty, and land–atmosphere coupling will appear here.
 
