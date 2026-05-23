@@ -42,23 +42,23 @@ theme = "minimal"
     weight = 0
 
   [[menu.main]]
+    name = "cv"
+    url = "/cv/"
+    weight = 1
+
+  [[menu.main]]
     name = "bio"
     url = "/bio/"
-    weight = 1
+    weight = 2
 
   [[menu.main]]
     name = "personal"
     url = "/personal/"
-    weight = 2
+    weight = 3
 
   [[menu.main]]
     name = "clm and fates"
     url = "/clm-fates/"
-    weight = 3
-
-  [[menu.main]]
-    name = "cv"
-    url = "/cv/"
     weight = 4
 
   [[menu.main]]
