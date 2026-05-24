@@ -7,7 +7,7 @@ theme = "minimal"
   defaultTheme = "light"
   backgroundColor = "#f4f0e8"
   css = ["/css/custom.css"]
-  profilePic = "/images/taos_cover3.jpeg"
+  profilePic = "/images/taos_cover3_cropped.jpeg"
   tagline = "rosie fisher: terrestial systems modeling"
 
   [[params.contactLinks]]

@@ -1,6 +1,6 @@
 {{ partial "header" . }}
 
-<main>
+<main class="home-main">
     <div class="intro">
         {{ with .Site.Params.profilePic }} <img class="profile" src="{{ . }}" style="display:block;width:100vw;height:auto;max-width:none;max-height:none;margin:0;position:relative;left:50%;transform:translateX(-50%);border-radius:0;"> {{ end }}
         {{ with .Params.h1 }}
