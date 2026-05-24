@@ -1,32 +1,12 @@
----
-title: "CLM and FATES"
----
+My research is focused around the development and use of community and surface models. Specifically, the 
 
-Community resources:
+- Community Land Model [CLM](https://www.cesm.ucar.edu/models/clm)
+- The Functionally Assembled Terrestrial Ecosystem Simulator [FATES](https://github.com/NGEET/fates)
 
-- [CLM-FATES (FATES on GitHub)](https://github.com/NGEET/fates)
-- [Community Land Model (CLM)](https://www.cesm.ucar.edu/models/clm)
-- [CESM Community Science](https://www.cesm.ucar.edu/community)
+### FATES
+FATES a vegetation model that is part of CLM is the new vegetation scheme of the Norwegian Earth System Model, [NorESM](https://github.com/NorESMhub/noresm). From 2026, it will also be the new default vegetation in the [CESM](https://github.com/ESCOMP/ctsm) project. 
+
+This page is in development and more content will be added soon... (25/05/2026)
 
 
-## Overview
 
-This page summarizes my work on the Community Land Model (CLM) and the Functionally Assembled Terrestrial Ecosystem Simulator (FATES), including model development, benchmarking, and community coordination.
-
-## CLM
-
-The Community Land Model is the land component of CESM and supports process-based simulations of carbon, water, energy, and vegetation dynamics.
-
-- CLM page: [Community Land Model (CLM)](https://www.cesm.ucar.edu/models/clm)
-- CESM community: [CESM Community](https://www.cesm.ucar.edu/community)
-
-## FATES
-
-FATES is a demographic vegetation model framework used within CLM and ELM configurations to improve representation of forest structure, disturbance, and competition.
-
-- FATES codebase: [NGEET/FATES on GitHub](https://github.com/NGEET/fates)
-
-## Related Pages
-
-- [Projects](/projects/)
-- [Publications](/publications/)

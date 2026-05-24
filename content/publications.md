@@ -1,6 +1,5 @@
 
 
-### Publication profiles:
 ![Octopus_with_tea](/images/octopus_hires.jpeg)
 - [Google Scholar](https://scholar.google.com/citations?user=YOJpkTcAAAAJ&hl=en)
 - [ORCID](https://orcid.org/0000-0003-3260-9227)
@@ -9,19 +8,19 @@
 
 #### **2026**
 
-- Chambers JQ, Nogueira Lima AJ, Pastorello G, Gimenez BO, Meng L, et al. (2026). Hot droughts in the Amazon provide a window to a future hypertropical climate. *Nature*. [doi](https://www.nature.com/articles/s41586-025-09728-y)
+- Chambers JQ, Nogueira Lima AJ, Pastorello G, Gimenez BO, Meng L, et al. (2026). Hot droughts in the Amazon provide a window to a future hypertropical climate. *Nature*. [DOI](https://www.nature.com/articles/s41586-025-09728-y)
 - Sanderson BM, Baur S, Schleussner CF, Peters GP, Mittal S, Sandstad M, et al. (2026). Robust assessment of Solar Radiation Modification risks and uncertainties must include shocks and societal feedbacks. *EGUsphere*.
-- Eckes-Shephard AH, Argles APK, Brzeziecki B, Cox PM, De Kauwe MG, et al. (2026). Demography, dynamics and data: building confidence for simulating changes in the world's forests. *New Phytologist*.
+- Eckes-Shephard AH, Argles APK, Brzeziecki B, Cox PM, De Kauwe MG, et al. (2026). Demography, dynamics and data: building confidence for simulating changes in the world's forests. *New Phytologist*. [DOI](https://doi.org/10.1111/nph.70643)
 
 #### **2025**
 
-- Alpay G, Fisher J, Braghiere RK, Brzostek E, Dauber G, Allen K, **Fisher RA**. (2025). Optimizing plant nutrient uptake: cost function sensitivity analysis of the FUN model. *Environmental Research: Ecology*.
-- Foster AC, Hawkins LR, Kennedy D, Bonan GB, **Fisher RA**, Needham JF, et al. (2025). Contrasting parametric sensitivities in two global vegetation models using parameter perturbation ensembles. *JAMES*. [doi](https://doi.org/10.1029/2025MS005590)
-- Needham JF, Dey S, Koven CD, **Fisher RA**, Knox RG, Lamour J, Lemieux G, Longo M, Rogers A, Holm J. (2025). Vertical canopy gradients of respiration drive plant carbon budgets and leaf area index. *New Phytologist*.
-- Gomez JL, Allen RJ, Horowitz LW, Turnock ST, **Fisher RA**, Clifton OE, Mignone BK, Shevliakova E, Malyshev S. (2025). Climate effects of a future net forestation scenario in CMIP6 models. *npj Climate and Atmospheric Science*.
+- Alpay G, Fisher J, Braghiere RK, Brzostek E, Dauber G, Allen K, **Fisher RA**. (2025). Optimizing plant nutrient uptake: cost function sensitivity analysis of the FUN model. *Environmental Research: Ecology*. [DOI][(https://iopscience.iop.org/article/10.1088/2752-664X/ae00cb/meta)
+- Foster AC, Hawkins LR, Kennedy D, Bonan GB, **Fisher RA**, Needham JF, et al. (2025). Contrasting parametric sensitivities in two global vegetation models using parameter perturbation ensembles. *JAMES*. [DOI](https://doi.org/10.1029/2025MS005590)
+- Needham JF, Dey S, Koven CD, **Fisher RA**, Knox RG, Lamour J, Lemieux G, Longo M, Rogers A, Holm J. (2025). Vertical canopy gradients of respiration drive plant carbon budgets and leaf area index. *New Phytologist*. [DOI[( https://doi.org/10.1111/nph.20423)
+- Gomez JL, Allen RJ, Horowitz LW, Turnock ST, **Fisher RA**, Clifton OE, Mignone BK, Shevliakova E, Malyshev S. (2025). Climate effects of a future net forestation scenario in CMIP6 models. *npj Climate and Atmospheric Science*. [DOI](https://www.nature.com/articles/s41612-025-01127-4)
 - Keetz LT, Aalstad K, **Fisher RA**, Poppe Teran C, Naz B, Pirk N, Yilmaz YA, Skarpaas O. (2025). Inferring parameters in a complex land surface model by combining data assimilation and machine learning. *JAMES*.
-- Kennedy D, Dagon K, Lawrence DM, **Fisher RA**, Sanderson BM, Collier N, Hoffman FM, Koven CD, Kluzek E, Levis S. (2025). One-at-a-time parameter perturbation ensemble of Community Land Model 5.1. *JAMES*. [doi]( https://doi.org/10.1029/2024MS004715)
-- Raoult N, Douglas N, MacBean N, Kolassa J, Quaife T, Roberts AG, **Fisher RA**, et al. (2025). Parameter estimation in land surface models: challenges and opportunities with data assimilation and machine learning. *JAMES*. [doi](https://doi.org/10.1029/2024MS004733)
+- Kennedy D, Dagon K, Lawrence DM, **Fisher RA**, Sanderson BM, Collier N, Hoffman FM, Koven CD, Kluzek E, Levis S. (2025). One-at-a-time parameter perturbation ensemble of Community Land Model 5.1. *JAMES*. [DOI](https://doi.org/10.1029/2024MS004715)
+- Raoult N, Douglas N, MacBean N, Kolassa J, Quaife T, Roberts AG, **Fisher RA**, et al. (2025). Parameter estimation in land surface models: challenges and opportunities with data assimilation and machine learning. *JAMES*. [DOI](https://doi.org/10.1029/2024MS004733)
 
 #### **2024**
 
