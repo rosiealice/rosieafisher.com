@@ -424,3 +424,24 @@ main.home-main .homepage-content > *:last-child {
   margin-bottom: 0 !important;
   padding-bottom: 0 !important;
 }
+
+@media (max-width: 767px) {
+  main {
+    padding-left: 16px;
+    padding-right: 16px;
+    box-sizing: border-box;
+  }
+
+  /* Keep the homepage image full-bleed while text gets phone-friendly gutters. */
+  main.home-main {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+
+  main.home-main .homepage-content,
+  .content {
+    padding-left: 16px !important;
+    padding-right: 16px !important;
+    box-sizing: border-box;
+  }
+}

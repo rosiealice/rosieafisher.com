@@ -4,7 +4,7 @@
 ### Rosemary (Rosie) Alice Fisher
 nationality: united kingdom
 
-email: [rosie.fisher@cicero.oslo.no](mailto:rosie.fisher@cicero.oslo.no)
+email: [rosie dot fisher@cicero.oslo.no](mailto:rosie.fisher@cicero.oslo.no)
 
 
 ### Education
