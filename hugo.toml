@@ -7,7 +7,7 @@ theme = "minimal"
   defaultTheme = "light"
   backgroundColor = "#f4f0e8"
   css = ["/css/custom.css"]
-  profilePic = "/images/taos_cover3_cropped.jpeg"
+  profilePic = "/images/taos_cover4.jpeg"
   tagline = "rosie fisher: terrestial systems modeling"
 
   [[params.contactLinks]]
@@ -68,7 +68,7 @@ theme = "minimal"
     weight = 5
 
   [[menu.main]]
-    name = "clm and fates"
+    name = "research"
     url = "/clm-fates/"
     weight = 6
 

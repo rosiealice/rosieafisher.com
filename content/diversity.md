@@ -6,7 +6,7 @@
 
 
 
-Mostly life has dealt me [an excellent hand](/bio/), and I have few complaints. But for what it is worth, I am also affected by two different forms of sensory malfunction and one tpe of neurodiversity. I think the world would be a better place if we all shared more of our challenges with each other, and so fwiw. 
+Mostly life has dealt me [an excellent hand](/bio/), but for what it is worth, I am also affected by two types of sensory malfunction and one kind of neurodiversity. I think the world would be a better place if we all shared more of our challenges with each other, and so fwiw. 
 
 </div>
 
