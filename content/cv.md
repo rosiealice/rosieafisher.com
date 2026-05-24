@@ -1,15 +1,11 @@
----
-title: "CV"
----
+
 ![Umbrella Rosie](/images/umbrella_rosie.JPG)
 
-### Rosemary(Rosie) Alice Fisher
-Nationality: British. 
+### Rosemary (Rosie) Alice Fisher
+nationality: united kingdom
 
-- Email: [rosie.fisher@cicero.oslo.no](mailto:rosie.fisher@cicero.oslo.no)
+email: [rosie.fisher@cicero.oslo.no](mailto:rosie.fisher@cicero.oslo.no)
 
-
-[Clarivate Highly Cited Researcher](https://clarivate.com/highly-cited-researchers/) in 2019, 2020, 2021, 2022, 2023, and 2024.
 
 ### Education
 
@@ -29,21 +25,21 @@ Nationality: British.
 - **Post-Doctoral Researcher**, [University of Sheffield](https://sheffield.ac.uk/biosciences/research/clusters/plants-photosynthesis-and-soil),UK  (2005-2009)
 
 ###  Publications
-For full list see [View full list](/publications/)
+- For full list see [View full list](/publications/)
+- [Clarivate Highly Cited Researcher](https://clarivate.com/highly-cited-researchers/) in 2019, 2020, 2021, 2022, 2023, and 2024.
 
 ###  Advisory Roles
-
-- **Science Advisory Board**. [NGEE-arctic](https://ngee-arctic.ornl.gov/). (2026-present.)
-- **Science Advisory Board**. [DURIN](https://betweenthefjords.w.uib.no/durin/). (2022-present)
-- **External Co-chair, [CESM Land Model Working Group](https://www.cesm.ucar.edu/working-groups/land)**. (2019-present) 
-- **Steering Committee Member**, [International Land Model Forum] (https://hydro-jules.org/international-land-modeling-forum-ilmf) (2022-present)
-- **Executive Committee Member** and Modelling Co-lead, [NGEE-Tropics](https://ngee-tropics.lbl.gov/) (2014-2021)
-- **Science Advisory Board**, CAPACITY. ([Luxembourgh Inst. of Technology](https://researchportal.list.lu/projects/detail/capacity) (2021-2025) 
-- **Science Advisory Board. [EMERALD, University of Oslo](https://www.mn.uio.no/geo/english/research/projects/emerald/) (2019-2024)
-
+- **External Co-chair. [CESM Land Model Working Group](https://www.cesm.ucar.edu/working-groups/land)**. (2019-present) 
+- **Steering Committee.** [International Land Model Forum](https://hydro-jules.org/international-land-modeling-forum-ilmf) (2022-present)
+- **Steering Committee.** [Warming Induced Emissions Model Intercomparison Project (WIEMIP)](https://www.sparkclimate.org/warming-induced-emissions/home)
+- **Working Group.** [WCRP "Perturbed Carbon Cycle" Lighthouse Activity](https://www.wcrp-climate.org/working-groups/slc-carbon?highlight=WyJyb3NpZSJd). (2025-present)
+- **Science Advisory Board.** [NGEE-arctic](https://ngee-arctic.ornl.gov/). (2026-present.)
+- **Science Advisory Board** [DURIN.](https://betweenthefjords.w.uib.no/durin/) University of Bergen (2022-present)
+- **Science Advisory Board.** [CAPACITY](https://researchportal.list.lu/projects/detail/capacity) Luxembourgh Inst. of Technology (2021-2025) 
+- **Science Advisory Board.** [EMERALD](https://www.mn.uio.no/geo/english/research/projects/emerald/) University of Oslo (2019-2024)
+- **Executive Committee Member & Modelling Co-lead.** [NGEE-Tropics](https://ngee-tropics.lbl.gov/) (2014-2021)
 
 
 ### Editorial Roles
-
-- Editor, *Global Biogeochemical Cycles* (2019-2021)
-- Editor, *New Phytologist* (2015-2017)
+- **Editor**, *Global Biogeochemical Cycles* (2019-2021)
+- **Editor**, *New Phytologist* (2015-2017)

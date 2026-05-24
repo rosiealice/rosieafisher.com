@@ -5,7 +5,8 @@
 <div class="essay-intro">
 
 
-Mostly life has dealt me an excellent hand, and I have few complaints. But for what it is worth, I am also affected by three different forms of dysfunction, which I mostly try to ignore and mention here mainly so I do not have to keep repeating myself.
+
+Mostly life has dealt me [an excellent hand](/bio/), and I have few complaints. But for what it is worth, I am also affected by two different forms of sensory malfunction and one tpe of neurodiversity. I think the world would be a better place if we all shared more of our challenges with each other, and so fwiw. 
 
 </div>
 
@@ -14,11 +15,9 @@ Mostly life has dealt me an excellent hand, and I have few complaints. But for w
 
   <div class="diversity-content">
 
-### I am Partially sighted
+#### **I am partially sighted**
 
-In 2020 I discovered that I have a rare and [inoperable type of benign brain tumor](https://neupsykey.com/21-optic-pathway-glioma-and-juvenile-pilocytic-astrocytoma/) that presses on my optic nerves, meaning I can only use about 40% of my visual field. So when I say your fonts are too small, I really do mean it.
-
-There is no cure, and I will need to continue being treated with the [magic of science](https://en.wikipedia.org/wiki/Bevacizumab) until the AI agents find one. Many approaches to adapting to sight loss rely on hearing to compensate — which is slightly inconvenient, because...
+In 2020 I discovered that I have a rare and [inoperable type of benign brain tumor](https://neupsykey.com/21-optic-pathway-glioma-and-juvenile-pilocytic-astrocytoma/) that presses on my optic nerves, and so I can only use about 40% of my visual field. So when I say your fonts are too small, I really do mean it. So far it has been kept in check via the [magic of science](https://en.wikipedia.org/wiki/Bevacizumab). But many approaches to adapting to sight loss rely on using your hearing to compensate, which is inconvenient, because...
 
   </div>
 </div>
@@ -30,9 +29,9 @@ There is no cure, and I will need to continue being treated with the [magic of s
 
   <div class="diversity-content">
 
-### I am partially deaf
+#### **I am also partially deaf**
 
-I inherited a gradual hearing loss that became noticeable in my mid-30s. I use hearing aids, although quite a lot of the time I use Apple [AirPods Pro](https://www.apple.com/no/airpods-pro/), which are about 75% as good as proper hearing aids, cost roughly ten times less, and integrate much better with Zoom calls. They are also easier to track down when misplaced, which is fortunate because...
+I inherited a gradual hearing loss that became noticeable in my mid-30s. I use hearing aids, although quite a lot of the time I use Apple [AirPods Pro](https://www.apple.com/no/airpods-pro/), which are much easier to track down when misplaced, which is good because...
 
   </div>
 </div>
@@ -44,11 +43,9 @@ I inherited a gradual hearing loss that became noticeable in my mid-30s. I use h
 
   <div class="diversity-content">
 
-### I also have ADHD
+#### **I also have ADHD**
 
-This is my favorite minority affliction, because unlike the other two, [ADHD](https://www.youtube.com/watch?v=4uJv3y9ajQY) has some fairly substantial upsides as a scientist.
-
-On the other hand, there are times when I genuinely do not know what day, month, or occasionally year it is, since time blindness and hyperfocus appear to be two sides of the same coin.
+This is my favorite minority affliction, because unlike the other two, [ADHD](https://www.youtube.com/watch?v=4uJv3y9ajQY) has some fairly substantial upsides as a scientist. But let's just say that there are times when I genuinely do not know what month we are in, and that having to do tax admin in four different jurisdictions in not something that comes naturally to me... 
 
   </div>
 </div>

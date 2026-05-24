@@ -1,9 +1,6 @@
 
-I am a Research Professor in terrestrial systems modeling at the 
-[CICERO Centre for International Climate Research.](https://cicero.oslo.no/)   Oslo, Norway. 
+I am a Research Professor and [highly-cited researcher](https://clarivate.com/highly-cited-researchers/) in terrestrial systems modeling at the [CICERO Centre for International Climate Research.](https://cicero.oslo.no/) in Oslo, Norway.  My work focuses on improving the predictive capability of **open-source models** of the land surface. 
 
-My work focuses on improving the predictive capability of open source coupled Earth system models, with particular emphasis on land–biosphere processes and their role in carbon-cycle and climate feedbacks.
-
-I am the external co-chair of the [Community Land Model (CLM)](https://www.cesm.ucar.edu/models/clm) and the [FATES](https://github.com/ngeet/fates) vegetation model and I work with the Norwegian Earth System Model [NorESM](https://www.noresm.org/). 
+I am most recognized for my work developing the [Community Land Model (CLM)](https://www.cesm.ucar.edu/models/clm), of which I am a co-chair, and the global demographic vegetation model [FATES](https://github.com/ngeet/fates).  I work with the Norwegian Earth System Model [NorESM](https://www.noresm.org/) team as well as a global network of collaborators on projects across terrestrial system science. 
 
 

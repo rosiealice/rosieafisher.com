@@ -26,6 +26,39 @@ body {
   padding-right: 10px;
 }
 
+.navbar.navbar-default {
+  background-color: #3f4348;
+  border-color: #3f4348;
+}
+
+.navbar-default .navbar-brand,
+.navbar-default .navbar-brand.site-tagline,
+.navbar-default .navbar-nav > li > a {
+  color: #ffffff !important;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus,
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #f4f0e8 !important;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #ffffff !important;
+  background-color: #34383d;
+}
+
+.navbar-default .navbar-toggle {
+  border-color: #d8d8d8;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #ffffff;
+}
+
 .navbar-default .navbar-nav > li.active > a {
   font-weight: 700;
 }
@@ -43,6 +76,7 @@ li {
 
 .navbar-default .navbar-brand.site-tagline {
   font-size: 0.95rem;
+  font-weight: 700;
   white-space: nowrap;
   max-width: 42vw;
   overflow: hidden;
@@ -57,16 +91,22 @@ li {
 }
 
 .intro .profile {
-  width: 100vw;
-  max-width: 100vw;
+  width: auto;
+  max-width: 100%;
   height: auto;
-  max-height: 56vh;
-  object-fit: cover;
+  max-height: none;
   border-radius: 0;
-  margin: 0 0 1.2rem;
-  margin-left: 50%;
-  transform: translateX(-50%);
+  margin: 0;
+  transform: none;
   display: block;
+}
+
+.homepage-content p:first-child {
+  margin-top: 0;
+}
+
+.homepage-content p:last-child {
+  margin-bottom: 0;
 }
 
 .homepage-contact {
@@ -116,12 +156,12 @@ li {
 }
 
 img[src$="/rainbow_wide_ambleside.jpg"] {
-  width: 100vw;
-  max-width: none;
+  width: 60vw;
+  max-width: 60vw;
   height: auto;
   display: block;
-  margin-left: calc(50% - 50vw);
-  margin-right: calc(50% - 50vw);
+  margin-left: calc(50% - 30vw);
+  margin-right: calc(50% - 30vw);
 }
 
 img[src$="/umbrella_rosie.JPG"] {
@@ -139,6 +179,24 @@ img[src$="/rosiebenbw.jpg"] {
   height: auto;
   display: block;
   margin: 1rem auto;
+}
+
+img[src$="/octopus_hires.jpeg"] {
+  float: right;
+  width: 30%;
+  max-width: 180px;
+  height: auto;
+  margin: 0 0 0.75rem 1rem;
+  display: block;
+}
+
+@media (max-width: 767px) {
+  img[src$="/octopus_hires.jpeg"] {
+    float: none;
+    width: 44%;
+    max-width: 220px;
+    margin: 0 auto 0.9rem;
+  }
 }
 
 .bio-era {
