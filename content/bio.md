@@ -1,7 +1,7 @@
 
 ### Travels through the theoretical and actual land surface
 
-I have had the tramendous good fortune of living in many interesting places and to be influenced by the ideas of many wonderful and thoughful scientists. This is a summary of the story of my journey in science, via places, people and ideas (abbreviated [here](/cv/)).....
+I have had the tramendous good fortune of living in many interesting places and to be influenced by the ideas of many wonderful and thoughtful scientists. This is a summary of the story of my journey in science, via places, people and ideas (abbreviated [here](/cv/)).....
 
 {{< bioera src="/images/northumberland.jpg" alt="Northumberland" >}}
 
