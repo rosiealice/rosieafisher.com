@@ -1,6 +1,7 @@
 
 
-![Rainbow over Ambleside](/images/rainbow_wide_ambleside.jpg)
+![Rainbow over Ambleside in the English Lake District](/images/rainbow_wide_ambleside.jpg "Rainbow over Ambleside in the English Lake District")
+
 
 <div class="essay-intro">
 
