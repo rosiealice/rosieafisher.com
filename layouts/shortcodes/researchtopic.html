@@ -1,0 +1,18 @@
+{{- /* Block shortcode wrapper prevents markdown <p> wrapping around this HTML block. */ -}}
+<div class="research-topic" style="display:flex;align-items:flex-start;gap:2rem;margin:2rem 0;">
+  {{ with .Get "src" }}
+  {{ if $.Get "href" }}
+  <a href="{{ $.Get "href" }}" target="_blank" rel="noopener noreferrer">
+    <img src="{{ . }}" class="research-topic-image" alt="{{ $.Get "alt" | default "Research topic image" }}" style="width:180px;min-width:180px;height:180px;object-fit:contain;display:block;margin-top:0.35rem;" />
+  </a>
+  {{ else }}
+  <a href="{{ . }}" target="_blank" rel="noopener noreferrer">
+    <img src="{{ . }}" class="research-topic-image" alt="{{ $.Get "alt" | default "Research topic image" }}" style="width:180px;min-width:180px;height:180px;object-fit:contain;display:block;margin-top:0.35rem;" />
+  </a>
+  {{ end }}
+  {{ end }}
+  <div class="research-topic-content" style="flex:1;min-width:0;">
+    {{ .Inner | markdownify }}
+  </div>
+</div>
+

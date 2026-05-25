@@ -234,13 +234,7 @@ img[src$="/umbrella_rosie.JPG"] {
   margin-right: calc(50% - 30vw);
 }
 
-img[src$="/rosiebenbw.jpg"] {
-  width: 32vw;
-  max-width: 360px;
-  height: auto;
-  display: block;
-  margin: 1rem auto;
-}
+
 
 .publications-octopus,
 .content img[src*="octopus_hires.jpeg"],
@@ -253,6 +247,15 @@ img[src$="/rosiebenbw.jpg"] {
   display: block;
 }
 
+/* Add a bit more breathing room between publication entries. */
+.content h3#selected-publications-by-year ~ h4 + ul > li {
+  margin-bottom: 1.35rem !important;
+}
+
+.content h3#selected-publications-by-year ~ h4 + ul > li:last-child {
+  margin-bottom: 0;
+}
+
 .bio-era {
   display: flex;
   align-items: flex-start;
@@ -261,9 +264,10 @@ img[src$="/rosiebenbw.jpg"] {
 }
 
 .bio-thumb {
-  width: 115px;
-  min-width: 115px;
-  height: 115px;
+  width: 15vw;
+  max-width: 360px;
+  height: 15vw;
+  max-height: 360px;
   object-fit: cover;
   border-radius: 50%;
   display: block;
@@ -275,8 +279,34 @@ img[src$="/rosiebenbw.jpg"] {
   min-width: 0;
 }
 
+.research-topic {
+  display: flex;
+  align-items: flex-start;
+  gap: 2rem;
+  margin: 2rem 0;
+}
+
+.research-topic-image {
+  width: 180px;
+  min-width: 180px;
+  height: 180px;
+  object-fit: contain;
+  display: block;
+  margin-top: 0.35rem;
+}
+
+.research-topic-content {
+  flex: 1;
+  min-width: 0;
+}
+
 @media (max-width: 767px) {
   .bio-era {
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+
+  .research-topic {
     flex-direction: column;
     gap: 0.75rem;
   }
@@ -287,6 +317,13 @@ img[src$="/rosiebenbw.jpg"] {
     min-width: 0;
     height: auto;
     margin-top: 0.35rem;
+  }
+
+  .research-topic-image {
+    width: 100%;
+    max-width: 220px;
+    min-width: 0;
+    height: auto;
   }
 }
 

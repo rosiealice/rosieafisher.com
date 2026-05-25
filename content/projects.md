@@ -1,6 +1,7 @@
+![Rainbow over Ambleside in the English Lake District](/images/sanjuans3.png "Rainbow over Ambleside in the English Lake District")
 
 ### Ongoing Projects
-- **[WIEMIP](https://www.sparkclimate.org/warming-induced-emissions/wie-mip) (2025-2029)** Warming-Induced Emissions Model Intercomparison Project. [(PI, Ben Poulter](https://www.sparkclimate.org/our-team-members/ben-poulter))
+- **[WIEMIP](https://www.sparkclimate.org/warming-induced-emissions/wie-mip) (2025-2029)** Warming-Induced Emissions Model Intercomparison Project. [(PI, Ben Poulter](https://www.sparkclimate.org/our-team-members/ben-poulter)). 
 - **[BorealBlaze](https://cicero.oslo.no/en/projects/borealblaze) (2025-2029)** Climate effects and feedbacks of changing high-latitude wildfire. NRC, 12M NOK (PI, [Marianne Tronstad Lund](https://cicero.oslo.no/no/ansatte/marianne-tronstad-lund)).
 - **[INESII](https://www.norceresearch.no/en/projects/ines2-infrastructure-for-norwegian-earth-system-modelling-phase-2) (2025-2030)** Infrastructure for Norwegian Earth System modelling phase 2. NRC, 25M NOK (PI, [Mats Bentsen](https://www.norceresearch.no/personer/mats-bentsen/851)).
 - **[NAVIGATE](https://www.norceresearch.no/en/projects/navigating-the-uncharted-territory-of-the-anthropocene-climate) (2025-2029)** Navigating the uncharted territory of the Anthropocene climate. NRC, 12M NOK (PI, [Jerry Tjiputra](https://www.norceresearch.no/en/persons/jerry-tjiputra/839)).

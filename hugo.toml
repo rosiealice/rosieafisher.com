@@ -57,23 +57,18 @@ theme = "minimal"
     url = "/projects/"
     weight = 3
 
-  [[menu.main]]
-    name = "bio"
-    url = "/bio/"
-    weight = 4
-
-  [[menu.main]]
-    name = "personal"
-    url = "/personal/"
-    weight = 5
+    [[menu.main]]
+      name = "bio"
+      url = "/bio/"
+      weight = 4
 
   [[menu.main]]
     name = "research"
     url = "/research/"
-    weight = 6
+      weight = 5
 
   [[menu.main]]
     name = "diversity"
     url = "/diversity/"
-    weight = 7
+      weight = 6
 

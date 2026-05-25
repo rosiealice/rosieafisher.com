@@ -56,7 +56,7 @@ Prior to the [CMIP6](https://wcrp-cmip.org/cmip-phases/cmip6/) release of the Co
 {{< bioera src="/images/sorgeat.jpg" alt="Toulouse" >}}
 
 ### Toulouse, France
-In 2018, following the birth of our son and [other events](https://www.youtube.com/watch?v=8H4tJEtCRuU), we felt the pull of family ties and moved back to Europe. My husband [Ben](/personal/)  was awarded a ['Make Our Planet Great Again'](/images/ben_macron.JPG)  fellowship at [CERFACS](https://cerfacs.fr/en/home/), on the [Meteo France](https://www.umr-cnrm.fr/en/homepage/) campus in [Toulouse](https://upload.wikimedia.org/wikipedia/commons/f/fe/Toulouse_-_vue_sur_les_Pyr%C3%A9n%C3%A9es.jpg), France. Just after we had settled in from the [chaos of moving](https://rbsinfrance.blogspot.com/), COVID19 began, and before it was over, I had to have major [brain surgery](/diversity/), so this was a quite tumulteous time. Nonetheless, I had also began advising the EMERALD project in Oslo (that had been [inspired](https://www.mn.uio.no/geo/english/research/projects/emerald/) by my colleague [Dave Beerling](https://sheffield.ac.uk/biosciences/people/academic-staff/david-j-beerling) from Sheffield). Ultimately, the connection with this emerging group of CLM-FATES collaborators drew me to Norway, while Ben's connection to [Glen Peters](https://cicero.oslo.no/en/employees/glen-peters) helped lead us to CICERO in 2021.
+In 2018, following the birth of our son and [other events](https://www.youtube.com/watch?v=8H4tJEtCRuU), we felt the pull of family ties and moved back to Europe. My husband [Ben](https://cicero.oslo.no/en/employees/ben-sanderson) was awarded a ['Make Our Planet Great Again'](/images/ben_macron.JPG) fellowship at [CERFACS](https://cerfacs.fr/en/home/), on the [Meteo France](https://www.umr-cnrm.fr/en/homepage/) campus in [Toulouse](https://upload.wikimedia.org/wikipedia/commons/f/fe/Toulouse_-_vue_sur_les_Pyr%C3%A9n%C3%A9es.jpg), France. Just after we had settled in from the [chaos of moving](https://rbsinfrance.blogspot.com/), COVID19 began, and before it was over, I had to have major [brain surgery](/diversity/), so this was a quite tumulteous time. Nonetheless, I had also began advising the EMERALD project in Oslo (that had been [inspired](https://www.mn.uio.no/geo/english/research/projects/emerald/) by my colleague [Dave Beerling](https://sheffield.ac.uk/biosciences/people/academic-staff/david-j-beerling) from Sheffield). Ultimately, the connection with this emerging group of CLM-FATES collaborators drew me to Norway, while Ben's connection to [Glen Peters](https://cicero.oslo.no/en/employees/glen-peters) helped lead us to CICERO in 2021.
 {{< /bioera >}}
 
 {{< bioera src="/images/tyin.jpg" alt="Oslo" >}}
@@ -66,5 +66,15 @@ In 2018, following the birth of our son and [other events](https://www.youtube.c
 Since arriving in Norway I have worked on expanding and strengthening the Norwegian land modeling network, and especially on linking CLM-FATES with the Norwegian Earth System Model (NorESM). We have built a collaborative development team between the Univeristy of Oslo, the Norwegian Met Office and CICERO, and as a result of our efforts, NorESM will be the first ESM to include FATES for it's CMIP simulations, opening up a huge array of potential research directions. 
 
 As evidenced by the above, this has been a long and winding road. But I am excited for all the new opportunities that linking ecological principles to the physics of Earth system will provide for understanding  the possible futures of the biosphere and the consequences and potential of human influence over it. 
+
+{{< /bioera >}}
+
+{{< bioera src="/images/rosiebenbw.jpg" alt="Rosie and Ben" >}}
+
+### Personal
+
+In 2015, [Ben Sanderson](https://cicero.oslo.no/en/employees/ben-sanderson) (who is also a climate scientist at CICERO) and I got [married](/images/wedding.JPG) in the [College Valley](https://www.college-valley.co.uk/) in [Northumberland National Park](https://www.nationalparks.uk/park/northumberland/). After many [moves](https://www.youtube.com/watch?v=2ybGpF306Ww), we now live on the side of a [hill](https://www.visitnorway.com/listings/hiking-to-kolsastoppen/193271/) in Western Oslo with our son and a huge [Norwegian cat](/images/output.mp4) called Angus. We probably talk a bit too much about science over dinner.
+
+Outside of work I like cultivating [wild](/images/mayflower.jpg) and [edible](/images/kale.JPG) plants, [latin dancing](/images/flamenco_light.JPG), [x-country](/images/finse_ski.JPG), [telemark](/images/telemark.JPG) and [randonnee](/images/randoski2.jpg) skiing, and running as far into the mountains as my uncooperative hips will allow.
 
 {{< /bioera >}}
