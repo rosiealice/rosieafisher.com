@@ -9,16 +9,15 @@
 #### **2026**
 
 - Chambers JQ, Nogueira Lima AJ, Pastorello G, Gimenez BO, Meng L, et al. (2026). Hot droughts in the Amazon provide a window to a future hypertropical climate. *Nature*. [DOI](https://www.nature.com/articles/s41586-025-09728-y)
-- Sanderson BM, Baur S, Schleussner CF, Peters GP, Mittal S, Sandstad M, et al. (2026). Robust assessment of Solar Radiation Modification risks and uncertainties must include shocks and societal feedbacks. *EGUsphere*.
 - Eckes-Shephard AH, Argles APK, Brzeziecki B, Cox PM, De Kauwe MG, et al. (2026). Demography, dynamics and data: building confidence for simulating changes in the world's forests. *New Phytologist*. [DOI](https://doi.org/10.1111/nph.70643)
 
 #### **2025**
 
-- Alpay G, Fisher J, Braghiere RK, Brzostek E, Dauber G, Allen K, **Fisher RA**. (2025). Optimizing plant nutrient uptake: cost function sensitivity analysis of the FUN model. *Environmental Research: Ecology*. [DOI][(https://iopscience.iop.org/article/10.1088/2752-664X/ae00cb/meta)
+- Alpay G, Fisher J, Braghiere RK, Brzostek E, Dauber G, Allen K, **Fisher RA**. (2025). Optimizing plant nutrient uptake: cost function sensitivity analysis of the FUN model. *Environmental Research: Ecology*. [DOI](https://iopscience.iop.org/article/10.1088/2752-664X/ae00cb/meta)
 - Foster AC, Hawkins LR, Kennedy D, Bonan GB, **Fisher RA**, Needham JF, et al. (2025). Contrasting parametric sensitivities in two global vegetation models using parameter perturbation ensembles. *JAMES*. [DOI](https://doi.org/10.1029/2025MS005590)
-- Needham JF, Dey S, Koven CD, **Fisher RA**, Knox RG, Lamour J, Lemieux G, Longo M, Rogers A, Holm J. (2025). Vertical canopy gradients of respiration drive plant carbon budgets and leaf area index. *New Phytologist*. [DOI[( https://doi.org/10.1111/nph.20423)
+- Needham JF, Dey S, Koven CD, **Fisher RA**, Knox RG, Lamour J, Lemieux G, Longo M, Rogers A, Holm J. (2025). Vertical canopy gradients of respiration drive plant carbon budgets and leaf area index. *New Phytologist*. [DOI]( https://doi.org/10.1111/nph.20423)
 - Gomez JL, Allen RJ, Horowitz LW, Turnock ST, **Fisher RA**, Clifton OE, Mignone BK, Shevliakova E, Malyshev S. (2025). Climate effects of a future net forestation scenario in CMIP6 models. *npj Climate and Atmospheric Science*. [DOI](https://www.nature.com/articles/s41612-025-01127-4)
-- Keetz LT, Aalstad K, **Fisher RA**, Poppe Teran C, Naz B, Pirk N, Yilmaz YA, Skarpaas O. (2025). Inferring parameters in a complex land surface model by combining data assimilation and machine learning. *JAMES*.
+- Keetz LT, Aalstad K, **Fisher RA**, Poppe Teran C, Naz B, Pirk N, Yilmaz YA, Skarpaas O. (2025). Inferring parameters in a complex land surface model by combining data assimilation and machine learning. *JAMES*. [DOI](https://doi.org/10.1029/2024MS004542)
 - Kennedy D, Dagon K, Lawrence DM, **Fisher RA**, Sanderson BM, Collier N, Hoffman FM, Koven CD, Kluzek E, Levis S. (2025). One-at-a-time parameter perturbation ensemble of Community Land Model 5.1. *JAMES*. [DOI](https://doi.org/10.1029/2024MS004715)
 - Raoult N, Douglas N, MacBean N, Kolassa J, Quaife T, Roberts AG, **Fisher RA**, et al. (2025). Parameter estimation in land surface models: challenges and opportunities with data assimilation and machine learning. *JAMES*. [DOI](https://doi.org/10.1029/2024MS004733)
 
@@ -28,10 +27,10 @@
 - Allen RJ, Samset BH, Wilcox LJ, **Fisher RA**. (2024). Are Northern Hemisphere boreal forest fires more sensitive to future aerosol mitigation than to greenhouse gas-driven warming? *Science Advances*. [DOI](https://doi.org/10.1126/sciadv.adl4007)
 - Liu L, **Fisher RA**, Douville H, et al. (2024). No constraint on long-term tropical land carbon-climate feedback uncertainties from interannual variability. *Communications Earth & Environment*. [DOI](https://doi.org/10.1038/s43247-024-01461-8)
 - Knox RG, Koven CD, Riley WJ, Walker AP, Wright SJ, Holm JA, Wei X, **Fisher RA**, et al. (2024). Nutrient dynamics in a coupled terrestrial biosphere and land model (ELM-FATES-CNP). *JAMES*. [DOI](https://doi.org/10.1029/2023MS003689)
-- Hes G, Vanderkelen I, **Fisher RA**, Chave J, Ogee J, Davin EL. (2024). Projecting future forest microclimate using a land surface model. *Environmental Research Letters*.
-- Poppe Teran C, Naz BS, Vereecken H, Baatz R, **Fisher RA**, Hendricks Franssen HJ. (2024). Systematic underestimation of type-specific ecosystem process variability in CLM5 over Europe. *EGUsphere*.
-- Robbins Z, Chambers J, Chitra-Tarak R, Christoffersen B, Dickman LT, **Fisher RA**, et al. (2024). Future climate doubles the risk of hydraulic failure in a wet tropical forest. *New Phytologist*.
-- Douville H, Allan RP, Arias PA, **Fisher RA**. (2024). Call for caution regarding the efficacy of large-scale afforestation and its hydrological effects. *Science of the Total Environment*.
+- Hes G, Vanderkelen I, **Fisher RA**, Chave J, Ogee J, Davin EL. (2024). Projecting future forest microclimate using a land surface model. *Environmental Research Letters*. [DOI](https://iopscience.iop.org/article/10.1088/1748-9326/ad1f04)
+- Poppe Teran C, Naz BS, Vereecken H, Baatz R, **Fisher RA**, Hendricks Franssen HJ. (2024). Systematic underestimation of type-specific ecosystem process variability in CLM5 over Europe. *EGUsphere*. [DOI](https://gmd.copernicus.org/articles/18/287/2025/)
+- Robbins Z, Chambers J, Chitra-Tarak R, Christoffersen B, Dickman LT, **Fisher RA**, et al. (2024). Future climate doubles the risk of hydraulic failure in a wet tropical forest. *New Phytologist*. [DOI](Future climate doubles the risk of hydraulic failure in a wet tropical forest.)
+- Douville H, Allan RP, Arias PA, **Fisher RA**. (2024). Call for caution regarding the efficacy of large-scale afforestation and its hydrological effects. *Science of the Total Environment*. [DOI](https://nph.onlinelibrary.wiley.com/doi/10.1111/nph.19956)
 - Cheng Y, Wang W, Detto M, **Fisher RA**, Shoemaker C. (2024). Calibrating tropical forest coexistence in ecosystem demography models using multi-objective optimization. *JAMES*.
 
 #### **2023**
