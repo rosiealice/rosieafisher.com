@@ -19,15 +19,15 @@ Here I will describe the team of people currently working in the NorESM/FATES mo
 
 ### Post-Docs and PhD students working with NorESM-CLM-FATES
 
--Jeanne Resohazy
+-[Jeanne Rezsöhazy](https://www4.uib.no/en/find-employees/jeanne.rezsohazy). Jeanne is a post-doctoral researcher at the University of Bergen working on the calibration and implementation of dwarf shrub ecophysiology in FATES as part of the [DURIN](https://www4.uib.no/en/research/research-projects/durin) project. 
 
--Anna Walsh-Vilander 
+-[Anna Walsh-Vilander](https://www.mn.uio.no/geo/english/people/aca/metos/annawals/) is a PhD student at the University of Oslo working on measuring nad modeling hardening, frost damage and winter hydraulics in CLM-FATES as part of the [SNOWLESS](https://www.mn.uio.no/geo/forskning/prosjekter/snowless/) project. 
+
+-[Shelby Sundquist](https://www.mn.uio.no/geo/personer/vit/metos/shelbys/) is a post-doctoral researcher at the University of Oslo implementating mycorrhizal dynamics in CLM-FATES as part of the [NorSink](https://cicero.oslo.no/en/projects/norsink) project. 
 
 -Elisabeth Wörner
 
--Shelby Sundquist
-
--Adele Zaini
+-[Adele Zaini](Ahttps://cicero.oslo.no/en/employees/adele-zaini) is a PhD student at CICERO working on the biogeochemical and biogeophysical responsese to land use change and natural climate solutions. 
 
 -Gregoire Canchon
 
