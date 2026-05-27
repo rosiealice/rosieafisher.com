@@ -216,15 +216,6 @@ main.home-main img.profile,
   mask-composite: intersect;
 }
 
-img[src$="/rainbow_wide_ambleside.jpg"] {
-  width: 60vw;
-  max-width: 60vw;
-  height: auto;
-  display: block;
-  margin-left: calc(50% - 30vw);
-  margin-right: calc(50% - 30vw);
-}
-
 img[src$="/umbrella_rosie.JPG"] {
   width: 60vw;
   max-width: 60vw;
@@ -264,10 +255,9 @@ img[src$="/umbrella_rosie.JPG"] {
 }
 
 .bio-thumb {
-  width: 15vw;
-  max-width: 360px;
-  height: 15vw;
-  max-height: 360px;
+  width: 115px;
+  min-width: 115px;
+  height: 115px;
   object-fit: cover;
   border-radius: 50%;
   display: block;

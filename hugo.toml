@@ -68,7 +68,8 @@ theme = "minimal"
       weight = 5
 
   [[menu.main]]
-    name = "diversity"
-    url = "/diversity/"
-      weight = 6
+    name = "team"
+    url = "/team/"
+    weight = 6
 
+  

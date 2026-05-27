@@ -56,7 +56,7 @@ Prior to the [CMIP6](https://wcrp-cmip.org/cmip-phases/cmip6/) release of the Co
 {{< bioera src="/images/sorgeat.jpg" alt="Toulouse" >}}
 
 ### Toulouse, France
-In 2018, following the birth of our son and [other events](https://www.youtube.com/watch?v=8H4tJEtCRuU), we felt the pull of family ties and moved back to Europe. My husband [Ben](https://cicero.oslo.no/en/employees/ben-sanderson) was awarded a ['Make Our Planet Great Again'](/images/ben_macron.JPG) fellowship at [CERFACS](https://cerfacs.fr/en/home/), on the [Meteo France](https://www.umr-cnrm.fr/en/homepage/) campus in [Toulouse](https://upload.wikimedia.org/wikipedia/commons/f/fe/Toulouse_-_vue_sur_les_Pyr%C3%A9n%C3%A9es.jpg), France. Just after we had settled in from the [chaos of moving](https://rbsinfrance.blogspot.com/), COVID19 began, and before it was over, I had to have major [brain surgery](/diversity/), so this was a quite tumulteous time. Nonetheless, I had also began advising the EMERALD project in Oslo (that had been [inspired](https://www.mn.uio.no/geo/english/research/projects/emerald/) by my colleague [Dave Beerling](https://sheffield.ac.uk/biosciences/people/academic-staff/david-j-beerling) from Sheffield). Ultimately, the connection with this emerging group of CLM-FATES collaborators drew me to Norway, while Ben's connection to [Glen Peters](https://cicero.oslo.no/en/employees/glen-peters) helped lead us to CICERO in 2021.
+In 2018, following the birth of our son and [other events](https://www.youtube.com/watch?v=8H4tJEtCRuU), we felt the pull of family ties and moved back to Europe. My husband [Ben](https://cicero.oslo.no/en/employees/ben-sanderson) was awarded a ['Make Our Planet Great Again'](/images/ben_macron.JPG) fellowship at [CERFACS](https://cerfacs.fr/en/home/), on the [Meteo France](https://www.umr-cnrm.fr/en/homepage/) campus in [Toulouse](https://upload.wikimedia.org/wikipedia/commons/f/fe/Toulouse_-_vue_sur_les_Pyr%C3%A9n%C3%A9es.jpg), France. Just after we had settled in from the [chaos of moving](https://rbsinfrance.blogspot.com/), COVID19 began, and before it was over, I had to have major [brain surgery](/bio/#diversity), so this was a quite tumulteous time. Nonetheless, I had also began advising the EMERALD project in Oslo (that had been [inspired](https://www.mn.uio.no/geo/english/research/projects/emerald/) by my colleague [Dave Beerling](https://sheffield.ac.uk/biosciences/people/academic-staff/david-j-beerling) from Sheffield). Ultimately, the connection with this emerging group of CLM-FATES collaborators drew me to Norway, while Ben's connection to [Glen Peters](https://cicero.oslo.no/en/employees/glen-peters) helped lead us to CICERO in 2021.
 {{< /bioera >}}
 
 {{< bioera src="/images/tyin.jpg" alt="Oslo" >}}
@@ -76,5 +76,19 @@ As evidenced by the above, this has been a long and winding road. But I am excit
 In 2015, [Ben Sanderson](https://cicero.oslo.no/en/employees/ben-sanderson) (who is also a climate scientist at CICERO) and I got [married](/images/wedding.JPG) in the [College Valley](https://www.college-valley.co.uk/) in [Northumberland National Park](https://www.nationalparks.uk/park/northumberland/). After many [moves](https://www.youtube.com/watch?v=2ybGpF306Ww), we now live on the side of a [hill](https://www.visitnorway.com/listings/hiking-to-kolsastoppen/193271/) in Western Oslo with our son and a huge [Norwegian cat](/images/output.mp4) called Angus. We probably talk a bit too much about science over dinner.
 
 Outside of work I like cultivating [wild](/images/mayflower.jpg) and [edible](/images/kale.JPG) plants, [latin dancing](/images/flamenco_light.JPG), [x-country](/images/finse_ski.JPG), [telemark](/images/telemark.JPG) and [randonnee](/images/randoski2.jpg) skiing, and running as far into the mountains as my uncooperative hips will allow.
+
+{{< /bioera >}}
+
+{{< bioera src="/images/rainbow_wide_ambleside.jpg" alt="Rainbow over Ambleside" >}}
+
+### Diversity
+
+ I think the world would be a better place if we all shared more of our challenges with each other, so with that in mind:
+
+**I am partially sighted**: In 2020 I discovered that I have a rare and inoperable type of benign brain tumor that presses on my optic nerves, and so I can only use about 40% of my visual field. So when I say your fonts are too small, I really do mean it. So far it has been kept in check via the magic of science.
+
+**I am also partially deaf**: I inherited a gradual hearing loss that became noticeable in my mid-30s. I use hearing aids, although quite a lot of the time I use AirPods Pro, which are much easier to track down when misplaced.
+
+**I also have ADHD**: ADHD has some fairly substantial upsides as a scientist. But there are times when I genuinely do not know what month we are in, and doing tax admin in four different jurisdictions is not something that comes naturally.
 
 {{< /bioera >}}
