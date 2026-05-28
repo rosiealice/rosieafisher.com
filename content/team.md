@@ -30,7 +30,7 @@ The NorESM-FATES modeling community works across several institutes in Norway (b
 
 -[Anna Walsh-Vilander](https://www.mn.uio.no/geo/english/people/aca/metos/annawals/) is a PhD student at the University of Oslo working on measuring nad modeling hardening, frost damage and winter hydraulics in CLM-FATES as part of the [SNOWLESS](https://www.mn.uio.no/geo/forskning/prosjekter/snowless/) project. 
 
--[Elisabeth (Betty) Wörner](https://www.mn.uio.no/geo/english/people/aca/metos/elisacw/) is a PhD student at the University of Oslo working on the implementation of the biogeochemistry of mycorrhizae into the CLM6 model framework. 
+-[Elisabeth (Betty) Wörner](https://www.mn.uio.no/geo/english/people/aca/metos/elisacw/) is a PhD student at the University of Oslo working on the implementation of the biogeochemistry of mycorrhizae into the CLM6 model framework in the [BIOGOV project](https://www.mn.uio.no/cba/english/news-and-events/news/cba-starts-the-large-rcn-project-biogov.html).
 
 -[Shelby Sundquist](https://www.mn.uio.no/geo/personer/vit/metos/shelbys/) is a post-doctoral researcher at the University of Oslo implementating mycorrhizal dynamics in CLM-FATES as part of the [NorSink](https://cicero.oslo.no/en/projects/norsink) project. 
 
@@ -38,7 +38,7 @@ The NorESM-FATES modeling community works across several institutes in Norway (b
 
 -[Erik Kusch](https://www.erikkusch.com/) is a senior advisor and data steward at CICERO. He is interested in data pipelines and effective access to climate infomation and is involved in genreation of scenarios for FATES within the NorSink and NCS-REVISE projects. 
 
--[Zosia Staniaszek](https://cicero.oslo.no/en/employees/zosia-staniaszek) is a senior researcher at CICERO in the Climate Systems group. She has a bechground in coupled system dynamics of methane, and is working to improve FATES fire precictions and functionality for simulating high latitude fire emissions in the context of the [Boreal Blaze](https://cicero.oslo.no/en/projects/borealblaze) project. 
+-[Zosia Staniaszek](https://cicero.oslo.no/en/employees/zosia-staniaszek) is a senior researcher at CICERO in the Climate Systems group. She has background in coupled system dynamics of methane, and is working to improve FATES fire precictions and functionality for simulating high latitude fire emissions in the context of the [Boreal Blaze](https://cicero.oslo.no/en/projects/borealblaze) project. 
 
 -[Gregoire Canchon](https://blogs.ed.ac.uk/gregoirecanchon/) is a PhD student at the University of Edinburgh. He is working (via an internship at CICERO in 2026) on benchmarking and validation of CLM-FATES fire predictions using a variety of Earth Observation data products. 
 
