@@ -1,6 +1,13 @@
+---
+title: "Network"
+url: "/network/"
+aliases:
+  - "/team/"
+---
+
 ### Network
 
-Here I will describe the team of people currently working in the NorESM/FATES modeling community. We are a multi-institute activity that is based somewhat around the [NorESM consortium](https://www.noresm.org/consortium/). 
+Here I will describe the team of people currently working in the NorESM-FATES modeling community. We are a multi-institute activity that is based somewhat around the [NorESM consortium](https://www.noresm.org/consortium/). 
 
 ### Core NorESM-FATES team 
 
