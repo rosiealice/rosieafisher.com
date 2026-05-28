@@ -68,7 +68,7 @@ theme = "minimal"
       weight = 5
 
   [[menu.main]]
-    name = "team"
+    name = "network"
     url = "/team/"
     weight = 6
 

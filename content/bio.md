@@ -1,7 +1,7 @@
 
 ### Travels through the theoretical and actual land surface
 
-I have had the tramendous good fortune of living in many interesting places and to be influenced by the ideas of many wonderful and thoughtful scientists. This is a summary of the story of my journey in science, via places, people and ideas (abbreviated [here](/cv/)).....
+I have had the tramendous good fortune of living in many interesting places and to be influenced by the ideas of many wonderful and thoughtful scientists. This is a summary of the story of my journey in science, via places, people and ideas (abbreviated [here](/cv/)).
 
 {{< bioera src="/images/northumberland.jpg" alt="Northumberland" >}}
 
@@ -85,10 +85,10 @@ Outside of work I like cultivating [wild](/images/mayflower.jpg) and [edible](/i
 
  I think the world would be a better place if we all shared more of our challenges with each other, so with that in mind:
 
-**I am partially sighted**: In 2020 I discovered that I have a rare and inoperable type of benign brain tumor that presses on my optic nerves, and so I can only use about 40% of my visual field. So when I say your fonts are too small, I really do mean it. So far it has been kept in check via the magic of science.
+**I am partially sighted**: In 2020 I discovered that I have a rare [rare](https://neupsykey.com/21-optic-pathway-glioma-and-juvenile-pilocytic-astrocytoma) and inoperable type of benign brain tumor that presses on my optic nerves, and so I can only use about 40% of my visual field. So when I say your fonts are too small, I really do mean it. So far it has been kept in check via the [magic of science](https://en.wikipedia.org/wiki/Bevacizumab). 
 
-**I am also partially deaf**: I inherited a gradual hearing loss that became noticeable in my mid-30s. I use hearing aids, although quite a lot of the time I use AirPods Pro, which are much easier to track down when misplaced.
+**I am also partially deaf**: I inherited a gradual hearing loss that became noticeable in my mid-30s. I use hearing aids, although quite a lot of the time I use Apple[ AirPods Pro](https://www.apple.com/no/airpods-pro/), which are much easier to track down when misplaced, because...
 
-**I also have ADHD**: ADHD has some fairly substantial upsides as a scientist. But there are times when I genuinely do not know what month we are in, and doing tax admin in four different jurisdictions is not something that comes naturally.
+**I also have ADHD**:[ADHD](https://www.youtube.com/watch?v=4uJv3y9ajQY) has some fairly substantial upsides as a scientist. But there are times when I genuinely do not know what month we are in, and doing tax admin in four different jurisdictions is not something that comes naturally.
 
 {{< /bioera >}}
