@@ -7,7 +7,7 @@ aliases:
 
 ### Network
 
-The NorESM-FATES modeling community works across several institutes in Norway (based somewhat around the [NorESM consortium](https://www.noresm.org/consortium/).), and closedly with the [CLM](https://www.cesm.ucar.edu/working-groups/land) anf [FATES](https://github.com/ngeet/fates) development teams.  
+The NorESM-FATES modeling community works across several institutes in Norway (based somewhat around the [NorESM consortium](https://www.noresm.org/consortium/).), and collaborates very closely with the international [CLM](https://www.cesm.ucar.edu/working-groups/land) and [FATES](https://github.com/ngeet/fates) development teams.  
 
 ### Core NorESM-FATES team 
 
