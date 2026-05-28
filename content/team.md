@@ -15,7 +15,7 @@ The NorESM-FATES modeling community works across several institutes in Norway (b
 
 [Jessica Needham](https://cicero.oslo.no/no/ansatte/jessica-needham) is also a senior researcher at CICERO. She was formerly a scientist at Lawrence Berkely lab in California and has been a member of the core FATES development team since 2021. She has a background in plant ecology and interests in carbon cycling, plant mortality, forest structure and competition and demographic properties of tropical forests. 
 
-[Matvey V. Debolsky]() is a research software engineer in the Meteorology and Ocean Sciences (MetOs) Dept. at the University of Oslo. Under the INES2 project he is a core develop of the software architecture and maintenance of NorESM, CLM and FATES, and additionally provides technical support for PhD and postDocs using and developing CLM and FATES at MetOs/UiO. 
+[Matvey V. Debolskiy](https://scholar.google.fr/citations?user=4pY-wMsAAAAJ&hl=en&oi=ao) is a research software engineer in the Meteorology and Ocean Sciences (MetOs) Dept. at the University of Oslo. Under the INES2 project he is a core develop of the software architecture and maintenance of NorESM, CLM and FATES, and additionally provides technical support for PhD and postDocs using and developing CLM and FATES at MetOs/UiO.  Matvey has worked extensively on permafrost and land surface hydrology in CLM.  
 
 [Marit Sandstad](https://cicero.oslo.no/no/ansatte/marit-sandstad) is a senior researcher at CICERO in the Climate Mitigation group. She has a PhD in theoretical astrophysics, and currently works on several aspects of climate dynamics, including simple climate models, emulators, scenario generation. Marit is interested in operational efficiency of climate workflows, and as such, has developed a [flexible diagnostics package](https://github.com/NorESMhub/xesmf_clm_fates_diagnostic) for NorESM-FATES and the CMOR-ization pipeline for the CMIP7 data request. 
 
@@ -54,7 +54,7 @@ The NorESM-FATES modeling community works across several institutes in Norway (b
 
 -[Hui Tang](https://scholar.google.com/citations?user=BG_HaL0AAAAJ&hl=en) is a researcher at the Finnish Meteorological Institute, and was formerly a researcher at the University of Oslo. He has interests in modeling plant physiology and ecology and has developed an advanced model of moss/non vascular plants for FATES. 
 
--[Ben Sanderson](https://cicero.oslo.no/en/employees/ben-sanderson) is Research Director for the Climate Mitigation group at CICERO and a leaf author in WGI of the IPCC AR7. He is interested in the links between climate emissios targets, land use scenarios and carbon cycle models. He in involved in the NCS-REVISE and NextGenCarbon projects. 
+-[Ben Sanderson](https://cicero.oslo.no/en/employees/ben-sanderson) is Research Director for the Climate Mitigation group at CICERO and a lead author in WGI of the IPCC AR7. He is interested in the links between climate emissios targets, land use scenarios and carbon cycle models. He in involved in the NCS-REVISE and NextGenCarbon projects. 
 
 -[Marianne Tronstad Lund](https://cicero.oslo.no/en/employees/marianne-lund) is Research Director for the Climate System group at CICERO. She is an expert in climate-aerosol interactions and has strong interests in understanding the role of fire in the Earth System. She leads the [BorealBlaze](https://cicero.oslo.no/en/projects/borealblaze) project.
 
