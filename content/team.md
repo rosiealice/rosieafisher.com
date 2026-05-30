@@ -26,15 +26,15 @@ The NorESM-FATES modeling community works across several institutes in Norway (b
 
 ### Early Career Researchers working with NorESM-CLM-FATES
 
--[Jeanne Rezsöhazy](https://www4.uib.no/en/find-employees/jeanne.rezsohazy). Jeanne is a post-doctoral researcher at the University of Bergen working on the calibration and implementation of dwarf shrub ecophysiology in FATES as part of the [DURIN](https://www4.uib.no/en/research/research-projects/durin) project. 
-
 -[Anna Walsh-Vilander](https://www.mn.uio.no/geo/english/people/aca/metos/annawals/) is a PhD student at the University of Oslo working on measuring nad modeling hardening, frost damage and winter hydraulics in CLM-FATES as part of the [SNOWLESS](https://www.mn.uio.no/geo/forskning/prosjekter/snowless/) project. 
 
 -[Elisabeth (Betty) Wörner](https://www.mn.uio.no/geo/english/people/aca/metos/elisacw/) is a PhD student at the University of Oslo working on the implementation of the biogeochemistry of mycorrhizae into the CLM6 model framework in the [BIOGOV project](https://www.mn.uio.no/cba/english/news-and-events/news/cba-starts-the-large-rcn-project-biogov.html).
 
+-[Adele Zaini](Ahttps://cicero.oslo.no/en/employees/adele-zaini) is a PhD student at CICERO working on the biogeochemical and biogeophysical responsese to land use change and natural climate solutions.
+
 -[Shelby Sundquist](https://www.mn.uio.no/geo/personer/vit/metos/shelbys/) is a post-doctoral researcher at the University of Oslo implementating mycorrhizal dynamics in CLM-FATES as part of the [NorSink](https://cicero.oslo.no/en/projects/norsink) project. 
 
--[Adele Zaini](Ahttps://cicero.oslo.no/en/employees/adele-zaini) is a PhD student at CICERO working on the biogeochemical and biogeophysical responsese to land use change and natural climate solutions. 
+-[Jeanne Rezsöhazy](https://www4.uib.no/en/find-employees/jeanne.rezsohazy). Jeanne is a post-doctoral researcher at the University of Bergen working on the calibration and implementation of dwarf shrub ecophysiology in FATES as part of the [DURIN](https://www4.uib.no/en/research/research-projects/durin) project. 
 
 -[Erik Kusch](https://www.erikkusch.com/) is a senior advisor and data steward at CICERO. He is interested in data pipelines and effective access to climate infomation and is involved in genreation of scenarios for FATES within the NorSink and NCS-REVISE projects. 
 
@@ -46,11 +46,11 @@ The NorESM-FATES modeling community works across several institutes in Norway (b
 
 ### Norwegian Land Modeling Community 
 
--[Terje Koren Berntsen](https://www.mn.uio.no/geo/personer/vit/metos/terjebe/) is a Professor in the Meteorology and Ocean Sciences Dept at the University of Oslo. He is an expert in atmospheric chemistry mediated Earth system feedbacks and supervises several ECRs working on FATES. He leads the [BIOGOV project](https://www.mn.uio.no/cba/english/news-and-events/news/cba-starts-the-large-rcn-project-biogov.html)
+-[Terje Koren Berntsen](https://www.mn.uio.no/geo/personer/vit/metos/terjebe/) is a professor in the Meteorology and Ocean Sciences Dept at the University of Oslo. He is an expert in atmospheric chemistry mediated Earth system feedbacks and supervises several ECRs working on FATES. He leads the [BIOGOV project](https://www.mn.uio.no/cba/english/news-and-events/news/cba-starts-the-large-rcn-project-biogov.html)
 
--[Frans-Jan Parmentier](https://www.mn.uio.no/geo/personer/vit/metos/fransjan/) is an arctic carbon cycle scientist at [MetOs](https://www.mn.uio.no). He has extensive experience and expertise in remote sensing, plant physiology and ecophysiology and leads the [SNOWLESS](https://www.mn.uio.no/geo/forskning/prosjekter/snowless/) project.
+-[Frans-Jan Parmentier](https://www.thissideofthearctic.org/) is an arctic carbon cycle scientist at [MetOs](https://www.mn.uio.no). He has extensive experience and expertise in remote sensing, plant physiology and ecophysiology and leads the [SNOWLESS](https://www.mn.uio.no/geo/forskning/prosjekter/snowless/) project. Frans-Jan is a member of the [Centre for Biogeochemistry in the Anthropocene](https://www.mn.uio.no/cba/english/) at the University of Oslo. . 
 
--[Vigdis Vandvik](https://betweenthefjords.w.uib.no/home/) is a Professor at the University of Bergen and leads the 'Between the Fjords' lab. She is a leading expert in functional ecoology, plant trait data collection and ecosystem physioloy. She is a Coordinating Lead Author of the IPCC 7th Assessment Report and leads the [DURIN](https://www4.uib.no/en/research/research-projects/durin) project developing dwarf shrub representations in FATES. 
+-[Vigdis Vandvik](https://betweenthefjords.w.uib.no/home/) is a professor at the University of Bergen and leads the 'Between the Fjords' lab. She is a leading expert in functional ecoology, plant trait data collection and ecosystem physiology. She is a Coordinating Lead Author of the IPCC 7th Assessment Report and leads the [DURIN](https://www4.uib.no/en/research/research-projects/durin) project developing dwarf shrub representations in FATES. 
 
 -[Hui Tang](https://scholar.google.com/citations?user=BG_HaL0AAAAJ&hl=en) is a researcher at the Finnish Meteorological Institute, and was formerly a researcher at the University of Oslo. He has interests in modeling plant physiology and ecology and has developed an advanced model of moss/non vascular plants for FATES. 
 
