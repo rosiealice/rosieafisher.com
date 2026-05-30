@@ -3,6 +3,7 @@
 
 I have had the tramendous good fortune of living in many interesting places and to be influenced by the ideas of many wonderful and thoughtful scientists. This is a summary of the story of my journey in science, via places, people and ideas (abbreviated [here](/cv/)).
 
+
 {{< bioera src="/images/northumberland.jpg" alt="Northumberland" >}}
 
 ### Northumberland, UK
@@ -63,7 +64,7 @@ In 2018, following the birth of our son and [other events](https://www.youtube.c
 
 
 ### Oslo, Norway
-Since arriving in Norway I have worked on expanding and strengthening the Norwegian land modeling network, and especially on linking CLM-FATES with the Norwegian Earth System Model (NorESM). We have built a collaborative development team between the Univeristy of Oslo, the Norwegian Met Office and CICERO, and as a result of our efforts, NorESM will be the first ESM to include FATES for it's CMIP simulations, opening up a huge array of potential research directions. 
+Since arriving in Norway I have worked on expanding and strengthening the Norwegian land modeling network, and especially on linking CLM-FATES with the Norwegian Earth System Model (NorESM). We have built a collaborative development network between the Univeristy of Oslo, the Norwegian Met Office and CICERO, and as a result of our efforts, NorESM will be the first ESM to include FATES for it's CMIP simulations, opening up a huge array of potential research directions. 
 
 As evidenced by the above, this has been a long and winding road. But I am excited for all the new opportunities that linking ecological principles to the physics of Earth system will provide for understanding  the possible futures of the biosphere and the consequences and potential of human influence over it. 
 

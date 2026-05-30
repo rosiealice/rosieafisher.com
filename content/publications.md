@@ -9,6 +9,8 @@
 #### **2026**
 
 - Chambers JQ, Nogueira Lima AJ, Pastorello G, Gimenez BO, Meng L, et al. (2026). Hot droughts in the Amazon provide a window to a future hypertropical climate. *Nature*. [DOI](https://www.nature.com/articles/s41586-025-09728-y)
+- Sanderson BM, Baur S, Schleussner C-F, Peters GP, Mittal S, Sandstad M, Kallbekken S, Smith C, Fuss S, van Ruijven B, **Fisher RA**, Rogelj J, Seferian R, Samset B, Steinert NJ, Terray L, Fuglestvedt J. (2026). Robust assessment of Solar Radiation Modification risks and uncertainties must include shocks and societal feedbacks. *EGUsphere*. [DOI](https://doi.org/10.5194/egusphere-2026-28)
+
 - Eckes-Shephard AH, Argles APK, Brzeziecki B, Cox PM, De Kauwe MG, et al. (2026). Demography, dynamics and data: building confidence for simulating changes in the world's forests. *New Phytologist*. [DOI](https://doi.org/10.1111/nph.70643)
 
 #### **2025**

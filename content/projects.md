@@ -1,4 +1,4 @@
-![Rainbow over Ambleside in the English Lake District](/images/sanjuans3.png "Rainbow over Ambleside in the English Lake District")
+![Scrambling on the Wetterhorn in the San Juan mountains, Colorado](/images/sanjuans3.png "Scrambling on the Wetterhorn in the San Juan mountains, Colorado")
 
 ### Ongoing Projects
 - **[WIEMIP](https://www.sparkclimate.org/warming-induced-emissions/wie-mip) (2025-2029)** Warming-Induced Emissions Model Intercomparison Project. [(PI, Ben Poulter](https://www.sparkclimate.org/our-team-members/ben-poulter)). 
