@@ -1,14 +1,19 @@
 
-### Travels through the theoretical and actual land surface
+---
+---
 
-I have had the tramendous good fortune of living in many interesting places and to be influenced by the ideas of many wonderful and thoughtful scientists. This is a summary of the story of my journey in science, via places, people and ideas (abbreviated [here](/cv/)).
+{{< bioera src="/images/quizzical.jpg" alt="Travels through the theoretical and actual land surface" >}}
+### Travels through the theoretical and actual land surface.
 
+I have had the tramendous good fortune of living in many interesting places and to be influenced by the ideas of many wonderful and thoughtful scientists. This is the story so far (abbreviated [here](/cv/)).
+
+{{< /bioera >}}
 
 {{< bioera src="/images/northumberland.jpg" alt="Northumberland" >}}
 
 ### Northumberland, UK
 
-I grew up in the lovely county of [Northumberland](https://www.visitnorthumberland.com/) in northeast England. My dad ([who taught and researched urban redvelopment](https://www.northumbria.ac.uk/about-us/our-schools/school-of-architecture-and-built-environment/)) was an early enthusiast of what we would now call [“rewilding”](https://rewilding.org/), and I spent much of my childhood watching plants colonize the tangled garden behind our house, or walking in the nearby Lake District. At [school](https://pchs.cheviotlt.co.uk/) I [became fascinated](https://www.linkedin.com/in/john-hartshorne-a7671148/)  by the [successional ecophysiology](https://www.field-studies-council.org/resources/16-18-biology/succession/sand-dunes/) of [sand dunes](https://en.wikipedia.org/wiki/Scremerston) — particularly how plants not only create increasingly fertile conditions for their competitors, but also fundamentally reshape the land itself.
+I grew up in the lovely county of [Northumberland](https://www.visitnorthumberland.com/) in northeast England. My [dad](/images/dadcrab.jpg)  ([who taught and researched urban redvelopment](https://www.northumbria.ac.uk/about-us/our-schools/school-of-architecture-and-built-environment/)) was an early enthusiast of what we would now call [“rewilding”](https://rewilding.org/), and I spent much of my childhood watching plants colonize the tangled garden behind our house, or walking in the nearby Lake District. At [school](https://pchs.cheviotlt.co.uk/) I [became fascinated](https://www.linkedin.com/in/john-hartshorne-a7671148/)  by the [successional ecophysiology](https://www.field-studies-council.org/resources/16-18-biology/succession/sand-dunes/) of [sand dunes](https://en.wikipedia.org/wiki/Scremerston) — particularly how plants not only create increasingly fertile conditions for their competitors, but also fundamentally reshape the land itself.
 
 {{< /bioera >}}
 
@@ -46,7 +51,7 @@ Early models of vegetation dynamics have very simplified models of plant mortali
 {{< bioera src="/images/boulder.jpg" alt="Boulder" >}}
 
 ### Colorado, USA
-In 2010 I moved to Boulder, Colorado to work as a staff scientist in the [Terrestrial Sciences Section](https://www.cgd.ucar.edu/sections/tss/people) of the [National Centre for Atmospheric Research]().  Developing complex models of the Earth system is urgent, but how the biosphere of the Earth interacts with its climate is densely complex and [interdisciplinary problem](https://agupubs.onlinelibrary.wiley.com/cms/asset/827032d3-bc54-4718-87a5-44ea1b71140d/jame21092-fig-0001-m.jpg) that requires densely cooperative integration. My role at NCAR was to develop the vegetation representation in the flagship [Community Land Model](https://www.cesm.ucar.edu/models/clm), integrating scientific advances from across ecosystem science. 
+In 2010 I moved to Boulder, [Colorado](/images/crestedbutte.jpg) to work as a staff scientist in the [Terrestrial Sciences Section](https://www.cgd.ucar.edu/sections/tss/people) of the [National Centre for Atmospheric Research]().  Developing complex models of the Earth system is urgent, but how the biosphere of the Earth interacts with its climate is densely complex and [interdisciplinary problem](https://agupubs.onlinelibrary.wiley.com/cms/asset/827032d3-bc54-4718-87a5-44ea1b71140d/jame21092-fig-0001-m.jpg) that requires densely cooperative integration. My role at NCAR was to develop the vegetation representation in the flagship [Community Land Model](https://www.cesm.ucar.edu/models/clm), integrating scientific advances from across ecosystem science. 
 
 For the early part of my time at NCAR I focused on adapting the CLM code to integrate the ecosystem demography concepts I had worked on previously. Based on this foundation, in 2014, the [US Dept. of Energy](https://www.energy.gov/science/ber/biological-and-environmental-research) decided to start a decade-long investment in the development of what is now the [FATES](https://github.com/ngeet/fates) model via the [NGEE-tropics](https://ess.science.energy.gov/ngee-tropics/) project, greatly expanding the collaborative networks around and capabilities of the model, and bringing in [Charlie Koven](https://climatesciences.lbl.gov/profile/cdkoven/) as the co-leader of the FATES activity. 
 
