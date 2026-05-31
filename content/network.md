@@ -9,11 +9,11 @@ url: "/network/"
 
 The NorESM-FATES modeling community works across several institutes in Norway (based around the [NorESM consortium](https://www.noresm.org/consortium/)), and collaborates very closely with the international [CLM](https://www.cesm.ucar.edu/working-groups/land) and [FATES](https://github.com/ngeet/fates) development teams.  
 
-### Core NorESM-FATES network 
+### Core NorESM-FATES team 
 
 [Kjetil Aas](https://cicero.oslo.no/no/ansatte/kjetil-aas) is a senior researcher in the Climate System group at CICERO. He is heavily involved in the development of both FATES and NorESM, and serves as WP leader in the NorSink and INES2 projects. Kjetil has a background in land surface modeling with a  particular focus on the cryosphere and land-atmosphere coupling. 
 
-[Jessica Needham](https://cicero.oslo.no/no/ansatte/jessica-needham) is also a senior researcher at CICERO. She was formerly a scientist at Lawrence Berkely lab in California and has been a member of the core FATES development network since 2021. She has a background in plant ecology and interests in carbon cycling, plant mortality, forest structure and competition and demographic properties of tropical forests. 
+[Jessica Needham](https://cicero.oslo.no/no/ansatte/jessica-needham) is also a senior researcher at CICERO. She was formerly a scientist at Lawrence Berkely lab in California and has been a member of the core FATES development team since 2021. She has a background in plant ecology and interests in carbon cycling, plant mortality, forest structure and competition and demographic properties of tropical forests. 
 
 [Matvey V. Debolskiy](https://scholar.google.fr/citations?user=4pY-wMsAAAAJ&hl=en&oi=ao) is a research software engineer in the Meteorology and Ocean Sciences (MetOs) Dept. at the University of Oslo. Under the INES2 project he is a core develop of the software architecture and maintenance of NorESM, CLM and FATES, and additionally provides technical support for PhD and postDocs using and developing CLM and FATES at MetOs/UiO.  Matvey has worked extensively on permafrost and land surface hydrology in CLM.  
 
