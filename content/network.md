@@ -30,9 +30,10 @@ The NorESM-FATES modeling community works across several institutes in Norway (b
 {{< /personcard >}}
 
 {{< personcard name="Marit Sandstad" href="https://cicero.oslo.no/no/ansatte/marit-sandstad" image="/images/profilepics/marit.jpg" role="Senior Researcher" institute="CICERO" >}}
-[Marit](https://cicero.oslo.no/no/ansatte/marit-sandstad) has a PhD in theoretical astrophysics, and currently works on several aspects of climate dynamics, including simple climate models, emulators, scenario generation. Marit is interested in operational efficiency of climate workflows, and has developed a [flexible diagnostics package](https://github.com/NorESMhub/xesmf_clm_fates_diagnostic) for NorESM-FATES and the CMOR-ization pipeline for the CMIP7 data request.
+[Marit](https://cicero.oslo.no/no/ansatte/marit-sandstad) has a PhD in theoretical astrophysics, and currently works on several aspects of climate dynamics, including simple climate models, emulators, scenario generation. Marit is interested in operational efficiency of climate workflows, and has, among many other things, developed a [flexible diagnostics package](https://github.com/NorESMhub/xesmf_clm_fates_diagnostic) for NorESM-FATES.
 {{< /personcard >}}
-{{< personcard name="Mariana" image="/images/profilepics/mariana.jpeg" role="Chief Software Engineer" institute="MetNo" >}}
+
+{{< personcard name="Mariana Vertenstein" image="/images/profilepics/mariana.jpeg" role="Chief Software Engineer" institute="MetNo" >}}
 [Mariana]() was previously the chief software engineer of the Community Earth System Model at NCAR. and is the primary architect of the coupling infrastrucure of both NorESM and CESM. She has worked extensively on infrastructure for almost every part of the coupled Earth System.
 {{< /personcard >}}
 

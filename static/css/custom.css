@@ -267,18 +267,19 @@ img[src$="/finse_pano.jpg"] {
 .bio-era {
   display: flex;
   align-items: flex-start;
-  gap: 2.5rem;
+  gap: 1.35rem;
   margin: 2.5rem 0;
-  padding: 1rem 1.1rem;
+  padding: 0.72rem 1.5rem;
   border-radius: 18px;
   border: 1px solid rgba(64, 54, 58, 0.08);
-  transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease, border-color 0.2s ease, padding 0.2s ease;
+  overflow: hidden;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease, border-color 0.2s ease;
 }
 
 .bio-thumb {
-  width: 115px;
-  min-width: 115px;
-  height: 115px;
+  width: 104px;
+  min-width: 104px;
+  height: 104px;
   object-fit: cover;
   border-radius: 50%;
   display: block;
@@ -289,12 +290,22 @@ img[src$="/finse_pano.jpg"] {
 .bio-content {
   flex: 1;
   min-width: 0;
+  font-size: 1em;
+  padding-right: 2.5rem;
+
 }
 
 .bio-content h3,
 .bio-content p {
-  transform-origin: left top;
-  transition: transform 0.2s ease;
+  transition: font-size 0.4s ease;
+}
+
+.bio-content h3 {
+  margin: 0 0 0.4rem;
+}
+
+.bio-content p {
+  margin: 0.35rem 0;
 }
 
 .bio-era:hover,
@@ -309,7 +320,7 @@ img[src$="/finse_pano.jpg"] {
 .bio-era:hover .bio-thumb,
 .bio-era:focus-within .bio-thumb,
 .bio-era:active .bio-thumb {
-  transform: scale(1.08);
+  transform: scale(1.4);
   filter: saturate(1.12) contrast(1.08);
 }
 
@@ -320,19 +331,19 @@ img[src$="/finse_pano.jpg"] {
 }
 
 @media (hover: hover) and (pointer: fine) {
-  .bio-era:hover,
-  .bio-era:focus-within {
-    padding: 1.2rem 1.35rem;
-  }
-
   .bio-era:hover .bio-content h3,
   .bio-era:focus-within .bio-content h3 {
-    transform: scale(1.1);
+    font-size: 1em;
   }
 
   .bio-era:hover .bio-content p,
   .bio-era:focus-within .bio-content p {
-    transform: scale(1.06);
+    font-size: 1.em;
+  }
+
+  .bio-era:hover .bio-content,
+  .bio-era:focus-within .bio-content {
+    padding-right: 2.5rem;
   }
 }
 
@@ -362,6 +373,10 @@ img[src$="/finse_pano.jpg"] {
     flex-direction: column;
     gap: 0.75rem;
     padding: 0.7rem 0.8rem;
+  }
+
+  .bio-content {
+    padding-right: 0;
   }
 
   .research-topic {
@@ -404,10 +419,6 @@ main {
   max-width: 760px;
   margin: 0 auto;
   padding: 0;
-}
-
-main:has(.bio-era) {
-  max-width: 1120px;
 }
 
 /* intro paragraph */

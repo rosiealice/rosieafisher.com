@@ -2,7 +2,7 @@
 ---
 ---
 
-{{< bioera src="/images/profilepics/rosie_bw_crop.jpg" alt="Travels through the theoretical and actual land surface" >}}
+{{< bioera src="/images/profilepics/rosie_green_crop.jpg" alt="Travels through the theoretical and actual land surface" >}}
 ### Travels through the theoretical and actual land surface.
 
 I have had the tremendous good fortune of living in many interesting places and to be influenced by the ideas of many wonderful and thoughtful scientists. This is the story so far (abbreviated [here](/cv/)).
@@ -21,7 +21,7 @@ I grew up in the lovely county of [Northumberland](https://www.visitnorthumberla
 
 ### Oxford, UK 
 
-I studied Biological Sciences at [Oxford University](https://www.biology.ox.ac.uk/home) ([Balliol College](https://www.balliol.ox.ac.uk/)), specializing in Ecology and Plant Science. My mentor at Oxford, [Myles Axton](https://orcid.org/0000-0002-8042-4131), triggered an interest in [complex systems theory](https://www.santafe.edu/). I received a [Coolidge](https://www.alumniweb.ox.ac.uk/balliol/about-the-westerman-pathfinders) scholarship to travel to the US after graduating, and a chance visit to [Bill Lipscomb](https://www.cgd.ucar.edu/people/william-lipscomb), in Santa Fe, NM, introduced to me the concept of climate models and helped solidify the idea that helping to predict how plants affect the functioning of the Earth system was the path I needed to follow.
+I studied [Biological Sciences](https://www.biology.ox.ac.uk/home) at [Oxford University](https://www.balliol.ox.ac.uk/)), specializing in Ecology and Plant Science. My mentor at Oxford, [Myles Axton](https://orcid.org/0000-0002-8042-4131), triggered an interest in [complex systems theory](https://www.santafe.edu/). I received a [Coolidge](https://www.alumniweb.ox.ac.uk/balliol/about-the-westerman-pathfinders) scholarship to travel to the US after graduating, and a chance visit to [Bill Lipscomb](https://www.cgd.ucar.edu/people/william-lipscomb), in Santa Fe, NM, introduced to me the concept of climate models and helped solidify the idea that helping to predict how plants affect the functioning of the Earth system was the path I needed to follow.
 
 {{< /bioera >}}
 
