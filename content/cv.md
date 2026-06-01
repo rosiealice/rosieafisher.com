@@ -6,9 +6,7 @@ nationality: united kingdom
 
 email: [rosie dot fisher@cicero.oslo.no](mailto:rosie.fisher@cicero.oslo.no)
 
-
 ### Education
-
 - **PhD**, [University of Edinburgh](https://www.ed.ac.uk/), School of Geosciences (2005)
 	The response of rain forest to drought stress.
 - **MRes**, [University of Edinburgh](https://www.ed.ac.uk/), Natural Environment (Distinction) (2001)
