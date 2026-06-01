@@ -13,8 +13,8 @@ The NorESM-FATES modeling community works across several institutes in Norway (b
 
 {{< networkgrid >}}
 
-{{< personcard name="Rosie Fisher" href="https://cicero.oslo.no/no/ansatte/rosie-fisher" image="/images/profilepics/rosie_bw_crop.jpg" role="Senior Researcher" institute="CICERO" >}}
-[Rosie](https://cicero.oslo.no/no/ansatte/rosie-fisher) has a background in land surface modeling with a  particular focus on the cryosphere and land-atmosphere coupling. He is heavily involved in the development of both FATES and NorESM, andserves as WP leader in the NorSink and INES2 projects.
+{{< personcard name="Rosie Fisher" href="https://cicero.oslo.no/no/ansatte/rosie-fisher" image="/images/profilepics/rosie_bw_crop.jpg" role="Research Professor" institute="CICERO" >}}
+[Rosie](https://cicero.oslo.no/no/ansatte/rosie-fisher) has a background in land surface model development and ecosystem manipulaiton experiments. She iniated the FATES model activity within CLM and works on numerous collaborative projects across terrestrial systems modeling.  
 {{< /personcard >}}
 
 {{< personcard name="Kjetil Aas" href="https://cicero.oslo.no/no/ansatte/kjetil-aas" image="/images/profilepics/kjetil.webp" role="Senior Researcher" institute="CICERO" >}}
@@ -25,7 +25,7 @@ The NorESM-FATES modeling community works across several institutes in Norway (b
 [Jessie](https://cicero.oslo.no/no/ansatte/jessica-needham) has a background in plant ecology and interests in carbon cycling, plant mortality, forest structure and demographic properties of tropical forests. She was formerly a scientist at Lawrence Berkely lab in California and has been a member of the core FATES team since 2018. 
 
 {{< /personcard >}}
-{{< personcard name="Matvey V. Debolskiy" href="https://scholar.google.fr/citations?user=4pY-wMsAAAAJ&hl=en&oi=ao" image="/images/profilepics/robbert.jpeg" role="Research Software Engineer" institute="University of Oslo" >}}
+{{< personcard name="Matvey V. Debolskiy" href="https://scholar.google.fr/citations?user=4pY-wMsAAAAJ&hl=en&oi=ao" image="/images/profilepics/matvey5.jpg" role="Research Software Engineer" institute="University of Oslo" >}}
 [Matvey](https://scholar.google.fr/citations?user=4pY-wMsAAAAJ&hl=en&oi=ao) is a core developer of the software architecture and maintenance of NorESM, CLM and FATES, and additionally provides technical support for PhD and postDocs using and developing CLM and FATES at MetOs/UiO.  He has worked extensively on permafrost and land surface hydrology modeling. 
 {{< /personcard >}}
 

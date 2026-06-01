@@ -1,6 +1,14 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title">
-  <title>Google Scholar</title>
-  <rect width="64" height="64" rx="12" fill="#4285F4"/>
-  <path d="M32 13 10 28l22 15 18-12.3V44h4V28L32 13z" fill="#FFFFFF"/>
-  <path d="M20 36.5V42c0 6.2 24 6.2 24 0v-5.5l-12 8-12-8z" fill="#E8F0FE"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 152 152" role="img" aria-labelledby="title desc">
+  <title id="title">Google Scholar</title>
+  <desc id="desc">Blue circular Google Scholar icon with white g and mortarboard.</desc>
+
+  <rect width="152" height="152" fill="#DADADA"/>
+  <circle cx="76" cy="76" r="61" fill="#2C8BE6"/>
+
+  <path d="M78 18L37 48h82L78 18z" fill="#FFFFFF"/>
+  <rect x="96" y="35" width="7" height="18" rx="3.5" fill="#FFFFFF"/>
+  <path d="M100 52c8 5 12 14 12 24 0 3-2 5-5 5s-5-2-5-5c0-7-2-13-7-17z" fill="#FFFFFF"/>
+
+  <text x="52" y="117" font-family="Georgia, 'Times New Roman', serif" font-size="94" font-weight="700" fill="#FFFFFF">g</text>
+  <ellipse cx="74" cy="77" rx="9" ry="14" fill="#2C8BE6" opacity="0.65"/>
 </svg>

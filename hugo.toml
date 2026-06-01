@@ -23,12 +23,17 @@ theme = "minimal"
   [[params.contactLinks]]
     name = "cicero"
     url = "https://cicero.oslo.no/en/employees/rosie-fisher"
-    icon = "/images/icons/cicero.png"
+    icon = "/images/icons/cicero-mark.svg"
 
   [[params.contactLinks]]
     name = "google scholar"
     url = "https://scholar.google.com/citations?user=YOJpkTcAAAAJ&hl=en"
     icon = "/images/icons/google-scholar.svg"
+
+  [[params.contactLinks]]
+    name = "email"
+    url = "mailto:rosie.fisher@cicero.oslo.no"
+    icon = "/images/icons/email.svg"
 
   [[params.contactLinks]]
     name = "orcid"
