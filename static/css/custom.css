@@ -471,6 +471,21 @@ main.home-main .homepage-content {
   transform: translateX(-50%);
 }
 
+@media (max-width: 980px) {
+  .network-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    width: min(960px, calc(100vw - 2rem));
+  }
+}
+
+@media (max-width: 640px) {
+  .network-grid {
+    grid-template-columns: 1fr;
+    width: calc(100vw - 1.25rem);
+    gap: 0.95rem;
+  }
+}
+
 .content:has(.network-grid) > h3 {
   text-align: center;
 }

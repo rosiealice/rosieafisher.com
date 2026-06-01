@@ -1,7 +1,7 @@
 
 ![Umbrella Rosie](/images/umbrella_rosie.JPG)
 
-### Rosemary (Rosie) Alice Fisher
+#### Rosemary (Rosie) Alice Fisher
 nationality: united kingdom
 
 email: [rosie dot fisher@cicero.oslo.no](mailto:rosie.fisher@cicero.oslo.no)
