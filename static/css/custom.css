@@ -459,6 +459,109 @@ main.home-main .homepage-content {
   margin-right: auto !important;
 }
 
+/* Network page cards */
+.network-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1.15rem;
+  width: min(1120px, calc(100vw - 3rem));
+  margin: 1.25rem 0 2.1rem;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.content:has(.network-grid) > h3 {
+  text-align: center;
+}
+
+.network-person-card {
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(160deg, rgba(245, 241, 231, 0.97), rgba(234, 228, 213, 0.95));
+  border: 1px solid rgba(64, 54, 58, 0.12);
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 10px 26px rgba(64, 54, 58, 0.12);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.network-person-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 16px 30px rgba(64, 54, 58, 0.16);
+}
+
+.network-person-photo {
+  width: 100%;
+  max-width: 60%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+  margin: 0.9rem auto 0.45rem;
+  -webkit-mask-image: none !important;
+  mask-image: none !important;
+}
+
+.network-person-photo-link {
+  display: block;
+  width: 100%;
+  text-decoration: none;
+}
+
+.network-person-card > .network-person-photo {
+  width: 60%;
+}
+
+.network-person-photo-link .network-person-photo {
+  width: 60%;
+}
+
+.network-person-content {
+  padding: 0.88rem 0.95rem 1rem;
+}
+
+.network-person-name {
+  margin: 0 0 0.18rem;
+  font-size: 1.06rem;
+  line-height: 1.25;
+  font-weight: 800;
+  font-variant-caps: all-small-caps;
+  letter-spacing: 0.04em;
+}
+
+.network-person-name a {
+  color: #2f3f35;
+  text-decoration: none;
+}
+
+.network-person-name a:hover,
+.network-person-name a:focus {
+  color: #1f2a23;
+  text-decoration: underline;
+}
+
+.network-person-meta {
+  margin: 0.22rem 0 0.38rem;
+  font-size: 0.9rem;
+  letter-spacing: 0.03em;
+  font-variant-caps: all-small-caps;
+  text-transform: none;
+  color: #5f655f;
+  line-height: 1.12;
+}
+
+.network-person-role-label,
+.network-person-institute-label {
+  display: inline-block;
+}
+
+.network-person-bio {
+  margin: 0;
+  font-size: 1rem;
+  line-height: 1.58;
+}
+
 main.home-main .homepage-content > *:first-child {
   margin-top: 0 !important;
   padding-top: 0 !important;
@@ -467,6 +570,40 @@ main.home-main .homepage-content > *:first-child {
 main.home-main .homepage-content > *:last-child {
   margin-bottom: 0 !important;
   padding-bottom: 0 !important;
+}
+
+main.home-main .homepage-content > p:nth-of-type(1),
+main.home-main .homepage-content > p:nth-of-type(2) {
+  display: flow-root;
+}
+
+main.home-main .homepage-content > p:nth-of-type(1) img,
+main.home-main .homepage-content > p:nth-of-type(2) img {
+  float: right;
+  width: clamp(78px, 13.8vw, 138px);
+  height: clamp(78px, 13.8vw, 138px);
+  margin: 0.2rem 0 0.9rem 1.1rem;
+  object-fit: cover;
+  display: block;
+  -webkit-mask-image: none !important;
+  mask-image: none !important;
+}
+
+main.home-main .homepage-content > p:nth-of-type(1) img {
+  border-radius: 50%;
+  border: 3px solid rgba(64, 54, 58, 0.2);
+  box-shadow: 0 9px 20px rgba(64, 54, 58, 0.16);
+}
+
+@media (max-width: 767px) {
+  main.home-main .homepage-content > p:nth-of-type(1) img,
+  main.home-main .homepage-content > p:nth-of-type(2) img {
+    float: none;
+    width: min(70vw, 260px);
+    height: auto;
+    aspect-ratio: 1 / 1;
+    margin: 0.25rem auto 0.8rem;
+  }
 }
 
 @media (max-width: 767px) {

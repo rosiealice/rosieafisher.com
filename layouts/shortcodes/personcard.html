@@ -1,0 +1,26 @@
+<article class="network-person-card">
+  {{- with .Get "href" -}}
+  <a class="network-person-photo-link" href="{{ . }}" target="_blank" rel="noopener noreferrer">
+    <img class="network-person-photo" src="{{ $.Get "image" }}" alt="{{ $.Get "name" | default "Network member" }}" loading="lazy">
+  </a>
+  {{- else -}}
+  <img class="network-person-photo" src="{{ .Get "image" }}" alt="{{ .Get "name" | default "Network member" }}" loading="lazy">
+  {{- end -}}
+  <div class="network-person-content">
+    {{- with .Get "name" -}}
+    <h4 class="network-person-name">
+      {{- with $.Get "href" -}}
+        <a href="{{ . }}" target="_blank" rel="noopener noreferrer">{{ $.Get "name" }}</a>
+      {{- else -}}
+        {{ $.Get "name" }}
+      {{- end -}}
+    </h4>
+    {{- end -}}
+    {{- if or (.Get "role") (.Get "institute") -}}
+    <p class="network-person-meta">
+      {{ with .Get "role" }}<span class="network-person-role-label">{{ . }}</span>{{ end }}{{ if and (.Get "role") (.Get "institute") }}<br>{{ end }}{{ with .Get "institute" }}<span class="network-person-institute-label">{{ . }}</span>{{ end }}
+    </p>
+    {{- end -}}
+    <div class="network-person-bio">{{ .Inner | markdownify }}</div>
+  </div>
+</article>
