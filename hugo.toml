@@ -3,6 +3,11 @@ languageCode = "en-us"
 title = "Rosie Fisher"
 theme = "minimal"
 
+[services]
+  [services.googleAnalytics]
+    # Replace with your GA4 Measurement ID (e.g., G-123ABC456D)
+    ID = "G-XT54MZRHZR"
+
 [params]
   defaultTheme = "light"
   backgroundColor = "#f4f0e8"

@@ -7,7 +7,7 @@ url: "/network/"
 
 ### NorESM land modeling network
 
-The NorESM-FATES modeling community works across several institutes in Norway (based around the [NorESM consortium](https://www.noresm.org/consortium/)), and collaborates very closely with the international [CLM](https://www.cesm.ucar.edu/working-groups/land) and [FATES](https://github.com/ngeet/fates) development teams.  
+The NorESM-FATES modeling community works across several institutes in Norway, and collaborates very closely with the international [CLM](https://www.cesm.ucar.edu/working-groups/land) and [FATES](https://github.com/ngeet/fates) development teams.   This network works closely and has significnat overlap with the [NorESM consortium](https://www.noresm.org/consortium/), the [LATICE network](https://www.mn.uio.no/geo/forskning/grupper/latice/index.html) and  [Center for Biogeochemistry in the Anthropecene](https://www.mn.uio.no/cba/english/). 
 
 ### Core NorESM-FATES team 
 
@@ -85,16 +85,16 @@ The NorESM-FATES modeling community works across several institutes in Norway (b
 
 {{< networkgrid >}}
 {{< personcard name="Terje Koren Berntsen" href="https://www.mn.uio.no/geo/personer/vit/metos/terjebe/" image="/images/profilepics/terje.jpeg" role="Professor" institute="University of Oslo" >}}
--[Terje Koren Berntsen](https://www.mn.uio.no/geo/personer/vit/metos/terjebe/) is a professor in the Meteorology and Ocean Sciences Dept at the University of Oslo. He is an expert in atmospheric chemistry mediated Earth system feedbacks and supervises several ECRs working on FATES. He leads the [BIOGOV project](https://www.mn.uio.no/cba/english/news-and-events/news/cba-starts-the-large-rcn-project-biogov.html)
+-[Terje](https://www.mn.uio.no/geo/personer/vit/metos/terjebe/) is an expert in atmospheric chemistry mediated Earth system feedbacks and supervises several ECRs working on FATES. He leads the [BIOGOV project](https://www.mn.uio.no/cba/english/news-and-events/news/cba-starts-the-large-rcn-project-biogov.html). Terje has mentored many members of the land modeling network (Marianne, Kjetil, Betty, Adele, Shelby and many other prominent atmospheric scientists in Norway. He was an IPCC lead author in AR5)
 {{< /personcard >}}
 {{< personcard name="Frans-Jan Parmentier" href="https://www.thissideofthearctic.org/" image="/images/profilepics/fransjan.jpeg" role="Arctic Carbon Cycle Scientist" institute="University of Oslo" >}}
--[Frans-Jan Parmentier](https://www.thissideofthearctic.org/) is an arctic carbon cycle scientist at [MetOs](https://www.mn.uio.no). He has extensive experience and expertise in remote sensing, plant physiology and ecophysiology and leads the [SNOWLESS](https://www.mn.uio.no/geo/forskning/prosjekter/snowless/) project. Frans-Jan is a member of the [Centre for Biogeochemistry in the Anthropocene](https://www.mn.uio.no/cba/english/) at the University of Oslo. .
+-[Frans-Jan](https://www.thissideofthearctic.org/) is an arctic carbon cycle scientist at [MetOs](https://www.mn.uio.no). He has extensive experience and expertise in remote sensing, plant physiology and ecophysiology and leads the [SNOWLESS](https://www.mn.uio.no/geo/forskning/prosjekter/snowless/) project. Frans-Jan is a member of the [Centre for Biogeochemistry in the Anthropocene](https://www.mn.uio.no/cba/english/) at the University of Oslo. .
 {{< /personcard >}}
 {{< personcard name="Vigdis Vandvik" href="https://betweenthefjords.w.uib.no/home/" image="/images/profilepics/vigdis.jpeg" role="Professor" institute="University of Bergen" >}}
--[Vigdis Vandvik](https://betweenthefjords.w.uib.no/home/) is a professor at the University of Bergen and leads the 'Between the Fjords' lab. She is a leading expert in functional ecoology, plant trait data collection and ecosystem physiology. She is a Coordinating Lead Author of the IPCC 7th Assessment Report and leads the [DURIN](https://www4.uib.no/en/research/research-projects/durin) project developing dwarf shrub representations in FATES.
+-[Vigdis](https://betweenthefjords.w.uib.no/home/) leads the 'Between the Fjords' lab. She is an expert in functional ecoology, plant trait data collection and ecosystem physiology. She is a Coordinating Lead Author of the IPCC 7th Assessment Report and leads the [DURIN](https://www4.uib.no/en/research/research-projects/durin) project developing dwarf shrub representations in FATES.
 {{< /personcard >}}
 {{< personcard name="Hui Tang" href="https://scholar.google.com/citations?user=BG_HaL0AAAAJ&hl=en" image="/images/profilepics/hui.jpeg" role="Researcher" institute="Finnish Meteorological Institute" >}}
--[Hui Tang](https://scholar.google.com/citations?user=BG_HaL0AAAAJ&hl=en) is a researcher at the Finnish Meteorological Institute, and was formerly a researcher at the University of Oslo. He has interests in modeling plant physiology and ecology and has developed an advanced model of moss/non vascular plants for FATES.
+-[Hui](https://scholar.google.com/citations?user=BG_HaL0AAAAJ&hl=en) was formerly a researcher at the University of Oslo and helped developed an online platform for running FATES. He has interests in modeling plant physiology and ecology and is developing an advanced model of moss/non vascular plants for FATES.
 {{< /personcard >}}
 {{< personcard name="Ben Sanderson" href="https://cicero.oslo.no/en/employees/ben-sanderson" image="/images/profilepics/ben.jpeg" role="Research Director" institute="CICERO" >}}
 -[Ben Sanderson](https://cicero.oslo.no/en/employees/ben-sanderson) is Research Director for the Climate Mitigation group at CICERO and a lead author in WGI of the IPCC AR7. He is interested in the links between climate emissios targets, land use scenarios and carbon cycle models. He in involved in the NCS-REVISE and NextGenCarbon projects.
@@ -104,13 +104,18 @@ The NorESM-FATES modeling community works across several institutes in Norway (b
 {{< /personcard >}}
 
 {{< personcard name="Glen Peters" href="https://cicero.oslo.no/en/employees/glen-peters" image="/images/profilepics/glen.jpeg" role="Research Professor" institute="CICERO" >}}
--[Glen Peters](https://cicero.oslo.no/en/employees/glen-peters) is a Research Professor at CICERO. He is a founding memeber of the [Global Carbon Budget](https://www.globalcarbonproject.org/carbonbudget/), IPCC Coordinating Lead Author and an authority on trends in fossil fuel emissions. Glen leads the [NorSink](https://cicero.oslo.no/en/projects/norsink) project, which aims to provide deeper understanding of land use and how it relates to policy and land carbon uptake.
+-[Glen](https://cicero.oslo.no/en/employees/glen-peters)  is a founding memeber of the [Global Carbon Budget](https://www.globalcarbonproject.org/carbonbudget/), IPCC Coordinating Lead Author and an authority on trends in fossil fuel emissions. Glen leads the [NorSink](https://cicero.oslo.no/en/projects/norsink) project, which aims to provide deeper understanding of land use and how it relates to policy and land carbon uptake.
 {{< /personcard >}}
 
 
 {{< personcard name="Hanna Lee" href="https://www.ntnu.no/ansatte/hanna.lee" image="/images/profilepics/hanna.jpeg" role="Associate Professor" institute="NTNU, Trondheim" >}}
 -[Hanna](https://www.ntnu.no/ansatte/hanna.lee) is a terrestrial ecosystem ecologist and land surface modeler interested in the feedback cycles of global climate change and ecosystem carbon cycles. She has extensive experience with CLM, particularly focused on the impacts of climate change on high latitudes, permafrost systems and arctic ecophysiology.  
 {{< /personcard >}}
+
+{{< personcard name="Ryan Bright" href="https://www.nibio.no/en/employees/ryan-bright" image="/images/profilepics/ryan.jpeg" role="Reesearch Professor" institute="NIBIO" >}}
+-[Ryan](https://www.ntnu.no/ansatte/hanna.lee) works at NIBIO, Norway's institute for Bioeconomy, where he focuses on the impacts of forests on the biogeophysics of the land surface, and future forest productivity and carbon uptake.  Ryan leads the NCS-REVISE project and is also a partner in [NorSink](https://cicero.oslo.no/en/projects/norsink). 
+{{< /personcard >}}
 {{< /networkgrid >}}
+
 
 
