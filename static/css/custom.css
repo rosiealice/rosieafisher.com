@@ -269,6 +269,10 @@ img[src$="/finse_pano.jpg"] {
   align-items: flex-start;
   gap: 2.5rem;
   margin: 2.5rem 0;
+  padding: 1rem 1.1rem;
+  border-radius: 18px;
+  border: 1px solid rgba(64, 54, 58, 0.08);
+  transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease, border-color 0.2s ease;
 }
 
 .bio-thumb {
@@ -279,11 +283,34 @@ img[src$="/finse_pano.jpg"] {
   border-radius: 50%;
   display: block;
   margin-top: 1rem;
+  transition: transform 0.24s ease, filter 0.24s ease;
 }
 
 .bio-content {
   flex: 1;
   min-width: 0;
+}
+
+.bio-era:hover,
+.bio-era:focus-within,
+.bio-era:active {
+  background: rgba(234, 226, 210, 0.95);
+  border-color: rgba(64, 54, 58, 0.22);
+  box-shadow: 0 14px 30px rgba(64, 54, 58, 0.18), inset 0 0 0 2px rgba(64, 54, 58, 0.12);
+  transform: translateY(-4px);
+}
+
+.bio-era:hover .bio-thumb,
+.bio-era:focus-within .bio-thumb,
+.bio-era:active .bio-thumb {
+  transform: scale(1.08);
+  filter: saturate(1.12) contrast(1.08);
+}
+
+.bio-era:hover .bio-content h3,
+.bio-era:focus-within .bio-content h3,
+.bio-era:active .bio-content h3 {
+  color: #1f2a23;
 }
 
 .research-topic {
@@ -311,6 +338,7 @@ img[src$="/finse_pano.jpg"] {
   .bio-era {
     flex-direction: column;
     gap: 0.75rem;
+    padding: 0.7rem 0.8rem;
   }
 
   .research-topic {
@@ -331,6 +359,20 @@ img[src$="/finse_pano.jpg"] {
     max-width: 220px;
     min-width: 0;
     height: auto;
+  }
+}
+
+@media (hover: none) and (pointer: coarse) {
+  .bio-era:hover,
+  .bio-era:focus-within {
+    transform: none;
+    box-shadow: none;
+  }
+
+  .bio-era:hover .bio-thumb,
+  .bio-era:focus-within .bio-thumb {
+    transform: none;
+    filter: none;
   }
 }
 
@@ -507,16 +549,32 @@ main.home-main .homepage-content {
   display: flex;
   flex-direction: column;
   background: linear-gradient(160deg, rgba(245, 241, 231, 0.97), rgba(234, 228, 213, 0.95));
-  border: 1px solid rgba(64, 54, 58, 0.12);
+  border: 1px solid rgba(64, 54, 58, 0.08);
   border-radius: 16px;
   overflow: hidden;
   box-shadow: 0 10px 26px rgba(64, 54, 58, 0.12);
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease, border-color 0.2s ease;
 }
 
 .network-person-card:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 16px 30px rgba(64, 54, 58, 0.16);
+  background: rgba(236, 229, 214, 0.95);
+  border-color: rgba(64, 54, 58, 0.18);
+  box-shadow: 0 14px 30px rgba(64, 54, 58, 0.18);
+  transform: translateY(-4px);
+}
+
+.network-person-card:focus-within {
+  background: rgba(236, 229, 214, 0.95);
+  border-color: rgba(64, 54, 58, 0.18);
+  box-shadow: 0 14px 30px rgba(64, 54, 58, 0.18);
+  transform: translateY(-4px);
+}
+
+.network-person-card:active {
+  background: rgba(236, 229, 214, 0.95);
+  border-color: rgba(64, 54, 58, 0.18);
+  box-shadow: 0 14px 30px rgba(64, 54, 58, 0.18);
+  transform: translateY(-4px);
 }
 
 .network-person-photo {
@@ -527,8 +585,22 @@ main.home-main .homepage-content {
   object-position: center;
   display: block;
   margin: 0.9rem auto 0.45rem;
+  transition: transform 0.22s ease, filter 0.22s ease;
   -webkit-mask-image: none !important;
   mask-image: none !important;
+}
+
+.network-person-card:hover .network-person-photo,
+.network-person-card:focus-within .network-person-photo,
+.network-person-card:active .network-person-photo {
+  transform: scale(1.08);
+  filter: saturate(1.12) contrast(1.08);
+}
+
+.network-person-card:hover .network-person-name a,
+.network-person-card:focus-within .network-person-name a,
+.network-person-card:active .network-person-name a {
+  color: #1b251f;
 }
 
 .network-person-photo-link {

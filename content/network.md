@@ -20,9 +20,10 @@ The NorESM-FATES modeling community works across several institutes in Norway (b
 [Jessie](https://cicero.oslo.no/no/ansatte/jessica-needham) has a background in plant ecology and interests in carbon cycling, plant mortality, forest structure and demographic properties of tropical forests. She was formerly a scientist at Lawrence Berkely lab in California and has been a member of the core FATES team since 2018. 
 
 {{< /personcard >}}
-{{< personcard name="Matvey V. Debolskiy" href="https://scholar.google.fr/citations?user=4pY-wMsAAAAJ&hl=en&oi=ao" image="/images/profilepics/norman.jpeg" role="Research Software Engineer" institute="University of Oslo" >}}
+{{< personcard name="Matvey V. Debolskiy" href="https://scholar.google.fr/citations?user=4pY-wMsAAAAJ&hl=en&oi=ao" image="/images/profilepics/robbert.jpeg" role="Research Software Engineer" institute="University of Oslo" >}}
 [Matvey](https://scholar.google.fr/citations?user=4pY-wMsAAAAJ&hl=en&oi=ao) is a core developer of the software architecture and maintenance of NorESM, CLM and FATES, and additionally provides technical support for PhD and postDocs using and developing CLM and FATES at MetOs/UiO.  He has worked extensively on permafrost and land surface hydrology modeling. 
 {{< /personcard >}}
+
 {{< personcard name="Marit Sandstad" href="https://cicero.oslo.no/no/ansatte/marit-sandstad" image="/images/profilepics/marit.jpg" role="Senior Researcher" institute="CICERO" >}}
 [Marit](https://cicero.oslo.no/no/ansatte/marit-sandstad) has a PhD in theoretical astrophysics, and currently works on several aspects of climate dynamics, including simple climate models, emulators, scenario generation. Marit is interested in operational efficiency of climate workflows, and has developed a [flexible diagnostics package](https://github.com/NorESMhub/xesmf_clm_fates_diagnostic) for NorESM-FATES and the CMOR-ization pipeline for the CMIP7 data request.
 {{< /personcard >}}

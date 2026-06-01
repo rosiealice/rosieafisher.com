@@ -74,11 +74,9 @@ Since arriving in Norway I have worked on expanding and strengthening the Norweg
 As evidenced by the above, this has been a long and winding road. But I am [excited](/images/excited.jpg) for all the new opportunities that linking ecological principles to the physics of Earth system will provide for understanding  the possible futures of the biosphere and the consequences and potential of human influence over it. 
 
 {{< /bioera >}}
-
 {{< bioera src="/images/rosiebenbw.jpg" alt="Rosie and Ben" >}}
 
 ### Personal
-
 In 2015, [Ben Sanderson](https://cicero.oslo.no/en/employees/ben-sanderson) (who is also a climate scientist at CICERO) and I got [married](/images/wedding.JPG) in the [College Valley](https://www.college-valley.co.uk/) in [Northumberland National Park](https://www.nationalparks.uk/park/northumberland/). After many [moves](https://www.youtube.com/watch?v=2ybGpF306Ww), we now live on the side of a [hill](https://www.visitnorway.com/listings/hiking-to-kolsastoppen/193271/) in Western Oslo with our son and a huge [Norwegian cat](/images/output.mp4) called Angus. We probably talk a bit too much about science over dinner.
 
 Outside of work I like cultivating [wild](/images/mayflower.jpg) and [edible](/images/kale.JPG) plants, [latin dancing](/images/flamenco_light.JPG), [x-country](/images/finse_ski.JPG), [telemark](/images/telemark.JPG) and [randonnee](/images/randoski2.jpg) skiing, and running as far into the mountains as my uncooperative hips will allow.
