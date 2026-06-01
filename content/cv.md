@@ -2,14 +2,13 @@
 ![Umbrella Rosie](/images/umbrella_rosie.JPG)
 
 ### Education
-- **PhD**, [University of Edinburgh](https://www.ed.ac.uk/), School of Geosciences (2005)
-	The response of rain forest to drought stress.
+- **PhD**, [University of Edinburgh](https://www.ed.ac.uk/) (2005).	The response of rain forest to drought stress.
 - **MRes**, [University of Edinburgh](https://www.ed.ac.uk/), Natural Environment (Distinction) (2001)
-- **BA**, [University of Oxford](https://www.ox.ac.uk/) ([Balliol College](https://www.balliol.ox.ac.uk/)), Biological Sciences, First Class Honours (2000)
+- **BA**, [University of Oxford](https://www.ox.ac.uk/) ([Balliol College](https://www.balliol.ox.ac.uk/)), Biological Sciences, 1st Class (2000)
 
 ### Professional Experience
 
- - **Research Professor**,  (Forsker I) [CICERO Centre for International Climate Research.](https://cicero.oslo.no/), Oslo, Norway. 2021-present
+ - **[Research Professor](https://en.wikipedia.org/wiki/Academic_ranks_in_Norway)**,  (Forsker I) [CICERO Centre for International Climate Research.](https://cicero.oslo.no/), Oslo, Norway. 2021-present
 - **Research Scientist**, [Laboratoire Evolution et Diversite Biologique](https://www.univ-tlse3.fr/) , Toulouse, France (2020-2021)
 - **Research Scientist**, [CERFACS](https://cerfacs.fr/en/home/), Toulouse, France (2019-2020)
 - **Scientist II**, [National Center for Atmospheric Research](https://ncar.ucar.edu/) , Boulder, Colorado, USA (2016-2020)
