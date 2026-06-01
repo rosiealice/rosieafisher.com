@@ -8,7 +8,7 @@ theme = "minimal"
   backgroundColor = "#f4f0e8"
   css = ["/css/custom.css"]
   profilePic = "/images/taos_cover4.jpeg"
-  tagline = "rosie fisher: terrestial systems modeling"
+  tagline = "Rosie A. Fisher: Terrestrial Systems Modelling"
 
   [[params.contactLinks]]
     name = "bluesky"

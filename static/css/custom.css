@@ -272,7 +272,7 @@ img[src$="/finse_pano.jpg"] {
   padding: 1rem 1.1rem;
   border-radius: 18px;
   border: 1px solid rgba(64, 54, 58, 0.08);
-  transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease, border-color 0.2s ease;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease, border-color 0.2s ease, padding 0.2s ease;
 }
 
 .bio-thumb {
@@ -289,6 +289,12 @@ img[src$="/finse_pano.jpg"] {
 .bio-content {
   flex: 1;
   min-width: 0;
+}
+
+.bio-content h3,
+.bio-content p {
+  transform-origin: left top;
+  transition: transform 0.2s ease;
 }
 
 .bio-era:hover,
@@ -311,6 +317,23 @@ img[src$="/finse_pano.jpg"] {
 .bio-era:focus-within .bio-content h3,
 .bio-era:active .bio-content h3 {
   color: #1f2a23;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .bio-era:hover,
+  .bio-era:focus-within {
+    padding: 1.2rem 1.35rem;
+  }
+
+  .bio-era:hover .bio-content h3,
+  .bio-era:focus-within .bio-content h3 {
+    transform: scale(1.1);
+  }
+
+  .bio-era:hover .bio-content p,
+  .bio-era:focus-within .bio-content p {
+    transform: scale(1.06);
+  }
 }
 
 .research-topic {
@@ -381,6 +404,10 @@ main {
   max-width: 760px;
   margin: 0 auto;
   padding: 0;
+}
+
+main:has(.bio-era) {
+  max-width: 1120px;
 }
 
 /* intro paragraph */
@@ -660,6 +687,32 @@ main.home-main .homepage-content {
   margin: 0;
   font-size: 1rem;
   line-height: 1.58;
+  transition: font-size 0.2s ease;
+}
+
+.network-person-name,
+.network-person-meta {
+  transition: font-size 0.2s ease;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .network-person-card:hover .network-person-name,
+  .network-person-card:focus-within .network-person-name {
+    font-size: 1.15rem;
+  }
+
+  .network-person-card:hover .network-person-meta,
+  .network-person-card:focus-within .network-person-meta {
+    font-size: 0.98rem;
+  }
+
+  .network-person-card:hover .network-person-bio {
+    font-size: 1.06rem;
+  }
+
+  .network-person-card:focus-within .network-person-bio {
+    font-size: 1.06rem;
+  }
 }
 
 main.home-main .homepage-content > *:first-child {

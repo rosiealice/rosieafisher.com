@@ -5,7 +5,7 @@
 {{< bioera src="/images/profilepics/rosie_bw_crop.jpg" alt="Travels through the theoretical and actual land surface" >}}
 ### Travels through the theoretical and actual land surface.
 
-I have had the tramendous good fortune of living in many interesting places and to be influenced by the ideas of many wonderful and thoughtful scientists. This is the story so far (abbreviated [here](/cv/)).
+I have had the tremendous good fortune of living in many interesting places and to be influenced by the ideas of many wonderful and thoughtful scientists. This is the story so far (abbreviated [here](/cv/)).
 
 {{< /bioera >}}
 

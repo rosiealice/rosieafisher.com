@@ -5,13 +5,18 @@ url: "/network/"
 
 ![Finse network](/images/finse_pano.jpg "The NorSink project team at Finse Alpine Research Station, Norway")
 
-### Network
+### NorESM land modeling network
 
 The NorESM-FATES modeling community works across several institutes in Norway (based around the [NorESM consortium](https://www.noresm.org/consortium/)), and collaborates very closely with the international [CLM](https://www.cesm.ucar.edu/working-groups/land) and [FATES](https://github.com/ngeet/fates) development teams.  
 
 ### Core NorESM-FATES team 
 
 {{< networkgrid >}}
+
+{{< personcard name="Rosie Fisher" href="https://cicero.oslo.no/no/ansatte/rosie-fisher" image="/images/profilepics/rosie_bw_crop.jpg" role="Senior Researcher" institute="CICERO" >}}
+[Rosie](https://cicero.oslo.no/no/ansatte/rosie-fisher) has a background in land surface modeling with a  particular focus on the cryosphere and land-atmosphere coupling. He is heavily involved in the development of both FATES and NorESM, andserves as WP leader in the NorSink and INES2 projects.
+{{< /personcard >}}
+
 {{< personcard name="Kjetil Aas" href="https://cicero.oslo.no/no/ansatte/kjetil-aas" image="/images/profilepics/kjetil.webp" role="Senior Researcher" institute="CICERO" >}}
 [Kjetil](https://cicero.oslo.no/no/ansatte/kjetil-aas) has a background in land surface modeling with a  particular focus on the cryosphere and land-atmosphere coupling. He is heavily involved in the development of both FATES and NorESM, andserves as WP leader in the NorSink and INES2 projects.
 {{< /personcard >}}
