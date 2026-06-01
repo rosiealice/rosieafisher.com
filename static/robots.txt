@@ -1,0 +1,14 @@
+User-agent: *
+Allow: /
+
+# Explicitly allow major AI/search crawlers
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: Googlebot
+Allow: /
+
+Sitemap: https://rosieafisher.com/sitemap.xml

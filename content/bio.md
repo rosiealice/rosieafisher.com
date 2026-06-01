@@ -96,5 +96,4 @@ Outside of work I like cultivating [wild](/images/mayflower.jpg) and [edible](/i
 **I also have [ADHD](https://www.youtube.com/watch?v=4uJv3y9ajQY):** which has some fairly substantial upsides as a scientist, but I have borrowed more replacement keycards than anyone else at CICERO by a significant margin, often have no idea what month it is, and if I had to do my own tax admin in four different jurisdictions I would certainly be in jail by now (thanks Ben!). 
 
 Appreciating the diverse talents and aptitutdes of _everyone_ in the land modeling community and what we can all bring to the problem of understanding the future of our planet is a very important part of my professional life. 
-
 {{< /bioera >}}
