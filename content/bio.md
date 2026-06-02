@@ -1,5 +1,5 @@
 
-![Octopus_with_tea](/images/rain.png)
+![Octopus_with_tea](/images/rain.png "Storm over the Vanoise National Park, French Alps")
 
 {{< bioera src="/images/profilepics/rosie_green_crop.jpg"  alt=" " >}}
 ### Travels through the theoretical and actual land surface.
