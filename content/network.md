@@ -66,18 +66,19 @@ The NorESM-FATES modeling community works across several institutes in Norway, a
 -[Jeanne](https://www4.uib.no/en/find-employees/jeanne.rezsohazy) works on the calibration and implementation of dwarf shrub ecophysiology in FATES as part of the [DURIN](https://www4.uib.no/en/research/research-projects/durin) project.
 {{< /personcard >}}
 {{< personcard name="Erik Kusch" href="https://www.erikkusch.com/" image="/images/profilepics/erik.jpeg" role="Senior Advisor and Data Steward" institute="CICERO" >}}
--[Erik Kusch](https://www.erikkusch.com/) is a senior advisor and data steward at CICERO. He is interested in data pipelines and effective access to climate infomation and is involved in genreation of scenarios for FATES within the NorSink and NCS-REVISE projects.
+-[Erik](https://www.erikkusch.com/) is a senior advisor and data steward at CICERO. He is interested in data pipelines and effective access to climate infomation and is involved in genreation of scenarios for FATES within the NorSink and NCS-REVISE projects.
 {{< /personcard >}}
 
 {{< personcard name="Zosia Staniaszek" href="https://cicero.oslo.no/en/employees/zosia-staniaszek" image="/images/profilepics/zosia.jpeg" role="Senior Researcher" institute="CICERO" >}}
--[Zosia Staniaszek](https://cicero.oslo.no/en/employees/zosia-staniaszek) is a senior researcher at CICERO in the Climate Systems group. She has background in coupled system dynamics of methane, and is working to improve FATES fire precictions and functionality for simulating high latitude fire emissions in the context of the [Boreal Blaze](https://cicero.oslo.no/en/projects/borealblaze) project.
+-[Zosia](https://cicero.oslo.no/en/employees/zosia-staniaszek) is a senior researcher at CICERO in the Climate Systems group. She has background in coupled system dynamics of methane, and is working to improve FATES fire precictions and functionality for simulating high latitude fire emissions in the context of the [Boreal Blaze](https://cicero.oslo.no/en/projects/borealblaze) project.
 {{< /personcard >}}
 {{< personcard name="Gregoire Canchon" href="https://blogs.ed.ac.uk/gregoirecanchon/" image="/images/profilepics/greg.jpeg" role="PhD Student" institute="University of Edinburgh" >}}
--[Gregoire Canchon](https://blogs.ed.ac.uk/gregoirecanchon/) is a PhD student at the University of Edinburgh. He is working (via an internship at CICERO in 2026) on benchmarking and validation of CLM-FATES fire predictions using a variety of Earth Observation data products.
+-[Greg ](https://blogs.ed.ac.uk/gregoirecanchon/) is a PhD student at the University of Edinburgh. He is working (via an internship at CICERO in 2026) on benchmarking and validation of CLM-FATES fire predictions using a variety of Earth Observation data products.
 
 {{< /personcard >}}
 {{< personcard name="Robbert Kouwenhoven" href="https://www.climatestudies.unibe.ch/about_us/students/personalpage/index_eng.html?id=560" image="/images/profilepics/robbert.jpg" role="Master's Student" institute="University of Bern" >}}
--[Robbert Kouwenhoven](https://www.climatestudies.unibe.ch/about_us/students/personalpage/index_eng.html?id=560) is a masters student at the University of Bern, working on the implementation of agroforestry in FATES.
+-[Robbert](https://www.climatestudies.unibe.ch/about_us/students/personalpage/index_eng.html?id=560) is a masters student at the University of Bern, working on the implementation of agroforestry in FATES for application in Peru and across the tropics. He is part of the [Wyss Academy for nature](https://www.wyssacademy.org/en). 
+
 {{< /personcard >}}
 {{< /networkgrid >}}
 
@@ -97,10 +98,10 @@ The NorESM-FATES modeling community works across several institutes in Norway, a
 -[Hui](https://scholar.google.com/citations?user=BG_HaL0AAAAJ&hl=en) was formerly a researcher at the University of Oslo and helped developed an online platform for running FATES. He has interests in modeling plant physiology and ecology and is developing an advanced model of moss/non vascular plants for FATES.
 {{< /personcard >}}
 {{< personcard name="Ben Sanderson" href="https://cicero.oslo.no/en/employees/ben-sanderson" image="/images/profilepics/ben.jpeg" role="Research Director" institute="CICERO" >}}
--[Ben Sanderson](https://cicero.oslo.no/en/employees/ben-sanderson) is Research Director for the Climate Mitigation group at CICERO and a lead author in WGI of the IPCC AR7. He is interested in the links between climate emissios targets, land use scenarios and carbon cycle models. He in involved in the NCS-REVISE and NextGenCarbon projects.
+-[Ben ](https://cicero.oslo.no/en/employees/ben-sanderson) is Research Director for the Climate Mitigation group at CICERO and a lead author in WGI of the IPCC AR7. He is interested in the links between climate emissios targets, land use scenarios and carbon cycle models. He in involved in the NCS-REVISE and NextGenCarbon projects.
 {{< /personcard >}}
 {{< personcard name="Marianne Tronstad Lund" href="https://cicero.oslo.no/en/employees/marianne-lund" image="/images/profilepics/marianne.jpeg" role="Research Director" institute="CICERO" >}}
--[Marianne Tronstad Lund](https://cicero.oslo.no/en/employees/marianne-lund) is Research Director for the Climate System group at CICERO. She is an expert in climate-aerosol interactions and has strong interests in understanding the role of fire in the Earth System. She leads the [BorealBlaze](https://cicero.oslo.no/en/projects/borealblaze) project.
+-[Marianne ](https://cicero.oslo.no/en/employees/marianne-lund) is Research Director for the Climate System group at CICERO. She is an expert in climate-aerosol interactions and has strong interests in understanding the role of fire in the Earth System. She leads the [BorealBlaze](https://cicero.oslo.no/en/projects/borealblaze) project.
 {{< /personcard >}}
 
 {{< personcard name="Glen Peters" href="https://cicero.oslo.no/en/employees/glen-peters" image="/images/profilepics/glen.jpeg" role="Research Professor" institute="CICERO" >}}

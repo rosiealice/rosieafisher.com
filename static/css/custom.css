@@ -119,13 +119,13 @@ li {
 
 .home-main .intro {
   width: 100%;
-  transform: translateY(16vh);
+  transform: translateY(19vh);
 }
 
 .home-main .intro,
 .home-main .homepage-content {
   margin-top: 0;
-  margin-bottom: 0;
+  padding: 1vh 0 0 !important;
   padding-top: 0;
   padding-bottom: 0;
 }
@@ -133,8 +133,8 @@ li {
 .home-main .homepage-content,
 .home-main .homepage-content p,
 .home-main .homepage-content li {
-  text-align: left !important;
-  font-size: calc(1rem + 2pt);
+    padding-top: 0.75vh !important;
+  font-size: 1rem;
 }
 
 .home-main .intro > .profile {
@@ -155,6 +155,22 @@ li {
   padding-top: 0.42rem;
   border-top: 1px solid rgba(0, 0, 0, 0.12);
   text-align: center;
+}
+
+main.home-main + footer .homepage-contact {
+  position: fixed;
+  left: 50%;
+  bottom: 0.85rem;
+  transform: translateX(-50%);
+  z-index: 20;
+  width: min(760px, calc(100vw - 2rem));
+  margin-top: 0;
+  background: rgba(244, 240, 232, 0.95);
+  backdrop-filter: blur(4px);
+}
+
+main.home-main + footer .copyright {
+  padding-top: 4.5rem;
 }
 
 .homepage-contact h3 {
@@ -569,10 +585,12 @@ main.home-main {
   margin: 0 !important;
   padding: 0 !important;
   flex: 1 0 auto !important;
-  min-height: calc(100vh - 55px) !important;
+  min-height: calc(100vh - 82px) !important;
+  height: calc(100vh - 82px) !important;
   display: flex !important;
   align-items: center !important;
   justify-content: center !important;
+  overflow: hidden !important;
 }
 
 main.home-main .intro {
@@ -584,29 +602,43 @@ main.home-main .intro {
 
 main.home-main img.profile {
   display: block !important;
-  width: 110vw !important;
-  max-width: none !important;
+  width: clamp(96px, 12vw, 148px) !important;
+  max-width: 148px !important;
   height: auto !important;
-  margin: -12px 0 0 !important;
+  margin: -6px 0 0 !important;
   padding: 0 !important;
   position: relative !important;
-  left: 50% !important;
-  transform: translateX(-50%) !important;
+  left: 0 !important;
+  transform: none !important;
   border-radius: 0 !important;
 }
 
 main.home-main .homepage-content {
   margin: 0 !important;
-  padding: 12vh 0 0 !important;
+  padding: 2vh 0 0 !important;
   max-width: 760px;
   margin-left: auto !important;
   margin-right: auto !important;
 }
 
 @media (max-width: 767px) {
-  main.home-main .homepage-content {
-    padding-top: 6vh !important;
+  main.home-main {
+    height: calc(100vh - 82px) !important;
+    overflow: hidden !important;
   }
+
+  main.home-main img.profile {
+    width: min(36vw, 132px) !important;
+    max-width: 132px !important;
+  }
+
+  main.home-main .homepage-content {
+    padding-top: 1.5vh !important;
+  }
+}
+
+body:has(main.home-main) {
+  overflow-y: hidden;
 }
 
 /* Network page cards */
