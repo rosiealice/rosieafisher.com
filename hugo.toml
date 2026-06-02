@@ -12,6 +12,7 @@ theme = "minimal"
   defaultTheme = "light"
   backgroundColor = "#f4f0e8"
   css = ["/css/custom.css"]
+  js = ["/js/custom.js"]
   profilePic = "/images/taos_cover4.jpeg"
   tagline = "Rosie A. Fisher: Terrestrial Systems Modelling"
 
@@ -81,5 +82,10 @@ theme = "minimal"
     name = "network"
     url = "/network/"
     weight = 6
+
+  [[menu.main]]
+    name = "news"
+    url = "/news/"
+    weight = 7
 
   

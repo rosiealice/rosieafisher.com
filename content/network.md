@@ -55,7 +55,7 @@ The NorESM-FATES modeling community works across several institutes in Norway, a
 {{< /personcard >}}
 
 {{< personcard name="Adele Zaini" href="https://cicero.oslo.no/en/employees/adele-zaini" image="/images/profilepics/adele.jpeg" role="PhD Student" institute="CICERO" >}}
--[Adele ](Ahttps://cicero.oslo.no/en/employees/adele-zaini) studies the biogeochemical and biogeophysical responsese to land use change and natural climate solutions using coupled NorESM experiments.
+-[Adele ](Ahttps://cicero.oslo.no/en/employees/adele-zaini) studies the biogeochemical and biogeophysical responsese to land use change and natural climate solutions using coupled NorESM experiments. She is also part of the NCS-REVISE project.  
 {{< /personcard >}}
 
 {{< personcard name="Shelby Sundquist" href="https://www.mn.uio.no/geo/personer/vit/metos/shelbys/" image="/images/profilepics/shelby.jpeg" role="Postdoctoral Researcher" institute="University of Oslo" >}}
@@ -76,7 +76,7 @@ The NorESM-FATES modeling community works across several institutes in Norway, a
 -[Greg ](https://blogs.ed.ac.uk/gregoirecanchon/) is a PhD student at the University of Edinburgh. He is working (via an internship at CICERO in 2026) on benchmarking and validation of CLM-FATES fire predictions using a variety of Earth Observation data products.
 
 {{< /personcard >}}
-{{< personcard name="Robbert Kouwenhoven" href="https://www.climatestudies.unibe.ch/about_us/students/personalpage/index_eng.html?id=560" image="/images/profilepics/robbert.jpg" role="Master's Student" institute="University of Bern" >}}
+{{< personcard name="Robbert Kouwenhoven" id="robbert" href="https://www.climatestudies.unibe.ch/about_us/students/personalpage/index_eng.html?id=560" image="/images/profilepics/robbert.jpg" role="Master's Student" institute="University of Bern" >}}
 -[Robbert](https://www.climatestudies.unibe.ch/about_us/students/personalpage/index_eng.html?id=560) is a masters student at the University of Bern, working on the implementation of agroforestry in FATES for application in Peru and across the tropics. He is part of the [Wyss Academy for nature](https://www.wyssacademy.org/en). 
 
 {{< /personcard >}}

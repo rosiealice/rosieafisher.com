@@ -1,0 +1,38 @@
+{{- $date := .Get "date" | default "Date" -}}
+{{- $kind := .Get "type" | default "" -}}
+{{- $title := .Get "title" | default "" -}}
+{{- $url := .Get "url" | default "" -}}
+{{- $thumb := .Get "thumb" | default "" -}}
+{{- $thumbAlt := .Get "thumbAlt" | default (cond (ne $title "") (print $title " thumbnail") "News thumbnail") -}}
+{{- $thumbUrl := .Get "thumbUrl" | default "" -}}
+{{- $thumbHref := cond (ne $thumbUrl "") $thumbUrl $thumb -}}
+{{- $eventBodyId := printf "news-event-body-%d" .Ordinal -}}
+
+<article class="news-event news-event-collapsible">
+  <div class="news-event-meta">
+    {{- with $thumb -}}
+      <a class="news-event-thumb-link" href="{{ $thumbHref }}" target="_blank" rel="noopener noreferrer" aria-label="Open larger image: {{ $thumbAlt }}">
+        <img src="{{ . }}" class="news-event-thumb" alt="{{ $thumbAlt }}" />
+      </a>
+    {{- end -}}
+    <div class="news-event-date">{{ $date }}</div>
+  </div>
+  <div class="news-event-content">
+    {{- if or $kind $title -}}
+      <header class="news-event-header">
+        {{- with $kind -}}<span class="news-event-type">{{ . }}</span>{{- end -}}
+        {{- with $title -}}
+          {{- if $url -}}
+            <h3 class="news-event-title"><a href="{{ $url }}" target="_blank" rel="noopener noreferrer">{{ . }}</a></h3>
+          {{- else -}}
+            <h3 class="news-event-title">{{ . }}</h3>
+          {{- end -}}
+        {{- end -}}
+      </header>
+    {{- end -}}
+    <div id="{{ $eventBodyId }}" class="news-event-body">
+      {{ .Inner | markdownify }}
+    </div>
+    <button type="button" class="news-event-toggle" aria-expanded="false" aria-controls="{{ $eventBodyId }}">... Read more</button>
+  </div>
+</article>

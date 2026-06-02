@@ -1,4 +1,6 @@
-<article class="network-person-card">
+{{- $cardName := .Get "name" | default "" -}}
+{{- $cardId := .Get "id" | default (urlize $cardName) -}}
+<article class="network-person-card"{{ with $cardId }} id="{{ . }}"{{ end }}>
   {{- with .Get "href" -}}
   <a class="network-person-photo-link" href="{{ . }}" target="_blank" rel="noopener noreferrer">
     <img class="network-person-photo" src="{{ $.Get "image" }}" alt="{{ $.Get "name" | default "Network member" }}" loading="lazy">
