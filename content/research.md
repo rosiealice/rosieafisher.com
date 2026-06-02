@@ -1,5 +1,8 @@
-My research is focused around the development, coordination and use of community and surface models, including  the Community Land Model [CLM](https://www.cesm.ucar.edu/models/clm) and the Functionally Assembled Terrestrial Ecosystem Simulator [FATES](https://github.com/NGEET/fates).
 
+![Resaearch](/images/tree.png "Canopy architecture")
+
+### Research Tools
+My research is focused around the development, coordination and use of community and surface models, including  the Community Land Model [CLM](https://www.cesm.ucar.edu/models/clm) and the Functionally Assembled Terrestrial Ecosystem Simulator [FATES](https://github.com/NGEET/fates).
 
 
 {{< researchtopic src="/images/clm_image.jpg" alt="CLM" href="https://github.com/ESCOMP/CTSM" >}}

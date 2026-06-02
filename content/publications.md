@@ -1,6 +1,7 @@
 
 
-![Octopus_with_tea](/images/octopus_hires.jpeg)
+![Haukeli Fjell](/images/haukeli.jpeg "Haukelifhell, Norway")
+
 - [Google Scholar](https://scholar.google.com/citations?user=YOJpkTcAAAAJ&hl=en)
 - [ORCID](https://orcid.org/0000-0003-3260-9227)
 

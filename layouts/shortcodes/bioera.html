@@ -1,6 +1,9 @@
+{{- $alt := .Get "alt" | default "Bio thumbnail" -}}
+{{- $hover := .Get "hover" | default $alt -}}
 <div class="bio-era">
-  <a href="{{ .Get "src" }}" target="_blank" rel="noopener noreferrer">
-    <img src="{{ .Get "src" }}" class="bio-thumb" alt="{{ .Get "alt" | default "Bio thumbnail" }}" />
+  <a class="bio-thumb-link" href="{{ .Get "src" }}" target="_blank" rel="noopener noreferrer" title="{{ $hover }}" aria-label="{{ $hover }}">
+    <img src="{{ .Get "src" }}" class="bio-thumb" alt="{{ $alt }}" title="{{ $hover }}" />
+    <span class="bio-thumb-tooltip" aria-hidden="true">{{ $hover }}</span>
   </a>
   <div class="bio-content">
     {{ .Inner | markdownify }}

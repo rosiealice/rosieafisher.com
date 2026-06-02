@@ -1,4 +1,10 @@
-[![Rosie Fisher portrait](/images/profilepics/rosie_sepia.jpeg)](/images/profilepics/rosie_sepia1.jpeg) I am a [Research Professor](https://en.wikipedia.org/wiki/Academic_ranks_in_Norway) in terrestrial systems modeling at the [CICERO Centre for International Climate Research.](https://cicero.oslo.no/) in Oslo, Norway. 
-I am interested in developing Earth system models as **predictive infrastructure** for understanding future climate and ecological risk. 
 
-My work focuses on improving the accuracy and fidelity of **open-source** land-surface models, in particular the [Community Land Model (CLM)](https://www.cesm.ucar.edu/models/clm), of which I am a co-chair, and the global demographic vegetation model [FATES](https://github.com/ngeet/fates). I work with the Norwegian Earth System Model [(NorESM)](https://www.noresm.org/), as well as a **global network of collaborators** on [projects](/projects/) across terrestrial system science focused on interactions between vegetation and the climate system.
+
+
+
+
+[![Rosie Fisher portrait](/images/profilepics/rosie_sepia.jpeg)](/images/profilepics/rosie_sepia1.jpeg) I am a [Research Professor](https://en.wikipedia.org/wiki/Academic_ranks_in_Norway) in terrestrial systems modeling at the [CICERO Centre for International Climate Research.](https://cicero.oslo.no/) in Oslo, Norway. 
+I am interested in developing **predictive infrastructure** for understanding future climate and ecological risk. 
+
+My primary goal is improving the accuracy and fidelity of **open-source** land-surface models. Together with a **global network of collaborators**, I help develop and coordinate the [Community Land Model (CLM)](https://www.cesm.ucar.edu/models/clm), of which I am a co-chair, the global demographic vegetation model [FATES](https://github.com/ngeet/fates) and the Norwegian Earth System Model [(NorESM)](https://www.noresm.org/).
+

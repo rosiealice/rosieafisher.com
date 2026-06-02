@@ -1,5 +1,5 @@
 
-![Umbrella Rosie](/images/umbrella_rosie.JPG)
+![Panama](/images/panama.png "Rainforest Panorama from the Smithsonian Canopy Access crane.  San Lorenzo, Panama")
 
 ### Education
 - **PhD**, [University of Edinburgh](https://www.ed.ac.uk/) (2005).	The response of rain forest to drought stress.

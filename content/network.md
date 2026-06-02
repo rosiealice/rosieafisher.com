@@ -13,7 +13,7 @@ The NorESM-FATES modeling community works across several institutes in Norway, a
 
 {{< networkgrid >}}
 
-{{< personcard name="Rosie Fisher" href="https://cicero.oslo.no/no/ansatte/rosie-fisher" image="/images/profilepics/rosie_bw_crop.jpg" role="Research Professor" institute="CICERO" >}}
+{{< personcard name="Rosie Fisher" href="https://cicero.oslo.no/no/ansatte/rosie-fisher" image="/images/profilepics/rosie_b2_bg5.png" role="Research Professor" institute="CICERO" >}}
 [Rosie](https://cicero.oslo.no/no/ansatte/rosie-fisher) has a background in land surface model development and ecosystem manipulaiton experiments. She iniated the FATES model activity within CLM and works on numerous collaborative projects across terrestrial systems modeling.  
 {{< /personcard >}}
 

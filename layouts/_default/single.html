@@ -1,0 +1,19 @@
+{{ partial "header" . }}
+
+<main>
+
+    {{ $hasTags := .Params.tags }}
+    {{ $hasMeta := or .Title (or .Description $hasTags) }}
+    {{ if $hasMeta }}
+    <div class="page-meta">
+        {{ with .Title }}<h2>{{ . }}</h2>{{ end }}
+        {{ with .Description }}<h5>{{ . }}</h5>{{ end }}
+        {{ with .Params.tags }}{{ partial "tags" $ }}{{ end }}
+    </div>
+    {{ end }}
+
+    <div align="start" class="content">{{ .Content }}</div>
+
+</main>
+
+{{ partial "footer" . }}

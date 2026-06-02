@@ -117,12 +117,24 @@ li {
   padding-bottom: 0 !important;
 }
 
+.home-main .intro {
+  width: 100%;
+  transform: translateY(16vh);
+}
+
 .home-main .intro,
 .home-main .homepage-content {
   margin-top: 0;
   margin-bottom: 0;
   padding-top: 0;
   padding-bottom: 0;
+}
+
+.home-main .homepage-content,
+.home-main .homepage-content p,
+.home-main .homepage-content li {
+  text-align: left !important;
+  font-size: calc(1rem + 2pt);
 }
 
 .home-main .intro > .profile {
@@ -229,34 +241,23 @@ img[src$="/umbrella_rosie.JPG"] {
   margin-right: calc(50% - 30vw);
 }
 
-img[src$="/finse_pano.jpg"] {
-  width: 110vw !important;
-  max-width: none !important;
-  height: auto;
-  display: block;
-  margin: 0 !important;
+.content > p:first-of-type:has(> img:only-child),
+.content > p:first-of-type:has(> a:only-child > img) {
+  width: 110vw;
+  max-width: none;
+  margin: -12px 0 0;
   position: relative;
   left: 50%;
   transform: translateX(-50%);
 }
 
-@media (max-width: 700px) {
-  img[src$="/finse_pano.jpg"] {
-    width: 100vw !important;
-  }
-}
-
-
-
-.publications-octopus,
-.content img[src*="octopus_hires.jpeg"],
-.content img[alt="Octopus_with_tea"] {
-  float: right;
-  width: 45% !important;
-  max-width: 45% !important;
+.content > p:first-of-type:has(> img:only-child) > img,
+.content > p:first-of-type:has(> a:only-child > img) > a > img {
+  width: 100% !important;
+  max-width: none !important;
   height: auto;
-  margin: 0.5rem 0 1rem 1.5rem;
   display: block;
+  margin: 0 !important;
 }
 
 /* Add a bit more breathing room between publication entries. */
@@ -266,6 +267,14 @@ img[src$="/finse_pano.jpg"] {
 
 .content h3#selected-publications-by-year ~ h4 + ul > li:last-child {
   margin-bottom: 0;
+}
+
+main > .content {
+  padding-top: 0;
+}
+
+main > .page-meta + .content {
+  padding-top: 20px;
 }
 
 .bio-era {
@@ -289,6 +298,47 @@ img[src$="/finse_pano.jpg"] {
   display: block;
   margin-top: 1rem;
   transition: transform 0.24s ease, filter 0.24s ease;
+}
+
+.bio-thumb-link {
+  position: relative;
+  display: inline-block;
+  margin-top: 1rem;
+}
+
+.bio-thumb-link .bio-thumb {
+  margin-top: 0;
+}
+
+.bio-thumb-tooltip {
+  position: absolute;
+  left: 50%;
+  top: calc(100% + 0.95rem);
+  transform: translateX(-50%);
+  background: transparent;
+  color: #2f2b2d;
+  font-size: 0.76rem;
+  line-height: 1.25;
+  padding: 0.28rem 0.5rem;
+  border-radius: 6px;
+  border: 0;
+  width: max-content;
+  max-width: 100%;
+  white-space: normal;
+  overflow-wrap: break-word;
+  word-break: normal;
+  text-align: center;
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transition: opacity 0.16s ease;
+}
+
+.bio-thumb-link:hover .bio-thumb-tooltip,
+.bio-thumb-link:focus .bio-thumb-tooltip,
+.bio-thumb-link:focus-visible .bio-thumb-tooltip {
+  opacity: 1;
+  visibility: visible;
 }
 
 .bio-content {
@@ -518,21 +568,26 @@ main.home-main {
   max-width: none !important;
   margin: 0 !important;
   padding: 0 !important;
-  flex: 0 0 auto !important;
+  flex: 1 0 auto !important;
+  min-height: calc(100vh - 55px) !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
 }
 
 main.home-main .intro {
-  margin: 0 !important;
+  margin: 0 auto !important;
   padding: 0 !important;
   transform: none !important;
+  width: min(900px, calc(100vw - 2rem)) !important;
 }
 
 main.home-main img.profile {
   display: block !important;
-  width: 80vw !important;
-  max-width: 80vw !important;
+  width: 110vw !important;
+  max-width: none !important;
   height: auto !important;
-  margin: 0 !important;
+  margin: -12px 0 0 !important;
   padding: 0 !important;
   position: relative !important;
   left: 50% !important;
@@ -542,10 +597,16 @@ main.home-main img.profile {
 
 main.home-main .homepage-content {
   margin: 0 !important;
-  padding: 0 !important;
+  padding: 12vh 0 0 !important;
   max-width: 760px;
   margin-left: auto !important;
   margin-right: auto !important;
+}
+
+@media (max-width: 767px) {
+  main.home-main .homepage-content {
+    padding-top: 6vh !important;
+  }
 }
 
 /* Network page cards */
@@ -627,6 +688,7 @@ main.home-main .homepage-content {
   object-position: center;
   display: block;
   margin: 0.9rem auto 0.45rem;
+  filter: grayscale(100%) contrast(1.03);
   transition: transform 0.22s ease, filter 0.22s ease;
   -webkit-mask-image: none !important;
   mask-image: none !important;
@@ -636,7 +698,7 @@ main.home-main .homepage-content {
 .network-person-card:focus-within .network-person-photo,
 .network-person-card:active .network-person-photo {
   transform: scale(1.08);
-  filter: saturate(1.12) contrast(1.08);
+  filter: grayscale(100%) contrast(1.08);
 }
 
 .network-person-card:hover .network-person-name a,
