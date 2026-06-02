@@ -160,7 +160,7 @@ li {
 main.home-main + footer .homepage-contact {
   position: fixed;
   left: 50%;
-  bottom: 0.85rem;
+  bottom: max(0.35rem, env(safe-area-inset-bottom));
   transform: translateX(-50%);
   z-index: 20;
   width: min(760px, calc(100vw - 2rem));
@@ -273,6 +273,7 @@ img[src$="/umbrella_rosie.JPG"] {
   max-width: none !important;
   height: auto;
   display: block;
+  transform: translateY(-5%);
   margin: 0 !important;
 }
 

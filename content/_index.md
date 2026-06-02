@@ -7,4 +7,3 @@
 I am interested in developing **predictive infrastructure** for understanding future climate and ecological risk. 
 
 My primary goal is improving the accuracy and fidelity of **open-source** land-surface models. Together with a **global network of collaborators**, I help develop and coordinate the [Community Land Model (CLM)](https://www.cesm.ucar.edu/models/clm), of which I am a co-chair, the global demographic vegetation model [FATES](https://github.com/ngeet/fates) and the Norwegian Earth System Model [(NorESM)](https://www.noresm.org/).
-
