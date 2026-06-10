@@ -2,11 +2,12 @@
 
 <main>
 
+    {{ $showPageTitle := ne .File.BaseFileName "news" }}
     {{ $hasTags := .Params.tags }}
-    {{ $hasMeta := or .Title (or .Description $hasTags) }}
+    {{ $hasMeta := or (and $showPageTitle .Title) (or .Description $hasTags) }}
     {{ if $hasMeta }}
     <div class="page-meta">
-        {{ with .Title }}<h2>{{ . }}</h2>{{ end }}
+        {{ if $showPageTitle }}{{ with .Title }}<h2>{{ . }}</h2>{{ end }}{{ end }}
         {{ with .Description }}<h5>{{ . }}</h5>{{ end }}
         {{ with .Params.tags }}{{ partial "tags" $ }}{{ end }}
     </div>

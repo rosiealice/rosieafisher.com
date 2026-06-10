@@ -1,7 +1,10 @@
 ---
 title: "News"
-description: "Updates and miscellany"
 ---
+
+![Mesa Lab](/images/mesalab_snow.png "On my way to work.  National Centre for Atmospheric Research, Table Mesa, Boulder, Colorado.")
+
+## News
 
 
 {{< newsevent date="June 2026" title="TRENDY" thumb="/images/logo_fates_small.png" thumbAlt="FATES logo" >}}
