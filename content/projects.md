@@ -1,3 +1,9 @@
+---
+title: Projects
+seoTitle: Projects | Rosie A. Fisher
+description: Current and past projects spanning ecosystem demography, land surface modelling, climate feedbacks, and Norwegian Earth System Model development.
+---
+
 ![Crestone mountain landscape](/images/crestone_middle30.jpg "The Sangre de Christo Mountains from Crestone, Colorado.")
 
 ### Ongoing Projects

@@ -2,6 +2,8 @@
 
 <main class="home-main">
     <div class="intro">
+        <h1 class="visually-hidden">{{ .Site.Title }}</h1>
+        <h2 class="visually-hidden">ecosystem demography, carbon cycle, CLM, FATES, plant mortality, Earth System Model, NorESM, CICERO, land surface model, plant hydraulics</h2>
         {{ with .Params.h1 }}
             <h2>{{ . | markdownify }}</h2>
         {{ else }}

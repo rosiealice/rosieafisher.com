@@ -4,7 +4,18 @@
         {{ partial "head-open" . }}
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>{{ .Title }}</title>
+        {{ $pageTitle := .Params.seoTitle }}
+        {{ if not $pageTitle }}
+            {{ if .IsHome }}
+                {{ $pageTitle = .Site.Title }}
+            {{ else if .Title }}
+                {{ $pageTitle = printf "%s | %s" .Title .Site.Title }}
+            {{ else }}
+                {{ $pageTitle = .Site.Title }}
+            {{ end }}
+        {{ end }}
+        <title>{{ $pageTitle }}</title>
+        <meta name="description" content="{{ with .Description }}{{ . | plainify | htmlEscape }}{{ else }}{{ with .Site.Params.description }}{{ . | plainify | htmlEscape }}{{ end }}{{ end }}">
         {{ if .Site.Params.favicon }}
             <link rel="icon" href="{{ .Site.Params.favicon | absURL }}">
         {{ end }}

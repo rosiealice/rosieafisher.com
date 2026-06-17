@@ -1,4 +1,10 @@
 
+---
+title: Research
+seoTitle: Research & Models | Rosie A. Fisher
+description: Exploring size-and-age structured vegetation dynamics, mycorrhizal carbon-nitrogen integration, and NorESM-FATES ecosystem-climate coupling.
+---
+
 ![Resaearch](/images/tree.png "Canopy architecture")
 
 ### Research Tools
