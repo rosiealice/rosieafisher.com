@@ -6,7 +6,7 @@ title: "News"
 
 ## News
 
-{{< newsevent date="August 2026" title="ACDC" thumb="/images/ACDC.png" thumbAlt="ACDC summer school" >}}
+{{< newsevent date="August 2026" title="ACDC" thumb="/images/ACDC.jpeg" thumbAlt="ACDC summer school" >}}
 In mid August i was lucky enough to be invited to teach at the Advanced Climate Dynamics Course [ACDC](https://www.uib.no/en/rs/acdc/181471/acdc-2026-abisko)  at Abisko in Northern Sweden.  
 
 25 years ago (!), my office-friends in Edinburgh ([Lorna Street](https://www.research.ed.ac.uk/en/persons/lorna-street/) and [Mark van Wijk](https://link.springer.com/article/10.1007/s00442-004-1733-x)), spent much of their time observing, theorising, talking and writing about Abisko, and so this remote and scenic field station is somewhat legendary to me, further because it is surrounded by (without any doubt) the most well studied and experimented-upon bit of arctic tundra in Europe. I've been calibrating models with data measured there sporadically ever since. Not least [Alistair Rogers'](https://climatesciences.lbl.gov/profile/alistair/) measurements of the super-high photosynthetic capacity of the vegetation down by the lake, so he tells me...)  So naturally, I was very enthusiastic to visit - even more so as it meant I got to circumnavigate Scandinavia by train (Oslo-Stockholm-Abisko-Narvik-Trondheim-Oslo) in the process :)
