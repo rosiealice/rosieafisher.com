@@ -6,6 +6,19 @@ title: "News"
 
 ## News
 
+{{< newsevent date="August 2026" title="ACDC" thumb="/images/ACDC.png" thumbAlt="ACDC summer school" >}}
+In mid August i was lucky enough to be invited to teach at the Advanced Climate Dynamics Course [ACDC](https://www.uib.no/en/rs/acdc/181471/acdc-2026-abisko)  at Abisko in Northern Sweden.  
+
+25 years ago (!), my office-friends in Edinburgh ([Lorna Street](https://www.research.ed.ac.uk/en/persons/lorna-street/) and [Mark van Wijk](https://link.springer.com/article/10.1007/s00442-004-1733-x)), spent much of their time observing, theorising, talking and writing about Abisko, and so this remote and scenic field station is somewhat legendary to me, further because it is surrounded by (without any doubt) the most well studied and experimented-upon bit of arctic tundra in Europe. I've been calibrating models with data measured there sporadically ever since. Not least [Alistair Rogers'](https://climatesciences.lbl.gov/profile/alistair/) measurements of the super-high photosynthetic capacity of the vegetation down by the lake, so he tells me...)  So naturally, I was very enthusiastic to visit - even more so as it meant I got to circumnavigate Scandinavia by train (Oslo-Stockholm-Abisko-Narvik-Trondheim-Oslo) in the process :)
+
+ACDC has been running since 2009, and gained an enviable reputation along the way. Land modeling is typically out of their remit (I don't consider myself a 'climate dynamicist'!). But this year's theme was 'landscapes and climate', and so happily I was asked to join to complement [Marysa Laguë](https://geog.ubc.ca/profile/marysa-lague/). and [Lucas Vargas Zeppetello](https://vcresearch.berkeley.edu/faculty/lucas-vargas-zeppetello)'s land-atmosphere interaction perscpectives. Much of the time I spent trying to grapple with the thorny question of how complex models can learn from more idealized representations of the system (perhaps there is a need to create even-more reduced form configurations of our models?). 
+
+One huge highlight was having a little time to briefly think hard about matters not directly relevant to operational land surface modeling! As such, it was an immense delight to discover [Øyvind Paasche](https://www.norceresearch.no/en/persons/oeyvind-paasche/875)'s fascinating and unique journey from physics to geoscience ([and maybe back again!](https://link.springer.com/article/10.1007/s13280-026-02356-4)), as well a his tuition in how to think like a geomorphologist (which I apparently ruined by chatting too much, so I don't think there's much hope for me in that arena...). I also had my mind thoroughly blown away by [Axel Timmerman](https://ibsclimate.org/director/)'s [insanely brilliant and interesting research](youtube.com/watch?is=WUcWhzM0QMvRzhE9&v=htedKi59KIQ&feature=youtu.be) into prehistoric mammalian food webs, human dispersel and the evolution of culture. Given that the vegetation predictions of [CLM](https://www.cesm.ucar.edu/models/clm) underpin the relationship between climate dynamics and ecosystem productivity in his paleoclimate simulation, I left awash with distacting ideas for how to link [FATES](https://github.com/NGEET/fates)' treatment of vegetation dynamics, 'tipping point' thresholds and fire into that system.  
+
+I've a bit more travel in September to the NextGenCarbon meeting in ümea, and the Land Model Summit in Frascati, so I couldn't stay for the whole two weeks of the summer school. But If you all invite me back I'll make sure to stay the whole time! 
+
+
+{{< /newsevent >}}
 
 {{< newsevent date="June 2026" title="TRENDY" thumb="/images/logo_fates_small.png" thumbAlt="FATES logo" >}}
 CLM-FATES will participate in the TRENDY land surface model inter-comparison as part of the [Global Carbon Budget](https://www.globalcarbonproject.org/carbonbudget/) and our EU H2020 'NextGenCarbon project. In 2025 we also participated, alongside our colleagues from the ELM-FATES team. 
