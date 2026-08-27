@@ -6,9 +6,10 @@
 {{- $thumbAlt := .Get "thumbAlt" | default (cond (ne $title "") (print $title " thumbnail") "News thumbnail") -}}
 {{- $thumbUrl := .Get "thumbUrl" | default "" -}}
 {{- $thumbHref := cond (ne $thumbUrl "") $thumbUrl $thumb -}}
+{{- $id := .Get "id" | default "" -}}
 {{- $eventBodyId := printf "news-event-body-%d" .Ordinal -}}
 
-<article class="news-event news-event-collapsible">
+<article class="news-event news-event-collapsible"{{- with $id }} id="{{ . }}"{{- end -}}>
   <div class="news-event-meta">
     {{- with $thumb -}}
       <a class="news-event-thumb-link" href="{{ $thumbHref }}" target="_blank" rel="noopener noreferrer" aria-label="Open larger image: {{ $thumbAlt }}">
