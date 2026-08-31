@@ -78,7 +78,7 @@ As evidenced by the above, this has been an eventful journey. But I am [excited]
 ### Personal
 In 2015, [Ben Sanderson](https://cicero.oslo.no/en/employees/ben-sanderson) (who is [also a climate scientist](/network/) at CICERO) and I got [married](/images/wedding.JPG) in the [College Valley](https://www.college-valley.co.uk/) in [Northumberland National Park](https://www.nationalparks.uk/park/northumberland/). After many [moves](https://www.youtube.com/watch?v=2ybGpF306Ww), we now live on the side of a [hill](https://www.visitnorway.com/listings/hiking-to-kolsastoppen/193271/) in Western Oslo with our son and a huge [Norwegian cat](/images/output.mp4) called Angus. 
 
-Outside of work I like cultivating [wild](/images/mayflower.jpg) and [edible](/images/kale.jpg) plants, [latin dancing](/images/flamenco_light.JPG), [x-country](/images/finse_ski.jpg), [telemark](/images/telemark.jpg) and [randonnee](/images/randoski2.jpg) skiing, cooking, [rowing](/images/torpids1stVIII.jpg), [wild camping](/images/vercors.jpg), travelling by train, listening to comedy, [swedish-finnish pop music](https://www.youtube.com/@KAJfilmer/videos), repainting bits of my wooden house, occasional triathlons, and running or cycling as far into the mountains as my uncooperative hips and eyes (see below) will allow. 
+Outside of work I like cultivating [wild](/images/mayflower.jpg) and [edible](/images/kale.jpg) plants, [latin dancing](/images/flamenco_light.JPG), [x-country](/images/finse_ski.jpg), [telemark](/images/telemark.jpg) and [randonnee](/images/randoski2.jpg) skiing, cooking, [rowing](/images/torpids1stVIII.jpg), [wild camping](/images/vercors.jpg), travelling by train, listening to Radio 4 comedy, [swedish-finnish pop music](https://www.youtube.com/@KAJfilmer/videos), repainting bits of my wooden house, occasional triathlons, and running or cycling as far into the mountains as my uncooperative hips and eyes (see below) will allow. 
 
 {{< /bioera >}}
 
@@ -92,7 +92,7 @@ Outside of work I like cultivating [wild](/images/mayflower.jpg) and [edible](/i
 
 **I am also partially deaf**: I inherited a gradual hearing loss that became noticeable in my mid-30s. I use hearing aids, although quite a lot of the time I use Apple[ AirPods Pro](https://www.apple.com/no/airpods-pro/), which are much easier to track down when misplaced, which his helpful because...
 
-**I also have [ADHD](https://www.youtube.com/watch?v=4uJv3y9ajQY):** which has some fairly substantial upsides as a scientist, but I have borrowed more replacement keycards than anyone else at CICERO by a significant margin, often have no idea what month it is, and if I had to do my own tax admin in four different jurisdictions I would certainly be in jail by now (thanks Ben!). 
+**I also have [ADHD](https://www.youtube.com/watch?v=4uJv3y9ajQY):** which has some fairly substantial upsides as a scientist, but of course it also comes with some challenges, and makes it all the more helpful t o work as part of a [team](/network/)! 
 
 Understanding and helping to coordinate the diverse talents and aptitutdes of **everyone** in the [land modeling community](https://hydro-jules.org/international-land-modeling-forum-ilmf) and what we can all bring to the problem of understanding the future of our planet is a very important part of my professional life. 
 {{< /bioera >}}
