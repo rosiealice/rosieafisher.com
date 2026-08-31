@@ -92,7 +92,7 @@ Outside of work I like cultivating [wild](/images/mayflower.jpg) and [edible](/i
 
 **I am also partially deaf**: I inherited a gradual hearing loss that became noticeable in my mid-30s. I use hearing aids, although quite a lot of the time I use Apple[ AirPods Pro](https://www.apple.com/no/airpods-pro/), which are much easier to track down when misplaced, which his helpful because...
 
-**I also have [ADHD](https://www.youtube.com/watch?v=4uJv3y9ajQY):** which has some fairly substantial upsides as a scientist, but of course it also comes with some challenges, and makes it all the more helpful t o work as part of a [team](/network/)! 
+**I also have [ADHD](https://www.youtube.com/watch?v=4uJv3y9ajQY):** which, in particular the 'hyperfocusing' part, has some fairly substantial upsides as a scientist, but of course it also comes with some challenges, and makes it all the more helpful to work as part of a [team](/network/), and to have accomodating administators :) 
 
 Understanding and helping to coordinate the diverse talents and aptitutdes of **everyone** in the [land modeling community](https://hydro-jules.org/international-land-modeling-forum-ilmf) and what we can all bring to the problem of understanding the future of our planet is a very important part of my professional life. 
 {{< /bioera >}}
