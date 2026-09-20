@@ -331,21 +331,16 @@ img[src$="/umbrella_rosie.JPG"] {
   margin: 0 !important;
 }
 
-.news-event-body .float-image {
+.news-event-body img[src$="/SLU.jpg"] {
   float: right;
   width: 33%;
   margin: 0.2rem 0 0.9rem 1.1rem;
-}
-
-.news-event-body .float-image img {
   display: block;
-  width: 100%;
   height: auto;
-  margin: 0;
 }
 
 @media (max-width: 767px) {
-  .news-event-body .float-image {
+  .news-event-body img[src$="/SLU.jpg"] {
     float: none;
     width: 100%;
     margin: 0.6rem 0 1rem;
@@ -915,8 +910,13 @@ main.home-main .homepage-content {
 
 @media (max-width: 767px) {
   main.home-main {
-    height: calc(100vh - 82px) !important;
-    overflow: hidden !important;
+    min-height: calc(100vh - 51px) !important;
+    height: auto !important;
+    overflow: visible !important;
+    align-items: flex-start !important;
+    padding-top: 1.25rem !important;
+    padding-bottom: 2rem !important;
+    box-sizing: border-box;
   }
 
   main.home-main img.profile {
@@ -931,6 +931,12 @@ main.home-main .homepage-content {
 
 body:has(main.home-main) {
   overflow-y: hidden;
+}
+
+@media (max-width: 767px) {
+  body:has(main.home-main) {
+    overflow-y: auto;
+  }
 }
 
 /* Network page cards */
