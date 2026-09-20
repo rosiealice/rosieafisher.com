@@ -6,6 +6,23 @@ title: "News"
 
 ## News
 
+{{< newsevent date="September 2026" title="NextGenCarbon annual meeting. Umeå" thumb="/images/northern_lights_umea.jpeg" thumbAlt="NextGenCarbon annual meeting" id="nextgencarbon-annual-meeting-umea" >}}
+{{< /newsevent >}}
+
+The annual meeting of our [NextGenCarbon](https://nextgencarbon-project.eu/) project was held in early September in Umeå at the Swedish University of Agricultural Sciences [SLU](https://www.slu.se/en/about-slu/visit-slu/locations-and-campuses/umea/), which is also the home of the project coordinator, [Rubén Valbuena](https://www.slu.se/en/about-slu/academic-ceremonies/professors-previous-years/2025/ruben-valbuena/). 
+
+NextGenCarbon is focused on better use and integration of Earth observations (via [ESA](https://www.esa.int/)) into models of the Carbon Cycle. [Jessie](https://cicero.oslo.no/en/employees/jessica-needham) and I travelled by train from Oslo; the astonishingly extensive forests of central and Northern Sweden providing a psychological warm-up for our consideration of human legacies on terrestrial biomass storage. This was our second annual event, but I was sick during the last event in Paris, so this year I enjoyed learning a great deal more about the work of our project partners! 
+
+NGC is working across a wide spectrum of carbon cycle understanding, from ICOS towers, through National Forest Inventories, novel Earth observations of forest structure and growth/loss, demographic land surface and book-keeping models, land use mapping and future scenario generation.  One critical element of this is learning about how different emerging demographic vegetation models represent vegetation. 'Standard' land surface models are typically quite similar in their charecterisation of ecosystems as average properties of plant types in a particular location. 
+
+The new generation of models, of which [CLM-FATES](https://github.com/NGEET/fates) is an example, diverge in how they represent ecosystems in terms of their age and size and history. This makes it challenging to know how satellite and ground measurements of these things can be used to make comparisons between models and data that make sense. 
+
+The nice thing about NGC is that many of the modeling groups developing this new generation are represented (CLM-FATES, ORCHIDEEE, JULES-RED, JSBACHv4) so we can have the conversations we need to have to figure out what the next generation of [land model benchmarking](www.ilamb.org) looks like. 
+
+A highlights of the trip was the genuine Swedish sauna and swimming in the gorgeous river Ume and seing the Northern lights with [Simon Besnard](https://www.gfz.de/staff/simon.besnard) on the way home!
+
+ I also caught up with my old friend [Dan Metcalfe](https://www.umu.se/en/staff/daniel-metcalfe/) who has lived in Sweden for many years since we both worked at [Caxiuanã](https://www.creaf.cat/en/articles/small-trees-amazon-rainforest-survive-drought-larger-disappear) became the world’s longest-running ecosystem drought experiment (finally ending in 2024!) for our PhD's. Dan is the mastermind of methods to measure the details of [carbon budgets in tropical forests](https://nph.onlinelibrary.wiley.com/doi/full/10.1111/j.1469-8137.2010.03319.x) now widely used in the Amazon forest plot network community, and he is expanding this to Scandiavian forests, opening the potential for collaboration with our projects on high latitude systems. 
+
 {{< newsevent date="August 2026" title="ACDC: Abisko" thumb="/images/ACDC.jpeg" thumbAlt="ACDC summer school" id="acdc" >}}
 In mid August i was lucky enough to be invited to teach at the Advanced Climate Dynamics Course [ACDC](https://www.uib.no/en/rs/acdc/181471/acdc-2026-abisko)  at Abisko in Northern Sweden.  
 

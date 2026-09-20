@@ -23,11 +23,7 @@
       <header class="news-event-header">
         {{- with $kind -}}<span class="news-event-type">{{ . }}</span>{{- end -}}
         {{- with $title -}}
-          {{- if $url -}}
-            <h3 class="news-event-title"><a href="{{ $url }}" target="_blank" rel="noopener noreferrer">{{ . }}</a></h3>
-          {{- else -}}
-            <h3 class="news-event-title">{{ . }}</h3>
-          {{- end -}}
+          <h3 class="news-event-title"><a class="news-event-permalink" href="#{{ $id }}" aria-label="Permalink to {{ . }}">{{ . }}</a>{{ with $url }} <a class="news-event-external-link" href="{{ . }}" target="_blank" rel="noopener noreferrer" aria-label="Open {{ $title }}">&#8599;</a>{{ end }}</h3>
         {{- end -}}
       </header>
     {{- end -}}

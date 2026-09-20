@@ -649,6 +649,11 @@ main {
   text-decoration: underline;
 }
 
+.news-event-external-link {
+  font-size: 0.85em;
+  vertical-align: super;
+}
+
 .news-event-body {
   margin: 0;
   font-size: 1rem;
