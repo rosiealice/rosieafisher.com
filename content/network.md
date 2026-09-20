@@ -7,7 +7,7 @@ url: "/network/"
 
 ### NorESM land modeling network
 
-The NorESM-FATES modeling community works across several institutes in Norway, and collaborates very closely with the international [CLM](https://www.cesm.ucar.edu/working-groups/land) and [FATES](https://github.com/ngeet/fates) development teams.   This network works closely and has significnat overlap with the [NorESM consortium](https://www.noresm.org/consortium/), the [LATICE network](https://www.mn.uio.no/geo/forskning/grupper/latice/index.html) and  [Center for Biogeochemistry in the Anthropocene](https://www.mn.uio.no/cba/english/). 
+The NorESM-FATES modeling community works across several institutes in Norway, and collaborates very closely with the international [CLM](https://www.cesm.ucar.edu/working-groups/land) and [FATES](https://github.com/ngeet/fates) development teams.   We also work closely and have significnat overlap with the [NorESM consortium](https://www.noresm.org/consortium/), the [LATICE network](https://www.mn.uio.no/geo/forskning/grupper/latice/index.html) and  [Center for Biogeochemistry in the Anthropocene](https://www.mn.uio.no/cba/english/). 
 
 ### Core NorESM-FATES team 
 
