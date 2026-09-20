@@ -6,7 +6,7 @@ title: "News"
 
 ## News
 
-{{< newsevent date="September 2026" title="NextGenCarbon annual meeting. Umeå" thumb="/images/northern_lights_umea.jpeg" thumbAlt="NextGenCarbon annual meeting" id="nextgencarbon-annual-meeting-umea" >}}
+{{< newsevent date="September 2026" title="NextGenCarbon annual meeting. Umeå" thumb="/images/northern_lights_umea.jpg" thumbAlt="NextGenCarbon annual meeting" id="nextgencarbon-annual-meeting-umea" >}}
 {{< /newsevent >}}
 
 The annual meeting of our [NextGenCarbon](https://nextgencarbon-project.eu/) project was held in early September in Umeå at the Swedish University of Agricultural Sciences [SLU](https://www.slu.se/en/about-slu/visit-slu/locations-and-campuses/umea/), which is also the home of the project coordinator, [Rubén Valbuena](https://www.slu.se/en/about-slu/academic-ceremonies/professors-previous-years/2025/ruben-valbuena/). 
@@ -19,7 +19,7 @@ The new generation of models, of which [CLM-FATES](https://github.com/NGEET/fate
 
 The nice thing about NGC is that many of the modeling groups developing this new generation are represented (CLM-FATES, ORCHIDEEE, JULES-RED, JSBACHv4) so we can have the conversations we need to have to figure out what the next generation of [land model benchmarking](www.ilamb.org) looks like. 
 
-A highlights of the trip was the genuine Swedish sauna and swimming in the gorgeous river Ume and seing the Northern lights with [Simon Besnard](https://www.gfz.de/staff/simon.besnard) on the way home!
+A big highlight of the trip was the genuine Swedish sauna and swimming in the gorgeous glassy river Ume.  [Simon Besnard](https://www.gfz.de/staff/simon.besnard) and I even saw the Northern lights on the way home!
 
  I also caught up with my old friend [Dan Metcalfe](https://www.umu.se/en/staff/daniel-metcalfe/) who has lived in Sweden for many years since we both worked at [Caxiuanã](https://www.creaf.cat/en/articles/small-trees-amazon-rainforest-survive-drought-larger-disappear) became the world’s longest-running ecosystem drought experiment (finally ending in 2024!) for our PhD's. Dan is the mastermind of methods to measure the details of [carbon budgets in tropical forests](https://nph.onlinelibrary.wiley.com/doi/full/10.1111/j.1469-8137.2010.03319.x) now widely used in the Amazon forest plot network community, and he is expanding this to Scandiavian forests, opening the potential for collaboration with our projects on high latitude systems. 
 
