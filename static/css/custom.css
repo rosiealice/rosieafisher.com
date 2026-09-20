@@ -696,10 +696,6 @@ main {
   position: relative;
 }
 
-#nextgencarbon-annual-meeting-umea .news-event-body {
-  max-height: 28rem;
-}
-
 .news-event.news-event-collapsible .news-event-body::after {
   content: "";
   position: absolute;
