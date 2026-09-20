@@ -696,6 +696,10 @@ main {
   position: relative;
 }
 
+#nextgencarbon-annual-meeting-umea .news-event-body {
+  max-height: 28rem;
+}
+
 .news-event.news-event-collapsible .news-event-body::after {
   content: "";
   position: absolute;
@@ -915,7 +919,7 @@ main.home-main .homepage-content {
     overflow: visible !important;
     align-items: flex-start !important;
     padding-top: 1.25rem !important;
-    padding-bottom: 2rem !important;
+    padding-bottom: 5.5rem !important;
     box-sizing: border-box;
   }
 
@@ -1184,6 +1188,10 @@ main.home-main .homepage-content > p:first-of-type > a:first-child > img {
     height: auto;
     aspect-ratio: 1 / 1;
     margin: 0.25rem auto 0.8rem;
+  }
+
+  main.home-main .homepage-content > p:first-of-type > a:first-child > img {
+    object-position: center top;
   }
 }
 
