@@ -20,7 +20,7 @@ The nice thing about NGC is that many of the modeling groups developing this new
 
 A big highlight of the trip was the genuine Swedish sauna and swimming in the gorgeous glassy river Ume.  [Simon Besnard](https://www.gfz.de/staff/simon.besnard) and I even saw the Northern lights on the way home!
 
- I also caught up with my old friend [Dan Metcalfe](https://www.umu.se/en/staff/daniel-metcalfe/) who has lived in Sweden for many years since we both worked at [Caxiuanã](https://www.creaf.cat/en/articles/small-trees-amazon-rainforest-survive-drought-larger-disappear) for our PhD's. Dan is the mastermind of several methods now widely to measure the details of [carbon budgets in tropical forests](https://nph.onlinelibrary.wiley.com/doi/full/10.1111/j.1469-8137.2010.03319.x) now widely used in the Amazon forest plot network community, and he is expanding this to Scandiavian forests, opening the potential for collaboration with our projects on high latitude systems. 
+ I also caught up with my old friend [Dan Metcalfe](https://www.umu.se/en/staff/daniel-metcalfe/) who has lived in Sweden for many years since we both worked at [Caxiuanã](https://www.creaf.cat/en/articles/small-trees-amazon-rainforest-survive-drought-larger-disappear) for our PhD's. Dan is the mastermind of several methods now widely used to measure the details of [carbon budgets in tropical forests](https://nph.onlinelibrary.wiley.com/doi/full/10.1111/j.1469-8137.2010.03319.x), and he is expanding these to Scandiavian forests, opening the potential for collaboration with our projects on high latitude systems. 
 
 {{< /newsevent >}}
 {{< newsevent date="August 2026" title="ACDC: Abisko" thumb="/images/ACDC.jpeg" thumbAlt="ACDC summer school" id="acdc" >}}
