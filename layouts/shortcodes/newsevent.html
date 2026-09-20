@@ -6,7 +6,7 @@
 {{- $thumbAlt := .Get "thumbAlt" | default (cond (ne $title "") (print $title " thumbnail") "News thumbnail") -}}
 {{- $thumbUrl := .Get "thumbUrl" | default "" -}}
 {{- $thumbHref := cond (ne $thumbUrl "") $thumbUrl $thumb -}}
-{{- $id := .Get "id" | default "" -}}
+{{- $id := .Get "id" | default ($title | urlize) -}}
 {{- $eventBodyId := printf "news-event-body-%d" .Ordinal -}}
 
 <article class="news-event news-event-collapsible"{{- with $id }} id="{{ . }}"{{- end -}}>
