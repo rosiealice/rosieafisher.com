@@ -10,6 +10,8 @@ title: "News"
 
 The annual meeting of our [NextGenCarbon](https://nextgencarbon-project.eu/) project was held in early September in Umeå at the Swedish University of Agricultural Sciences [SLU](https://www.slu.se/en/about-slu/visit-slu/locations-and-campuses/umea/), which is also the home of the project coordinator, [Rubén Valbuena](https://www.slu.se/en/about-slu/academic-ceremonies/professors-previous-years/2025/ruben-valbuena/). 
 
+{{< floatimage src="/images/SLU.jpg" alt="Swedish University of Agricultural Sciences in Umeå" >}}
+
 NextGenCarbon is focused on better use and integration of Earth observations (via [ESA](https://www.esa.int/)) into models of the Carbon Cycle. [Jessie](https://cicero.oslo.no/en/employees/jessica-needham) and I travelled by train from Oslo; the astonishingly extensive forests of central and Northern Sweden providing a psychological warm-up for our consideration of human legacies on terrestrial biomass storage. This was our second annual event, but I was sick during the last event in Paris, so this year I enjoyed learning a great deal more about the work of our project partners! 
 
 NGC is working across a wide spectrum of carbon cycle understanding, from ICOS towers, through National Forest Inventories, novel Earth observations of forest structure and growth/loss, demographic land surface and book-keeping models, land use mapping and future scenario generation.  One critical element of this is consideration of how different emerging demographic vegetation models represent vegetation. 'Standard' land surface models are typically quite similar in their charecterisation of ecosystems as average properties of plant types in a particular location. 

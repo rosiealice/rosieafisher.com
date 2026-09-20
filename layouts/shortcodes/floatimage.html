@@ -1,0 +1,5 @@
+{{- $src := .Get "src" -}}
+{{- $alt := .Get "alt" | default "" -}}
+<figure class="float-image">
+  <img src="{{ $src }}" alt="{{ $alt }}" />
+</figure>

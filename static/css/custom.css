@@ -331,6 +331,27 @@ img[src$="/umbrella_rosie.JPG"] {
   margin: 0 !important;
 }
 
+.news-event-body .float-image {
+  float: right;
+  width: 33%;
+  margin: 0.2rem 0 0.9rem 1.1rem;
+}
+
+.news-event-body .float-image img {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 0;
+}
+
+@media (max-width: 767px) {
+  .news-event-body .float-image {
+    float: none;
+    width: 100%;
+    margin: 0.6rem 0 1rem;
+  }
+}
+
 /* Add a bit more breathing room between publication entries. */
 .content h3#selected-publications-by-year ~ h4 + ul > li {
   margin-bottom: 1.35rem !important;
