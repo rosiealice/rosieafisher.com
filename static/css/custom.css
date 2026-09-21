@@ -94,7 +94,7 @@ li {
 }
 
 .navbar-default .navbar-brand.site-tagline {
-  font-size: 0.95rem;
+  font-size: 0.8rem;
   font-weight: 700;
   white-space: nowrap;
   max-width: 36vw;
@@ -120,7 +120,7 @@ li {
 
 @media (max-width: 767px) {
   .navbar-default .navbar-brand.site-tagline {
-    font-size: 0.8rem;
+    font-size: 0.7rem;
     max-width: 68vw;
   }
 }

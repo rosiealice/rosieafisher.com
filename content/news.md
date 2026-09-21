@@ -21,11 +21,11 @@ In the run up to the meeting I had some anxiety that we would not manage to capt
 
 During the meeting I gave a [talk](/images/LSMS2_rosie.jpg) on the use of Earth Observations in constraining emerging Demographic Vegetation Models, which is the topic of our [NextGenCarbon](https://nextgencarbon-project.eu/) project. I also led a breakout group on the same topic, thinking about how we can best describe our new crop of models so that the upcoming raft of CMIP/TRENDY/WIEMIP simulations is better informed on the important nuances of their structure. 
 
-An especially great part of the trip was the team NCAR/CLM/FATES extracurricular warm-up weekend that [Adrianna](https://adrifoster.github.io/) organized in Bolsena, and staying in a big staircase of flats in Rome all together! It's been many years since I last saw several of the team of CLM-FATES co-developers that I talk to online every few days (and some I have never met!),  and it was amazing to share such fun times (and approx. ~49 espressos, 16 pizzas and 56 gelato) with them! 
+An especially great part of the trip was the team-CLM/FATES extracurricular warm-up weekend that [Adrianna](https://adrifoster.github.io/) organized in Bolsena, and staying in a big staircase of flats in Rome all together! It's been many years since I last saw several of the CLM-FATES co-developers that I talk to online every few days (and some I have never met!),  and it was amazing to share such fun times (and approx. ~49 espressos, 16 pizzas and 56 gelato) with them! 
 
 ![The CLM FATES model dev. team at the LSMS2 dinner](/images/team_CLM_FATES.jpeg)
 
-<figcaption>Left to right: Jennifer Holm, Kjetil Aas, Daniel Kennedy, Will Wieder, Danica Lombardozzi, me, Charlie Koven, Adrianna Foster, Dave Lawrence, Linnea Hawkins and Katie Dagon. (Though we failed to get Marcos Longo in this picture. Sorry, Marcos!)</figcaption>
+*Left to right: Jennifer Holm, Kjetil Aas, Daniel Kennedy, Will Wieder, Danica Lombardozzi, me, Charlie Koven, Adrianna Foster, Dave Lawrence, Linnea Hawkins and Katie Dagon. (Though we failed to get Marcos Longo in this picture. Sorry, Marcos!)*
 
 It has been quite a month of work travel.  The busiest for a decade!  My heart and my inbox are full in equal measure. Now time to settle down into writing annual project reports and documenting our new and shiny implementation of CLM-FATES  in NorESM3 :) 
 
