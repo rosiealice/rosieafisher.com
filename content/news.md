@@ -25,7 +25,7 @@ An especially great part of the trip was the team NCAR/CLM/FATES extracurricular
 
 ![The CLM FATES model dev. team at the LSMS2 dinner](/images/team_CLM_FATES.jpeg)
 
-Left to right:Jennifer Holm, Kjetil Aas, Daniel Kennedy, Will Wieder, Danica Lombardozzi, me, Charlie Koven,, Adrianna Foster, Dave Lawrence, Linnea Hawkins and Katie Dagon. (though we failed to get Marcos Longo in this picture! Sorry Marcos)
+<figcaption>Left to right: Jennifer Holm, Kjetil Aas, Daniel Kennedy, Will Wieder, Danica Lombardozzi, me, Charlie Koven, Adrianna Foster, Dave Lawrence, Linnea Hawkins and Katie Dagon. (Though we failed to get Marcos Longo in this picture. Sorry, Marcos!)</figcaption>
 
 It has been quite a month of work travel.  The busiest for a decade!  My heart and my inbox are full in equal measure. Now time to settle down into writing annual project reports and documenting our new and shiny implementation of CLM-FATES  in NorESM3 :) 
 
