@@ -27,7 +27,7 @@ An especially great part of the trip was the team NCAR/CLM/FATES extracurricular
 
 Left to right:Jennifer Holm, Kjetil Aas, Daniel Kennedy, Will Wieder, Danica Lombardozzi, me, Charlie Koven,, Adrianna Foster, Dave Lawrence, Linnea Hawkins and Katie Dagon. (though we failed to get Marcos Longo in this picture! Sorry Marcos)
 
-It has been quite a month of work travel.  The busiest for a decade!  My heart and my inbox are full in equal measure. Now time to settle down into writing annual project reports and documenting CLM-FATES implementation in NorESM, before a stint of IPCC-widow time while Ben is at the lead author meeting in Tanzania... 
+It has been quite a month of work travel.  The busiest for a decade!  My heart and my inbox are full in equal measure. Now time to settle down into writing annual project reports and documenting our new and shiny implementation of CLM-FATES  in NorESM3 :) 
 
 
 {{< /newsevent >}}
