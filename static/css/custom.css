@@ -333,7 +333,7 @@ img[src$="/umbrella_rosie.JPG"] {
 
 .news-event-body img[src$="/SLU.jpg"] {
   float: right;
-  width: 33%;
+  width: 25%;
   margin: 0.2rem 0 0.9rem 1.1rem;
   display: block;
   height: auto;

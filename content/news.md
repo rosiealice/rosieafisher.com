@@ -6,6 +6,32 @@ title: "News"
 
 ## News
 
+{{< newsevent date="September 2026" title="2nd Land Surface Modeling Summit, European Space Agency." thumb="/images/LSMS2_rosie.jpg" thumbAlt="LSMSII ESA" id="LSMSII" >}}
+
+Four years ago, the [First Land Surface Modeling Summit](/images/lsms_1.jpg) was held in Oxford, as an experiment in having a conference entirely dedicated to land surface model science. We LSM people are an inter-disciplinary crowd, and are most often found  at the end of the bill at meetings about subjects allied to land models, but rarely are we the main event. There are around 12 major land model development groups globally, and conference participants were invited to ensure representation across all these groups, specifically from the active development teams. 
+
+It was so much fun to have the chance to discuss the trials and tribulations of our parallel model development and testing processes, that we set up a special organization, the International Land Modeling Forum [ILMF](https://hydro-jules.org/international-land-modeling-forum-ilmf), (of which I am a member of the steering committee) to continue the work of creating a place to exchange ideas and share opportunities. Through this, an opportunity to host the 2nd 'summit' at the European Space Agency arose thanks to the participation of Stepen Plummer). 
+
+![LSMS2 logo](/images/LSMS2026_Logo.jpeg)
+
+In the run up to the meeting I had some anxiety that we would not manage to capture the same convivial energy and liveliness as the first 'summit', but in fact these fears turned out to be ill-founded. My feeling leaving Frascati was that we had all had a fantastic chance to connect with the many like-minded and talented people working on this exceptoinally difficult problem (how to model the functioning of the entire terrestrial biosphere decades into a huge array of possible futures). It has taken me several days for my brain to come back to normal life!  
+
+
+![Land Surface Model Summit participants](/images/lsms_group_photo.jpeg)
+
+During the meeting I gave a [talk](/images/LSMS2_rosie.jpg) on the use of Earth Observations in constraining emerging Demographic Vegetation Models, which is the topic of our [NextGenCarbon](https://nextgencarbon-project.eu/) project. I also led a breakout group on the same topic, thinking about how we can best describe our new crop of models so that the upcoming raft of CMIP/TRENDY/WIEMIP simulations is better informed on the important nuances of their structure. 
+
+An especially great part of the trip was the team NCAR/CLM/FATES extracurricular warm-up weekend that [Adrianna](https://adrifoster.github.io/) organized in Bolsena, and staying in a big staircase of flats in Rome all together! It's been many years since I last saw several of the team of CLM-FATES co-developers that I talk to online every few days (and some I have never met!),  and it was amazing to share such fun times (and approx. ~49 espressos, 16 pizzas and 56 gelato) with them! 
+
+![The CLM FATES model dev. team at the LSMS2 dinner](/images/team_CLM_FATES.jpeg)
+
+Left to right:Jennifer Holm, Kjetil Aas, Daniel Kennedy, Will Wieder, Danica Lombardozzi, me, Charlie Koven,, Adrianna Foster, Dave Lawrence, Linnea Hawkins and Katie Dagon. (though we failed to get Marcos Longo in this picture! Sorry Marcos)
+
+It has been quite a month of work travel.  The busiest for a decade!  My heart and my inbox are full in equal measure. Now time to settle down into writing annual project reports and documenting CLM-FATES implementation in NorESM, before a stint of IPCC-widow time while Ben is at the lead author meeting in Tanzania... 
+
+
+{{< /newsevent >}}
+
 {{< newsevent date="September 2026" title="NextGenCarbon annual meeting. Umeå" thumb="/images/northern_lights_umea.jpg" thumbAlt="NextGenCarbon annual meeting" id="nextgencarbon-annual-meeting-umea" >}}
 
 The annual meeting of our [NextGenCarbon](https://nextgencarbon-project.eu/) project was held in early September in Umeå at the Swedish University of Agricultural Sciences [SLU](https://www.slu.se/en/about-slu/visit-slu/locations-and-campuses/umea/), which is also the home of the project coordinator, [Rubén Valbuena](https://www.slu.se/en/about-slu/academic-ceremonies/professors-previous-years/2025/ruben-valbuena/). 
