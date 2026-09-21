@@ -339,11 +339,28 @@ img[src$="/umbrella_rosie.JPG"] {
   height: auto;
 }
 
+.news-event-body img[src$="/LSMS2026_Logo.jpg"] {
+  float: right;
+  width: 36%;
+  max-width: 360px;
+  height: auto;
+  display: block;
+  margin: 0.2rem 0 0.9rem 1.1rem;
+}
+
 @media (max-width: 767px) {
   .news-event-body img[src$="/SLU.jpg"] {
     float: none;
     width: 100%;
     margin: 0.6rem 0 1rem;
+  }
+
+  .news-event-body img[src$="/LSMS2026_Logo.jpg"] {
+    float: none;
+    width: 70%;
+    max-width: none;
+    display: block;
+    margin: 0.6rem auto 1rem;
   }
 }
 
