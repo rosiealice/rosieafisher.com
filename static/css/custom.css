@@ -94,7 +94,8 @@ li {
 }
 
 .navbar-default .navbar-brand.site-tagline {
-  font-size: 0.65rem;
+  font-size: 12px !important;
+  line-height: 20px;
   font-weight: 700;
   white-space: nowrap;
   max-width: 36vw;
@@ -120,7 +121,7 @@ li {
 
 @media (max-width: 767px) {
   .navbar-default .navbar-brand.site-tagline {
-    font-size: 0.55rem;
+    font-size: 10px !important;
     max-width: 68vw;
   }
 }
@@ -348,6 +349,15 @@ img[src$="/umbrella_rosie.JPG"] {
   margin: 0.2rem 0 0.9rem 1.1rem;
 }
 
+.news-event-body img[src$="/eleanor.jpg"] {
+  float: left;
+  width: 22.4%;
+  max-width: 240px;
+  height: auto;
+  display: block;
+  margin: 0.2rem 1.1rem 0.9rem 0;
+}
+
 @media (max-width: 767px) {
   .news-event-body img[src$="/SLU.jpg"] {
     float: none;
@@ -361,6 +371,13 @@ img[src$="/umbrella_rosie.JPG"] {
     max-width: none;
     display: block;
     margin: 0.6rem auto 1rem;
+  }
+
+  .news-event-body img[src$="/eleanor.jpg"] {
+    float: none;
+    width: 56%;
+    max-width: none;
+    margin: 0.6rem 0 1rem;
   }
 }
 
