@@ -7,13 +7,15 @@ title: "News"
 ## News
 
 
-{{< newsevent date="September 2026" title="End of an Era." thumb="/images/forskningsparken.jpg" thumbAlt="Forskningsparken" id="End of an Era" >}}
+{{< newsevent date="September 2026" title="End of an Era." thumb="/images/forskningsparken.jpeg" thumbAlt="Forskningsparken" id="End of an Era" >}}
 
-Today is our last day at Forskningsparken - Oslo Science Park! CICERO - Center for International Climate Research is headed to a new -even shinier- building next week, where we will be able to hang out with a whole posse of other Norwegian environmental institutes. 
+Today is our last day at Forskningsparken (Oslo Science Park); [CICERO](https://cicero.oslo.no/en) is headed to a new -even shinier- building next week, where we will be able to hang out with a whole posse of other Norwegian environmental institutes. 
 
 This feels like the end of an era, but in more ways than one. The [CLM-FATES](https://github.com/ngeet/fates) demographic vegetation model configuration for the [Norwegian Earth System Model](https://github.com/NorESMhub/noresm) is now frozen, finally concluding a quest to better represent plant ecology in climate models that started (in my case) half a lifetime ago... 
 
 For a long time (this is my fourth attempt!), finding an Earth System Modelling centre brave/foolish enough to let us reinvent its land surface model so comprehensively felt out of reach (to represent ecological function properly, almost everything has to be rearranged). But in 2022, [Kjetil](https://cicero.oslo.no/en/employees/kjetil-schanke-aas) and I decided that we would try and chart a tentative path to making a viable demographic vegetation configuration for NorESM3 using CLM-FATES. 
+
+![Kjetil, Jessie, Adele and Betty at our last meeting Kyoto](/images/kyoto.jpeg)
 
 At first we had (almost) no funding and no people, but gradually, our luck changed, and we had the -immense- good fortune to somehow assemble a talented and tireless ['NorESM-land' team](/network.md) of hardcore compulsive problem solvers from across CICERO, MetNo and the University of Oslo. Three years ago, we began meeting every Friday morning in 'Kyoto' (at CICERO our meeting rooms are nerdily named after climate treaties) and since then we have all been working crazy hard; developing, running, perturbing, emulating, tuning, code merging, debugging (and more debugging), benchmarking, conflict resolving, regridding, list-making, panicking (a lot), celebrating (sometimes) and eating (cake, often), to push the effort over its extremely complicated finish line, supported by our many similarly long-suffering and amazing colleagues icluding the core FATES developers at Berkeley Lab (https://lnkd.in/eMKQXf5N) and the CLM team at [NCAR](https://www.cgd.ucar.edu/sections/tssJ). 
 
@@ -23,7 +25,7 @@ The model is [open source](https://lnkd.in/eVnbWMv2), and will be released later
 
 On the way out, CICERO's director [Christine Tørklep](https://cicero.oslo.no/en/employees/christine-torklep)  and I said goodbye to the lovely tree on the way to the Blindern Metro. I've gotten really attached to that tree. Life has many chapters. Next stop Campus Ullevål!
 
-![Chrstine Tørklep and my favourite tree at Blindern Metro station](/images/tchristine_tree.jpg)
+![Chrstine Tørklep and my favourite tree at Blindern Metro station](/images/christine_tree.jpeg)
 
 {{< /newsevent >}}
 
