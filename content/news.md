@@ -22,7 +22,7 @@ At first we had (almost) no funding and no people, but gradually, our luck chang
 
 Now we have a -lot- of CLM-FATES simulations in the oven (GCB, WIEMIP, CMIP7) and they don't look too bad... To some (mildly alarming) extent, we don't yet know what the future experiments will tell us (or indeed if they will crash in some exotic land use scenario, so we aren't done until we are done!), and while this celebratory feeling might be mildly premature, it does feel like finally, the next stage of science (making it better, and finding out what it can tell us) can finally begin! 
 
-The model is [open source](https://lnkd.in/eVnbWMv2), and will be released later this year as part of [NorESM3]((<https://github.com/NorESMhub/noresm) and CLM6. More info is [here](https://fates-users-guide.readthedocs.io/projects/tech-doc/en/latest/) :
+The model is [open source](https://lnkd.in/eVnbWMv2), and will be released later this year as part of [NorESM3](<https://github.com/NorESMhub/noresm) and CLM6. More info is [here](https://fates-users-guide.readthedocs.io/projects/tech-doc/en/latest/) :
 
 On the way out, CICERO's director [Christine Tørklep](https://cicero.oslo.no/en/employees/christine-torklep)  and I said goodbye to the lovely tree on the way to the Blindern Metro. I've gotten really attached to that tree. Life has many chapters. Next stop Campus Ullevål!
 
