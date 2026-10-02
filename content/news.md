@@ -15,7 +15,8 @@ This feels like the end of an era, but in more ways than one. The [CLM-FATES](ht
 
 For a long time (this is my fourth attempt!), finding an Earth System Modelling centre brave/foolish enough to let us reinvent its land surface model so comprehensively felt out of reach (to represent ecological function properly, almost everything has to be rearranged). But in 2022, [Kjetil](https://cicero.oslo.no/en/employees/kjetil-schanke-aas) and I decided that we would try and chart a tentative path to making a viable demographic vegetation configuration for NorESM3 using CLM-FATES. 
 
-![Kjetil, Jessie, Adele and Betty at our last meeting Kyoto](/images/kyoto.jpeg alt="Kjetil, Jessie, Adele and Betty at our last meeting Kyoto" width="200" )
+![Kjetil, Jessie, Adele and Betty at our last meeting Kyoto](/images/kyoto.jpeg)
+{desktopWidth="200px" mobileWidth="100%"}
 
 At first we had (almost) no funding and no people, but gradually, our luck changed, and we had the -immense- good fortune to somehow assemble a talented and tireless ['NorESM-land' team](/network.md) of hardcore compulsive problem solvers from across CICERO, MetNo and the University of Oslo. Three years ago, we began meeting every Friday morning in 'Kyoto' (at CICERO our meeting rooms are nerdily named after climate treaties) and since then we have all been working crazy hard; developing, running, perturbing, emulating, tuning, code merging, debugging (and more debugging), benchmarking, conflict resolving, regridding, list-making, panicking (a lot), celebrating (sometimes) and eating (cake, often), to push the effort over its extremely complicated finish line, supported by our many similarly long-suffering and amazing colleagues icluding the core FATES developers at Berkeley Lab (https://lnkd.in/eMKQXf5N) and the CLM team at [NCAR](https://www.cgd.ucar.edu/sections/tssJ). 
 
@@ -25,7 +26,8 @@ The model is [open source](https://lnkd.in/eVnbWMv2), and will be released later
 
 On the way out, CICERO's director [Christine Tørklep](https://cicero.oslo.no/en/employees/christine-torklep)  and I said goodbye to the lovely tree on the way to the Blindern Metro. I've gotten really attached to that tree. Life has many chapters. Next stop Campus Ullevål!
 
-![Chrstine Tørklep and my favourite tree at Blindern Metro station](/images/christine_tree.jpeg width="100")
+![Chrstine Tørklep and my favourite tree at Blindern Metro station](/images/christine_tree.jpeg)
+{desktopWidth="70%" mobileWidth="100%"}
 
 {{< /newsevent >}}
 
@@ -38,6 +40,7 @@ Four years ago, the [First Land Surface Modeling Summit](/images/lsms_1.jpg) was
 At the first 'summit', we all had such an excellent time discussing the trials and tribulations (and joys!) of our parallel model development and testing processes that we set up a new organization, the International Land Modeling Forum [ILMF](https://hydro-jules.org/international-land-modeling-forum-ilmf), (of which I am a member of the steering committee) to continue the work of creating a place to exchange ideas and share opportunities. Through ILMF, an exciting opportunity arose to host the second Land Surface Modeling Summit [LSMS2](https://hydro-jules.org/announcement-second-land-surface-modelling-summit-lsmsii) at the European Space Agency  (thanks to the participation of Stephen Plummer from ESA on our committee). 
 
 ![LSMS2 logo](/images/LSMS2026_Logo.jpg)
+{desktopWidth="36%" mobileWidth="70%" desktopAlign="right" mobileAlign="center"}
 
 In the run up to the meeting I had some anxiety that we might not manage to capture the same convivial energy and liveliness as the first 'summit' (this was a high bar!), but my fears turned out to be ill-founded.  I don't know exactly why, but land surface modeling is a really special community, with so many enduring friendships and mutual support between teams who are, on paper, competitors of one-another.  Part of this is that this problem,  of how to model and understand the functioning of the entire terrestrial biosphere, decades into a huge array of possible futures, is both mind-blowingly difficult and, on some level, existentially imperative. I think it is clear to most of us that we all need to work together to find the best path fowards. That, and lots of them are just really funny...  I think the meeting was a great success, but it has taken me several days for my brain to readjust back to normal life! 
 
@@ -45,7 +48,10 @@ In the run up to the meeting I had some anxiety that we might not manage to capt
 
 During the conference I gave a [talk](/images/LSMS2_rosie.jpg) on "Demographic Vegetation Models and Earth Observatioons: A new era of carbon cycle science", much of which was inspired and informed by our [NextGenCarbon](https://nextgencarbon-project.eu/) EU research project from my [previous trip](/news/#nextgencarbon-annual-meeting-umea). I also led a [breakout group](/images/demography_BOG.jpg)) on the same topic, thinking about how we can best describe our new crop of models so that the upcoming raft of CMIP/TRENDY/WIEMIP simulations is better informed on the important nuances of their structure.  Adrianna, Kjetil, Jennifer, Charlie and Stephen de Hertog (U. Delft) also gave poster presentations on different aspects of  CLM-FATES work.  
 
-![Eleanor Blyth](/images/eleanor.jpg) A specially huge thank you is due to Eleanor Blyth, who organized and hosted the first LSMS meeting in Oxford, and for whom this meeting marked the very last day of her career at the Centre for Ecology and Hydrology, near Oxford in the UK. I have known Eleanor since my first post-doc in 2005, and for all that time she has been a uniquely unifying force in the UK land modeling community, and in the ILMF we will miss her enormously.
+![Eleanor Blyth](/images/eleanor.jpg)
+{desktopWidth="22.4%" mobileWidth="56%" desktopAlign="left" mobileAlign="center"}
+
+A specially huge thank you is due to Eleanor Blyth, who organized and hosted the first LSMS meeting in Oxford, and for whom this meeting marked the very last day of her career at the Centre for Ecology and Hydrology, near Oxford in the UK. I have known Eleanor since my first post-doc in 2005, and for all that time she has been a uniquely unifying force in the UK land modeling community, and in the ILMF we will miss her enormously.
 
 Another great part of the trip was the team-CLM/FATES extracurricular warm-up weekend that [Adrianna](https://adrifoster.github.io/) organized in Bolsena, and staying in a big staircase of flats in Rome all together! It's been many years since I last saw most of the CLM-FATES crew (whom I talk to online every few days) in real life,  and it was amazing to share such fun times (and approx. ~49 espressos, 16 pizzas and 56 [gelato](https://www.youtube.com/watch?v=DQBlu37MHo4)) with them! 
 
@@ -63,6 +69,7 @@ It has been quite a month of work travel.  The busiest for a decade!  My heart a
 The annual meeting of our [NextGenCarbon](https://nextgencarbon-project.eu/) project was held in early September in Umeå at the Swedish University of Agricultural Sciences [SLU](https://www.slu.se/en/about-slu/visit-slu/locations-and-campuses/umea/), which is also the home of the project coordinator, [Rubén Valbuena](https://www.slu.se/en/about-slu/academic-ceremonies/professors-previous-years/2025/ruben-valbuena/). 
 
 ![Swedish University of Agricultural Sciences in Umeå](/images/SLU.jpg)
+{desktopWidth="25%" mobileWidth="100%" desktopAlign="right" mobileAlign="center"}
 
 NextGenCarbon is focused on better use and integration of Earth observations (via [ESA](https://www.esa.int/)) into models of the Carbon Cycle. [Jessie](https://cicero.oslo.no/en/employees/jessica-needham) and I travelled by train from Oslo; the astonishingly extensive forests of central and Northern Sweden providing a psychological warm-up for our consideration of human legacies on terrestrial biomass storage. This was our second annual event, but I was sick during the last event in Paris, so this year I enjoyed learning a great deal more about the work of our project partners! 
 

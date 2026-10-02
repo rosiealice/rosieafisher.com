@@ -1,0 +1,6 @@
+{{- $desktopWidth := index .Attributes "desktopwidth" | default "" -}}
+{{- $mobileWidth := index .Attributes "mobilewidth" | default "" -}}
+{{- $desktopAlign := index .Attributes "desktopalign" | default "center" -}}
+{{- $mobileAlign := index .Attributes "mobilealign" | default "center" -}}
+{{- $hasCustomStyle := or $desktopWidth (or $mobileWidth (or (index .Attributes "desktopalign") (index .Attributes "mobilealign"))) -}}
+<img src="{{ .Destination | safeURL }}" alt="{{ .PlainText }}"{{ with .Title }} title="{{ . }}"{{ end }}{{ if $hasCustomStyle }} class="content-image content-image--desktop-{{ $desktopAlign }} content-image--mobile-{{ $mobileAlign }}" style="--content-image-desktop-width: {{ $desktopWidth | default "100%" | safeCSS }}; --content-image-mobile-width: {{ $mobileWidth | default "100%" | safeCSS }};"{{ end }} />

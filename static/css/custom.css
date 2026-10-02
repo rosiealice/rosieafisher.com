@@ -303,17 +303,9 @@ main.home-main img.profile,
   mask-composite: intersect;
 }
 
-img[src$="/umbrella_rosie.JPG"] {
-  width: 60vw;
-  max-width: 60vw;
-  height: auto;
-  display: block;
-  margin-left: calc(50% - 30vw);
-  margin-right: calc(50% - 30vw);
-}
-
-.content > p:first-of-type:has(> img:only-child),
-.content > p:first-of-type:has(> a:only-child > img) {
+.content > img:first-child:not(.content-image),
+.content > p:first-of-type:has(> img:only-child):not(:has(> img.content-image)),
+.content > p:first-of-type:has(> a:only-child > img):not(:has(> a > img.content-image)) {
   width: 110vw;
   max-width: none;
   margin: -12px 0 0;
@@ -322,8 +314,17 @@ img[src$="/umbrella_rosie.JPG"] {
   transform: translateX(-50%);
 }
 
-.content > p:first-of-type:has(> img:only-child) > img,
-.content > p:first-of-type:has(> a:only-child > img) > a > img {
+.content > img:first-child:not(.content-image) {
+  width: 110vw;
+  max-width: none;
+  height: auto;
+  display: block;
+  transform: translateY(-5%);
+  margin: -12px 0 0;
+}
+
+.content > p:first-of-type:has(> img:only-child):not(:has(> img.content-image)) > img,
+.content > p:first-of-type:has(> a:only-child > img):not(:has(> a > img.content-image)) > a > img {
   width: 100% !important;
   max-width: none !important;
   height: auto;
@@ -332,52 +333,41 @@ img[src$="/umbrella_rosie.JPG"] {
   margin: 0 !important;
 }
 
-.news-event-body img[src$="/SLU.jpg"] {
-  float: right;
-  width: 25%;
-  margin: 0.2rem 0 0.9rem 1.1rem;
+img.content-image {
   display: block;
+  width: var(--content-image-desktop-width, 100%);
+  max-width: 100%;
   height: auto;
 }
 
-.news-event-body img[src$="/LSMS2026_Logo.jpg"] {
-  float: right;
-  width: 36%;
-  max-width: 360px;
-  height: auto;
-  display: block;
-  margin: 0.2rem 0 0.9rem 1.1rem;
-}
-
-.news-event-body img[src$="/eleanor.jpg"] {
+.content-image--desktop-left {
   float: left;
-  width: 22.4%;
-  max-width: 240px;
-  height: auto;
-  display: block;
   margin: 0.2rem 1.1rem 0.9rem 0;
 }
 
+.content-image--desktop-right {
+  float: right;
+  margin: 0.2rem 0 0.9rem 1.1rem;
+}
+
 @media (max-width: 767px) {
-  .news-event-body img[src$="/SLU.jpg"] {
-    float: none;
-    width: 100%;
-    margin: 0.6rem 0 1rem;
+  img.content-image {
+    width: var(--content-image-mobile-width, 100%);
   }
 
-  .news-event-body img[src$="/LSMS2026_Logo.jpg"] {
+  .content-image--mobile-left {
+    float: left;
+    margin: 0.6rem 1.1rem 1rem 0;
+  }
+
+  .content-image--mobile-right {
+    float: right;
+    margin: 0.6rem 0 1rem 1.1rem;
+  }
+
+  .content-image--mobile-center {
     float: none;
-    width: 70%;
-    max-width: none;
-    display: block;
     margin: 0.6rem auto 1rem;
-  }
-
-  .news-event-body img[src$="/eleanor.jpg"] {
-    float: none;
-    width: 56%;
-    max-width: none;
-    margin: 0.6rem 0 1rem;
   }
 }
 
