@@ -314,15 +314,6 @@ main.home-main img.profile,
   transform: translateX(-50%);
 }
 
-.content > img:first-child:not(.content-image) {
-  width: 110vw;
-  max-width: none;
-  height: auto;
-  display: block;
-  transform: translateY(-5%);
-  margin: -12px 0 0;
-}
-
 .content > p:first-of-type:has(> img:only-child):not(:has(> img.content-image)) > img,
 .content > p:first-of-type:has(> a:only-child > img):not(:has(> a > img.content-image)) > a > img {
   width: 100% !important;

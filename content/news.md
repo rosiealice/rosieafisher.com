@@ -7,7 +7,7 @@ title: "News"
 ## News
 
 
-{{< newsevent date="September 2026" title="End of an Era." thumb="/images/forskningsparken.jpeg" thumbAlt="Forskningsparken" id="End of an Era" >}}
+{{< newsevent date="September 2026" title="The End of an Era." thumb="/images/forskningsparken.jpeg" thumbAlt="Forskningsparken" id="End of an Era" >}}
 
 Today is our last day at Forskningsparken (Oslo Science Park); [CICERO](https://cicero.oslo.no/en) is headed to a new -even shinier- building next week, where we will be able to hang out with a whole posse of other Norwegian environmental institutes. 
 
