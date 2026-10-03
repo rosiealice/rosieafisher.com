@@ -4,7 +4,7 @@ title: Research
 seoTitle: Research & Models | Rosie A. Fisher
 ---
 
-![Resaearch](/images/tree.png "Canopy architecture")
+![Resaearch](/images/tree.png "Canopy architecture, Sandvika, Norway.")
 
 ### Research Tools
 My research is focused around the development, coordination and use of community and surface models, including  the Community Land Model [CLM](https://www.cesm.ucar.edu/models/clm) and the Functionally Assembled Terrestrial Ecosystem Simulator [FATES](https://github.com/NGEET/fates).

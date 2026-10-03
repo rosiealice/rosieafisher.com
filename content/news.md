@@ -16,9 +16,10 @@ This feels like the end of an era, but in more ways than one. The [CLM-FATES](ht
 For a long time (this is my fourth attempt!), finding an Earth System Modelling centre brave/foolish enough to let us reinvent its land surface model so comprehensively felt out of reach (to represent ecological function properly, almost everything has to be rearranged). But in 2022, [Kjetil](https://cicero.oslo.no/en/employees/kjetil-schanke-aas) and I decided that we would try and chart a tentative path to making a viable demographic vegetation configuration for NorESM3 using CLM-FATES. 
 
 ![Kjetil, Jessie, Adele and Betty at our last meeting Kyoto](/images/kyoto.jpeg)
-{desktopWidth="200px" mobileWidth="100%"}
+{desktopWidth="70%" mobileWidth="100%"}
+*Kjetil, Jessie, Adele and Betty at our last meeting Kyoto*
 
-At first we had (almost) no funding and no people, but gradually, our luck changed, and we had the -immense- good fortune to somehow assemble a talented and tireless ['NorESM-land' team](/network.md) of hardcore compulsive problem solvers from across CICERO, MetNo and the University of Oslo. Three years ago, we began meeting every Friday morning in 'Kyoto' (at CICERO our meeting rooms are nerdily named after climate treaties) and since then we have all been working crazy hard; developing, running, perturbing, emulating, tuning, code merging, debugging (and more debugging), benchmarking, conflict resolving, regridding, list-making, panicking (a lot), celebrating (sometimes) and eating (cake, often), to push the effort over its extremely complicated finish line, supported by our many similarly long-suffering and amazing colleagues icluding the core FATES developers at Berkeley Lab (https://lnkd.in/eMKQXf5N) and the CLM team at [NCAR](https://www.cgd.ucar.edu/sections/tssJ). 
+At first we had (almost) no funding and no people, but gradually, our luck changed, and we had the -immense- good fortune to somehow assemble a talented and tireless ['NorESM-land' team](/network.md) of hardcore compulsive problem solvers from across CICERO, MetNo and the University of Oslo. Three years ago, we began meeting every Friday morning in 'Kyoto' (at CICERO our meeting rooms are nerdily named after climate treaties) and since then we have all been working crazy hard; developing, running, perturbing, emulating, tuning, code merging, debugging (and more debugging), benchmarking, conflict resolving, regridding, list-making, panicking (a lot), celebrating (sometimes) and eating (cake, often), to push the effort over its extremely complicated finish line, supported by our many similarly long-suffering and amazing colleagues icluding the core FATES developers at [Berkeley Lab](https://lnkd.in/eMKQXf5N) and the CLM team at [NCAR](https://www.cgd.ucar.edu/sections/tssJ). 
 
 Now we have a -lot- of CLM-FATES simulations in the oven (GCB, WIEMIP, CMIP7) and they don't look too bad... To some (mildly alarming) extent, we don't yet know what the future experiments will tell us (or indeed if they will crash in some exotic land use scenario, so we aren't done until we are done!), and while this celebratory feeling might be mildly premature, it does feel like finally, the next stage of science (making it better, and finding out what it can tell us) can finally begin! 
 
@@ -28,6 +29,7 @@ On the way out, CICERO's director [Christine Tørklep](https://cicero.oslo.no/en
 
 ![Chrstine Tørklep and my favourite tree at Blindern Metro station](/images/christine_tree.jpeg)
 {desktopWidth="70%" mobileWidth="100%"}
+*Chrstine Tørklep and my favourite tree at Blindern Metro station*
 
 {{< /newsevent >}}
 
@@ -49,7 +51,7 @@ In the run up to the meeting I had some anxiety that we might not manage to capt
 During the conference I gave a [talk](/images/LSMS2_rosie.jpg) on "Demographic Vegetation Models and Earth Observatioons: A new era of carbon cycle science", much of which was inspired and informed by our [NextGenCarbon](https://nextgencarbon-project.eu/) EU research project from my [previous trip](/news/#nextgencarbon-annual-meeting-umea). I also led a [breakout group](/images/demography_BOG.jpg)) on the same topic, thinking about how we can best describe our new crop of models so that the upcoming raft of CMIP/TRENDY/WIEMIP simulations is better informed on the important nuances of their structure.  Adrianna, Kjetil, Jennifer, Charlie and Stephen de Hertog (U. Delft) also gave poster presentations on different aspects of  CLM-FATES work.  
 
 ![Eleanor Blyth](/images/eleanor.jpg)
-{desktopWidth="22.4%" mobileWidth="56%" desktopAlign="left" mobileAlign="center"}
+{desktopWidth="35%" mobileWidth="56%" desktopAlign="left" mobileAlign="center"}
 
 A specially huge thank you is due to Eleanor Blyth, who organized and hosted the first LSMS meeting in Oxford, and for whom this meeting marked the very last day of her career at the Centre for Ecology and Hydrology, near Oxford in the UK. I have known Eleanor since my first post-doc in 2005, and for all that time she has been a uniquely unifying force in the UK land modeling community, and in the ILMF we will miss her enormously.
 
